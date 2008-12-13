@@ -1,16 +1,18 @@
 require 'mstram_backpack.rb'
 ###################################
+$bp=Newbp.new
 puts
-puts "'newbp' test"
+puts "bp: ('$bp has been set)"
 
 ###################
 def lrem
- backpack = Newbp.new             # get connected
- reminders = backpack.listrem
+# backpack = Newbp.new             # get connected
+# reminders = backpack.listrem
+ $res = $bp.listrem
 
  puts "=============================="
  puts "Reminders "
- puts reminders
+ puts $res
 
  puts
  puts "TEST Creating a reminder : .."
@@ -18,8 +20,8 @@ def lrem
 
 # result = backpack.crem("A test reminder from the api",'2007-08-20 13:30:00')
 
- result = backpack.crem("A test reminder from the api",Time.now)
- print "\n\n result = '#{result}'\n "
+# result = backpack.crem("A test reminder from the api",Time.now)
+# print "\n\n result = '#{result}'\n "
 end
 ###################################################################
 
@@ -29,11 +31,16 @@ end
 #######   pages
 #######
 
+def ap
+ allpages
+end
+
 def allpages
- backpack = Newbp.new             # get connected
+# backpack = Newbp.new             # get connected
  puts "all pages"
 
- $res = backpack.allpages
+ #$res = backpack.allpages
+ $res = $bp.allpages
 
  puts $result
  puts
@@ -50,15 +57,16 @@ end
 
 def gpage(page)
  #backPackPage = backpack.getpage(page)
- $res = backpack.getpage(page)
+ $res = $bp.getpage(page)
 end
 
 
 def getApage
  page = gpage(1196744)
- 
-backpack = Newbp.new             # get connected
- page = backpack.getpage(1151355)
+
+#backpack = Newbp.new             # get connected
+# page = backpack.getpage(1151355)
+ page = $bp.getpage(1151355)
  puts "============================================================================"
  puts "page = "
  puts page
@@ -87,9 +95,12 @@ def h
  puts "-------------------"
  puts "tests available : "
  puts "lrem - List reminders"
- puts "allpages - get all pages"
+ puts "ap - get all pages"
  puts "gpage(page) - get a page"
  puts "getpage - get page '1196744'"
  puts
 end
+
+$p = $bp.allpages
+
 h
