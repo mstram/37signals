@@ -49,11 +49,12 @@ end
 ##
 
 def gpage(page)
- backPackPage = backpack.getpage(page)
+ #backPackPage = backpack.getpage(page)
+ $res = backpack.getpage(page)
 end
 
 
-def getpage
+def getApage
  page = gpage(1196744)
  
 backpack = Newbp.new             # get connected
