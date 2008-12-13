@@ -101,6 +101,6 @@ def h
  puts
 end
 
-$p = $bp.allpages
+#$p = $bp.allpages
 
 h

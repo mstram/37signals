@@ -3,6 +3,8 @@ require 'backpack_lib.rb'
 class Newbp
   @debug = false
 
+  attr_reader :bp
+  
   def initialize
    token = "2cd7fead9448ecc584981090345a360d160b914f"
    @bp= Backpack.new('mstram',token)
