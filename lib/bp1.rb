@@ -33,14 +33,14 @@ def allpages
  backpack = Newbp.new             # get connected
  puts "all pages"
 
- result = backpack.allpages
+ $res = backpack.allpages
 
- puts result
+ puts $result
  puts
  puts
 #  result.empty? ? true : {resa[0]=result ; resa[1]=raw ; resh[:result]=result ; resh[:raw]=raw}
 
- p_resh(result)
+ p_resh($res)
 end
 
 #######################################
