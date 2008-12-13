@@ -1,0 +1,26 @@
+<h1>Listing belongings</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Page</th>
+    <th>Position</th>
+    <th>Widget type</th>
+  </tr>
+
+<% for belonging in @belongings %>
+  <tr>
+    <td><%=h belonging.name %></td>
+    <td><%=h belonging.page_id %></td>
+    <td><%=h belonging.position %></td>
+    <td><%=h belonging.widget_type %></td>
+    <td><%= link_to 'Show', belonging %></td>
+    <td><%= link_to 'Edit', edit_belonging_path(belonging) %></td>
+    <td><%= link_to 'Destroy', belonging, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New belonging', new_belonging_path %>

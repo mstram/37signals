@@ -1,0 +1,59 @@
+div#Header {
+  background: #03c;
+}
+
+div.SidebarReminder h2 {
+  color: #03c;
+}
+
+div#Sidebar div#Pages div.pagesnav a:link,
+div#Sidebar div#Pages div.pagesnav a:visited {
+  color: #03c;
+}
+
+div.widget_bar a:link,
+div.widget_bar a:visited,
+table.messages th.post_a_new_message a {
+  color: #03c;
+}
+
+a.clicked:link,
+a.clicked:visited,
+a.clicked:link span,
+a.clicked:visited span {
+  color: #03c !important;
+}
+
+.transfer h1 span {
+  color: #03c;
+}
+
+.perma div#tools p.addsections a:link,
+.perma div#tools p.addsections a:visited {
+  color: #03c;
+}
+div.shares div#addsharedialog p.helpwithsharing a:link,
+div.shares div#addsharedialog p.helpwithsharing a:visited {
+  color: #03c;
+}
+
+.reminders div.dialog p.submit a:link,
+.reminders div.dialog p.submit a:visited {
+  color: #03c;
+}
+
+div#tab_container ul#account_links {
+	color: #C0C5E1;
+}
+
+.help img {
+  border-top: 2px solid #03c;
+}
+
+.help h2 {
+  color: #03c;
+}
+
+.help h2 span {
+  background: #03c;
+}

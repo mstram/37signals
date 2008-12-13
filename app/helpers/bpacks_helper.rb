@@ -1,0 +1,2 @@
+module BpacksHelper
+end

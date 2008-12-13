@@ -1,0 +1,22 @@
+<h1>Listing separators</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Belonging</th>
+  </tr>
+
+<% for separator in @separators %>
+  <tr>
+    <td><%=h separator.title %></td>
+    <td><%=h separator.belonging_id %></td>
+    <td><%= link_to 'Show', separator %></td>
+    <td><%= link_to 'Edit', edit_separator_path(separator) %></td>
+    <td><%= link_to 'Destroy', separator, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New separator', new_separator_path %>

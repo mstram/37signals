@@ -1,0 +1,23 @@
+<p>
+  <b>Fullname:</b>
+  <%=h @bpack.fullname %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @bpack.email %>
+</p>
+
+<p>
+  <b>Username:</b>
+  <%=h @bpack.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%=h @bpack.password %>
+</p>
+
+
+<%= link_to 'Edit', edit_bpack_path(@bpack) %> |
+<%= link_to 'Back', bpacks_path %>

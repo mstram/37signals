@@ -1,0 +1,8129 @@
+body {
+	font-family: lucida grande, verdana, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	text-align: center;
+}
+
+html, body {
+	background: #E5E5E5;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+a.donelink:link,
+a.donelink:visited {
+  color: #000;
+  background: #fc3;
+  font-size: 12px;
+  padding: 0 2px;
+}
+
+a.image img, a img {
+	border: none;
+}
+
+a:link, a:visited {
+	color: #00e;
+}
+
+.admin a:link, /* come up with a better name for this */
+.admin a:visited,
+a.admin:link,
+a.admin:visited {
+	font-family: verdana, sans-serif;
+	font-size: 10px;
+	font-weight: normal;
+	text-transform: none;
+	color: #000;
+}
+
+a.red:link,
+a.red:visited {
+  color: red;
+}
+
+.admin {
+	color: #ccc;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+a.clicked:link,
+a.clicked:visited,
+a.clicked:link span,
+a.clicked:visited span {
+  text-decoration: underline !important;
+  background: none !important;
+	color: #00e !important; /* the default link color */
+}
+
+small {
+  font-size: 9px;
+  color: #666;
+}
+
+dl {
+	margin: 0; padding: 0;
+}
+
+dt {
+	float: left;
+	clear: left;
+	text-align: right;
+	margin: 5px 10px 0 0;
+	width: 100px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+dd {
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+
+table.form {
+  border-collapse: collapse;
+}
+
+table.form th {
+  text-align: right;
+  color: #666;
+  padding: 0px;
+  padding-right: 5px;
+}
+
+table.form td {
+  text-align: left;
+  padding: 0px;
+}
+
+table.form td input {
+  width: 335px;
+  font-size: 14px;
+  padding: 2px;
+}
+
+table.form tr.checkbox td input {
+  width: auto;
+}
+
+table.form tr.url th  {
+  vertical-align: top;
+  line-height: 28px;
+}
+
+table.form tr.url td  {
+  line-height: 14px;
+  font-size: 11px;
+  padding-bottom: 5px;
+}
+
+table.form tr.password td input {
+  width: 200px;
+}
+
+table.form tr.submit td {
+  font-size: 11px;
+}
+
+table.form tr.submit td input {
+  width: auto;
+}
+
+table.form tr.submit td a:link,
+table.form tr.submit td a:visited {
+  color: red;
+}
+
+div#Header div#tab_container,
+div.fix_width {
+  width: 925px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+div#Header div#tab_container {
+  margin: 0 auto;
+  padding-left: 34px;
+}
+
+div#Wrapper {
+  padding: 0 20px 0 30px;
+  margin: 0 auto;
+}
+
+div#Container {
+  position: relative;
+  clear: right; /* in case the AccountTab <li>s wrap */
+	background: url(/images/page-bg.gif) right repeat-y;
+  margin: 12px auto 0 auto;
+}
+
+div#Header {
+	margin: 0;
+	background: #c60;
+	padding: 15px 0 0 0;
+	color: #ccc;
+}
+
+div#Main {
+  margin-right: 235px;
+}
+
+div#Main div.inner {
+	padding: 10px 25px 2px 20px;
+}
+
+div#Sidebar {
+  position: relative;
+  float: right;
+	width: 235px;
+	padding: 0;
+}
+
+div.SidebarReminder, div#PageLimit, div#StorageLimit, div#Upgrade {
+  margin: 0 0 8px 11px;
+  font-size: 10px;
+  padding: 5px 8px 14px 8px;
+  background: #ffd;
+  border: 1px solid #fda;
+}
+
+div.SidebarReminder h1 {
+  color: #000;
+  font-size: 16px;
+  line-height: 130%;
+  margin: 0 0 5px 0;
+}
+
+div.SidebarReminder img {
+  vertical-align: middle;
+}
+
+div.SidebarReminder p {
+  font-size: 12px;
+  margin: 0;
+}
+
+div.SidebarReminder span.actions {
+  white-space: nowrap;
+  color: #999;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+div.SidebarReminder span.actions a {
+  color: black;
+  font-size: 11px;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+
+div#PageLimit, div#StorageLimit, div#Upgrade {
+  background-color: #ffc;
+  padding: 5px 5px 10px 5px;
+	font-size: 11px;
+	line-height: 1.2em;
+	border-right: 1px solid #cc9;
+	border-bottom: 1px solid #cc9;
+}
+
+div#PageLimit h3, div#StorageLimit h3, div#Upgrade h3 {
+  font-size: 12px;
+	margin: 0 0 2px 0;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+
+div#Sidebar div#Pages div#PageLimit a:link,
+div#Sidebar div#Pages div#PageLimit a:visited,
+div#Sidebar div#Pages div#StorageLimit a:link,
+div#Sidebar div#Pages div#StorageLimit a:visited,
+div#Sidebar div#Pages div#Upgrade a:link,
+div#Sidebar div#Pages div#Upgrade a:visited {
+  display: inline;
+	margin: 0;
+  padding: 0;
+}
+
+#Main h1 {
+	font-size: 28px;
+	margin: 5px 0 5px 0;
+}
+
+#Main h2 {
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+}
+
+div.section {
+	clear: left;
+	padding: 5px 0 15px 0;
+	margin: 0;
+	font-size: 16px;
+}
+
+div.section div.content {
+	margin-left: 0px;
+}
+
+div#BottomShadow {
+  padding-left: 20px;
+	clear: both;
+	background: url(/images/page_bottom-bg.gif) bottom right no-repeat;
+}
+
+div#BottomShadow div.inner {
+  margin-right: 235px;
+}
+
+div.action { /* at the bottom of a page */
+  margin: 5px 0 10px 0;
+  border-top: 1px solid #ccc;
+  padding: 15px 0 5px 5px;
+  font-size: 11px;
+  color: #666;
+}
+
+div.action input { 
+  font-size: 16px;
+}
+
+div.action a { 
+  color: red;
+}
+
+span.highlight {
+  background: #ffc;
+}
+
+span.blue {
+  color: blue;
+}
+
+cite {
+  font-size: 10px;
+  color: #666;
+  font-style: italic;
+}
+
+div.settingsnav {
+  text-align: center;
+	color: #999;
+	font-size: 12px;
+	margin: 0px 0 20px 0;
+}
+
+div.settingsnav strong {
+	color: #000;
+}
+
+/*-------------------------------------------------
+SYSTEM NOTICE
+-------------------------------------------------*/
+
+div#system_notice {
+  font-size: 11px;
+  border-bottom: 1px solid #999;
+  text-align: center;
+  padding: 7px;
+  background-color: #333;
+  color: #fff;
+}
+
+div#system_notice a:link, div#system_notice a:visited {
+  color: #fff;
+}
+
+
+/*-------------------------------------------------
+FOOTER
+-------------------------------------------------*/
+
+div#Footer { 
+  clear: left;
+  color: #666;
+	padding: 3px 0 30px 30px;
+  margin: 0 auto;
+}
+
+div#Footer img#Logo {
+  float: left;
+  margin: 4px 10px 10px 0;
+}
+
+div#Footer div {
+  padding-top: 5px;
+}
+
+div#Footer p {
+	margin: 0 0 3px 0;
+	font-size: 10px;
+}
+
+div#Footer span.admin {
+	line-height: 1.4em;
+}
+
+div#Footer p img {
+	vertical-align: middle;
+}
+
+div#Footer p.publishedwith {
+  color: #999;
+  font-size: 9px;
+  margin-left: 5px;
+}
+
+div#Footer a:link,
+div#Footer a:visited {
+  color: #666;
+}
+
+div#RubyProf {
+  width: 80%
+  margin: 0 auto;
+  padding: 5%;
+  font-size: 90%;
+  font-family: monospace;
+  background-color: white;
+}
+
+/*-------------------------------------------------
+SIDEBAR
+-------------------------------------------------*/
+
+div#Sidebar div#Pages div.pagesnav {
+	font-size: 14px;
+	padding-bottom: 5px;
+}
+
+div#Sidebar div#Pages div.favorites {
+	padding-top: 5px;
+	border-top: 1px solid #ccc;
+	font-size: 12px;
+}
+
+div#Sidebar div#Pages div.favorites div.pages {
+  overflow: hidden;
+}
+
+div#Sidebar div#Pages a:link,
+div#Sidebar div#Pages a:visited {
+  position: relative;
+  display: block;
+	margin: 0 0 1px 0;
+  padding: 5px 5px 5px 15px;
+}
+
+div#Sidebar div#Pages div.button_to_add_new a,
+div#Sidebar div#Pages div.button_to_add_new a:link,
+div#Sidebar div#Pages div.button_to_add_new a:visited,
+div#Sidebar div#Pages div.button_to_add_new a:hover {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+div.button_to_add_new {
+  padding: 2px 0 10px 12px;
+}
+
+div.button_to_add_new img {
+  width: 156px;
+  height: 31px;
+}
+
+div#Sidebar div#Pages div.button_to_add_new a {
+  display: block;
+  width: 156px;
+  height: 31px;
+}
+
+div#Sidebar div#Pages div.button_to_add_new a.pressed,
+div#Sidebar div#Pages div.button_to_add_new a.drag_hover,
+div#Sidebar div#Pages div.button_to_add_new a.busy {
+  background: url(/images/make_a_new_page-pressed.gif);
+}
+
+div.button_to_add_new a.pressed img,
+div.button_to_add_new a.drag_hover img,
+div.button_to_add_new a.busy img {
+  visibility: hidden;
+}
+
+div#Sidebar div#Pages div.button_to_add_new a.busy {
+  background: url(/images/dots-white.gif) no-repeat center center;
+}
+
+div#Sidebar div#Pages div.favorites a {
+  line-height: 16px;
+}
+
+div#Sidebar div#Pages div.pagesnav a:link,
+div#Sidebar div#Pages div.pagesnav a:visited {
+	color: #c60;
+	font-weight: bold;
+  text-decoration: none;
+}
+
+div#Sidebar div#Pages div.pagesnav a:link span,
+div#Sidebar div#Pages div.pagesnav a:visited span{
+  text-decoration: underline;
+}
+
+
+div#Sidebar div#Pages div.pagesnav a:hover,
+div#Sidebar div#Pages div.pagesnav a:hover span,
+div#Sidebar div#Pages a:hover {
+	background: #666;
+	text-decoration: none;
+	color: #fff;
+}
+
+div#Sidebar div#Pages div.pagesnav a.current_section:link,
+div#Sidebar div#Pages div.pagesnav a.current_section:visited {
+  background: url(/images/current_section.gif) 0 50% no-repeat;
+}
+
+div#Sidebar div#Pages div.favorites a.current:link,
+div#Sidebar div#Pages div.favorites a.current:visited,
+div#Sidebar div#Pages div.favorites a.current:hover,
+div#Sidebar div#Pages div.pagesnav a.current:link,
+div#Sidebar div#Pages div.pagesnav a.current:visited,
+div#Sidebar div#Pages div.pagesnav a.current:hover,
+div#Sidebar div#Pages div.pagesnav a.current_section:hover,
+div#Sidebar div#Pages div.pagesnav a.current:link span,
+div#Sidebar div#Pages div.pagesnav a.current:visited span,
+div#Sidebar div#Pages div.pagesnav a.current:hover span {
+	background: #666;
+	text-decoration: none;
+	color: #fff;
+}
+
+div#Sidebar div#Pages div.pagesnav a.current_section:hover {
+  background: #666 url(/images/current_section-hover.gif) 0 50% no-repeat;
+}
+
+div#Sidebar div#Pages div.pagesnav span.new_flag {
+  font-family: verdana, sans-serif;
+  font-size: 9px;
+  color: #000 !important;
+  background: #ffa !important;
+  text-decoration: none !important;
+  font-weight: normal;
+  padding: 1px 2px;
+}
+
+/*-------------------------------------------------
+MODAL DIALOG
+-------------------------------------------------*/
+
+.oldmodal div#Container { background: none; }
+
+#Modal {
+	border: 10px solid #ccc;
+	background: #fff;
+  text-align: left;
+  width: 650px;
+	margin: 5px auto;
+}
+
+#Modal div.inner {
+  margin: 15px 20px 10px 20px;
+}
+
+#Modal div.submit {
+  border-top: 1px solid #ccc;
+  padding: 10px 0;
+  margin-top: 20px;
+  color: #999;
+}
+
+#Modal div.submit a:link,
+#Modal div.submit a:visited {
+  color: red;
+}
+
+#Modal div.submit input {
+  font-size: 16px;
+}
+
+/*-------------------------------------------------
+MODAL: TRANSFER OWNERSHIP BEFORE DELETE
+-------------------------------------------------*/
+
+.transfer h1 {
+  font-size: 20px;
+}
+
+.transfer h1 span {
+  color: #c60;
+}
+
+.transfer ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 15px;
+}
+
+.transfer li span {
+  color: #999;
+  font-size: 11px;
+}
+
+
+/*-------------------------------------------------
+MODAL: LOGIN SCREEN
+-------------------------------------------------*/
+
+.login div#Modal {
+  width: 500px;
+  margin: 20px auto 0 auto;
+}
+
+.login div#Modal div.inner {
+  margin-bottom: 15px;
+}
+
+.login img#logo {
+  float: left;
+}
+
+.login div#errorMessage, .login div#Message {
+	text-align: left;
+	font-weight: bold;
+	border-top: 1px solid #c99;
+	border-bottom: 1px solid #c99;
+	padding: 5px;
+	font-size: 11px;
+	margin: 0 0 0 90px;
+	background: #c00;
+	color: #fff;
+}
+
+.login div#errorMessage a:link,
+.login div#errorMessage a:visited {
+  color: #fff;
+}
+
+.login div#Message {
+  background: #080;
+}
+
+.login div.Container {
+	/*width: 500px;*/
+	margin: 60px auto 20px auto;
+}
+
+.login h1 {
+	margin-bottom: 20px;
+}
+
+.login dl {
+	margin: 10px 0 0 93px;
+}
+
+.login dt {
+	float: left;
+	clear: right;
+	width: 80px;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: normal;
+}
+
+.login dd {
+	margin: 0 0 5px 0px;
+	font-size: 11px;
+	line-height: 24px;
+	color: #666;
+	margin-left: 85px;
+}
+
+.login input {
+	font-size: 14px;
+}
+
+.login input#password {
+	width: 150px;
+}
+
+.login input#username {
+  width: 150px;
+}
+
+.login div#First {
+  width: 500px;
+  margin: 60px auto 0 auto;
+}
+
+.login div#First h1 {
+  font-size: 16px;
+  color: #c30;
+  margin: 0 0 3px 0;
+}
+
+.login div#First h2 {
+  font-size: 14px;
+  color: #000;
+  margin: 0 0 2px 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.login div#First p {
+  font-size: 12px;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+body.login div.below {
+	width: 520px;
+	margin: 5px auto 0 auto;
+	font-size: 10px;
+	padding: 0;
+	text-align: right;
+}
+
+body.login div.below a {
+	color: #666;
+}
+
+
+/* ---------------------------------------
+SHOW/HIDE DIALOG - for live editing
+------------------------------------------*/
+
+.showhidedialog {
+  margin: 5px 0;
+	font-size: 11px;
+	color: #666;
+}
+
+.dialogbg { /* for grouping multiple fields */
+	/*background: #f5f5f5;*/
+  background: url(/images/showhide-bg.gif) top left repeat-y;
+	padding: 10px;
+}
+
+.showhidedialog p {
+	margin: 0;
+	font-size: 12px;
+  line-height: 28px;
+}
+
+.showhidedialog p.youcanalso {
+  font-size: 11px;
+  margin-left: 5px;
+}
+
+.showhidedialog p.youcanalso a:link,
+.showhidedialog p.youcanalso a:visited {
+	color: #666;
+}
+
+.showhidedialog p.submit {
+  font-size: 11px;
+}
+
+.showhidedialog p.submit a:link,
+.showhidedialog p.submit a:visited,
+.showhidedialog dd.submit a:link,
+.showhidedialog dd.submit a:visited {
+	color: red;
+}
+
+.showhidedialog h2 {
+  border: none;
+  margin-bottom: 2px;
+}
+
+.showhidedialog h3 {
+  color: #000;
+	padding: 0;
+	margin: 0 50px 15px 0;
+}
+
+.showhidedialog h2.first {
+  margin-top: 0;
+}
+
+.dialog input#page_title_wrapper div.page_title {
+  font-size: 24px;
+  width: 420px;
+  font-weight: bold;
+}
+
+a.edit:link,
+a.edit:visited {
+	color: red;
+  padding: 0;
+  font-weight: normal;
+}
+
+a.trashcan:link,
+a.trashcan:visited {
+}
+
+
+/* ---------------------------------------
+OVERVIEW
+------------------------------------------*/
+
+.overview h2 {
+	font-size: 16px;
+  border-bottom: none;
+	margin-bottom: 5px;
+}
+
+.overview h2 a:link,
+.overview h2 a:visited {
+}
+
+.overview .section {
+	padding-bottom: 5px;
+}
+
+.overview .section table td {
+	font-size: 14px;
+}
+
+.overview .showhidedialog {
+  margin-left: 18px;
+}
+
+.overview input.additemfield {
+	font-size: 16px;
+	padding: 2px;
+	width: 400px;
+}
+
+
+
+/* ---------------------------------------
+COUPON CODE
+------------------------------------------*/
+
+div.couponcode {
+  margin-top: 15px;
+}
+
+div.couponcode h2 {
+  font-size: 16px;
+  margin: 0; padding: 0;
+}
+
+div.couponcode p {
+  margin: 0; padding: 0;
+  font-size: 12px;
+}
+
+div.couponcode input {
+  font-family: courier, monospace;
+  font-size: 14px;
+}
+
+
+/*-------------------------------------------------
+TABS
+-------------------------------------------------*/
+
+#tab_container {
+	margin: 0;
+	height: 27px;
+	padding: 0;
+}
+
+#tab_container ul {
+	margin: 0; padding: 0;
+}
+
+#tab_container li {
+	margin: 0; padding: 0;
+	display: inline;
+	list-style: none;
+	border: none;
+}
+
+#tab_container ul#tabs {
+  float: left;
+  width: 610px;
+}
+
+#tab_container ul#account_links {
+  float: right;
+  width: 300px;
+  text-align: right;
+  font-size: 10px;
+  color: #F0D1B2;
+  margin-right: 10px;
+}
+
+div#tab_container a:link,
+div#tab_container a:visited {
+	color: #fff;
+}
+
+#tab_container a:hover {
+	color: #fff;
+	background: #333;
+  text-decoration: none;
+}
+
+#tab_container ul#tabs a:link, #tab_container ul#tabs a:visited {
+  float: left; /* for IE6 */
+	font-size: 12px;
+	font-weight: normal;
+	padding: 3px 8px 9px 8px;
+	margin: 0;
+}
+
+#tab_container ul#account_links li {
+  margin-left: 5px;
+}
+
+#tab_container ul#account_links a:link,
+#tab_container ul#account_links a:visited {
+  font-size: 11px;
+  font-weight: normal;
+  padding: 2px;
+}
+
+#tab_container ul#account_links a:hover {
+  text-decoration: none;
+}
+
+#tab_container ul#tabs a:link.current, #tab_container ul#tabs a:visited.current {
+	background: #e5e5e5 url(/images/tab-bg.gif) top repeat-x;
+	border: 1px solid #e5e5e5;
+	color: #000;
+	font-weight: bold;
+	text-decoration: none;
+  margin: 0 5px;
+}
+
+#tab_container ul#account_links a:link.current, #tab_container ul#account_links a:visited.current {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+#tab_container ul#account_links a:hover.current {
+  color: #fff;
+  background: none;
+}
+
+
+/*-------------------------------------------------
+WRITEBOARDS TAB
+-------------------------------------------------*/
+
+.writeboards .section ul {
+	margin: 0; padding: 0;
+	list-style: none;
+}
+
+.writeboards .section li {
+	margin: 0 0 8px 0; padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.writeboards .section li img {
+	vertical-align: middle;
+}
+
+.writeboards #importwriteboard {
+  margin-bottom: 20px;
+}
+
+.writeboards #importwriteboard h3 {
+  margin-bottom: 10px;
+}
+
+.writeboards #importwriteboard span {
+  font-size: 11px;
+}
+
+.writeboards #importwriteboard input#url {
+  width: 400px;
+  font-size: 14px;
+}
+
+.writeboards #importwriteboard p.submit {
+  margin-top: 5px;
+}
+
+.writeboards #Main ul li span.detail { /* who's page is it? */
+  font-weight: normal;
+  font-size: 10px;
+  color: #999;
+  margin-left: 10px;
+}
+
+/*-------------------------------------------------
+HELP/FAQ
+-------------------------------------------------*/
+
+div.help h2, div.types h2  {
+  border: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+  font-size: 16px;
+  border-bottom: 1px dotted #ccc;
+}
+
+div.help h3 {
+  border: none;
+  padding: 0;
+  margin: 10px 0 3px 7px;
+  font-size: 14px;
+}
+
+div.help p {
+  padding: 0;
+  margin: 0 0 15px 13px;
+  font-size: 13px;
+}
+
+div.help img {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+div.types {
+  text-align: left;
+}
+
+div.types img {
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+
+div.types h2  {
+  margin: 15px 0 5px 0;
+  border: none;
+}
+
+div.types p {
+  margin-bottom: 25px;
+}
+
+div#helpbuttons {
+  padding: 3px 0 0 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+div#helpbuttons img {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+div.help ol {
+  font-size: 13px;
+}
+
+div.help ol li {
+  margin-bottom: 10px;
+}
+
+body.help span.pay {
+  background-color: yellow;
+  padding: 2px;
+  font-weight: bold;
+}
+
+
+/*-------------------------------------------------
+CALENDAR BLANK SLATE
+-------------------------------------------------*/
+
+body.calendar_blank_slate div#blank_slate {
+	text-align: center;
+}
+
+body.calendar_blank_slate div.page_header {
+  text-align: center;
+	background-color: #ffc;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+body.calendar_blank_slate div.page_header h1 {
+  font-size: 16px;
+	background: none;
+	padding: 0;
+	margin: 0 0 3px 0;
+}
+
+body.calendar_blank_slate div.page_header p {
+  margin: 0;
+}
+
+body.calendar_blank_slate div#blank_slate p {
+  font-size: 12px;
+	background: none;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	color: #666;
+  line-height: 180%;
+}
+
+body.calendar_blank_slate div#blank_slate img {
+	margin: 15px 0;
+}
+
+
+/*-------------------------------------------------
+GENERAL BLANK SLATE
+-------------------------------------------------*/
+
+div#blank_slate {
+  margin: 5px 0 20px 0;
+}
+
+div#blank_slate h1 {
+  font-size: 16px;
+  padding: 3px;
+  background-color: #ff0;
+  display: inline;
+}
+
+div#blank_slate p {
+  padding: 0 0 0 3px;
+  margin: 7px 0 0 0;
+  font-size: 13px;
+}
+
+
+/*-------------------------------------------------
+PUBLIC SHARE
+-------------------------------------------------*/
+
+div#Sidebar div.public {
+	padding-left: 15px;
+}
+
+div#Sidebar div.public h3 {
+	font-size: 13px;
+	margin: 10px 0 10px 0;
+	padding: 0;
+}
+
+div#Sidebar div.public p {
+	font-size: 11px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	color: #333;
+}
+
+div#Sidebar div.public div.googlead {
+	margin: 20px 0 0 0;
+}
+
+
+/*-------------------------------------------------
+NEW PAGE
+-------------------------------------------------*/
+
+.newpage #Header {
+	padding: 8px 0 8px 20px;
+}
+
+
+/*-------------------------------------------------
+YELLOW FADE TECHNIQUE
+-------------------------------------------------*/
+
+#fade {
+  background-color: #ffff99;
+}
+
+
+/*-------------------------------------------------
+STANDALONE HELP
+-------------------------------------------------*/
+
+.help {
+  margin: 0;
+  text-align: left;
+}
+
+.help #Container {
+  background: none;
+  margin: 10px 20px;
+  width: 550px;
+}
+
+.help .content_types img {
+  border-top: 2px solid #c60;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.help .content_types p {
+  font-size: 12px;
+  line-height: 16px;
+  margin: 0 0 20px 5px;
+}
+
+.help .rss_security p {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.help h1 {
+	font-size: 28px;
+	margin: 5px 0 5px 0;
+}
+
+.help .rss_security h1 {
+  margin-bottom: 20px;
+}
+
+.help h2 {
+  color: #c60;
+  font-size: 18px;
+  margin: 0;
+}
+
+.help .content_types h2 span {
+  background: #c60;
+  color: #fff;
+  padding: 2px;
+}
+
+/*-------------------------------------------------
+POPUP HELP
+-------------------------------------------------*/
+
+body.popup {
+  padding: 10px 15px;
+  text-align: left;
+}
+
+body.popup p {
+  margin: 0 0 5px 0;
+  font-size: 13px;
+  color: #333;
+}
+
+body.popup p.close {
+  text-align: center;
+  font-size: 14px;
+}
+
+body.popup p.close a {
+  color: red;
+}
+
+body.popup h3 {
+  margin: 0 0 3px 0;
+  font-size: 13px;
+}
+
+body.popup ul.field_examples {
+  margin: 0 0 15px 0;
+  padding: 0;
+  list-style: none;
+}
+
+body.popup ul.field_examples li {
+  background: #fff;
+  padding: 3px 5px;
+  margin: 0 0 2px 0;
+  font-size: 12px;
+}
+
+
+/*-------------------------------------------------
+NEW ACCOUNT SIGNUP
+-------------------------------------------------*/
+
+body.signup div.vitals dd input, body.signup div.vitals dd.username input {
+  font-size: 14px;
+  width: 250px;
+  font-weight: bold;
+  color: #393;
+  padding: 3px;
+}
+
+body.signup div.vitals dd.short input {
+  width: 175px;
+}
+
+body.signup div.vitals dd select {
+  width: 275px;
+}
+
+body.signup div#Container {
+	margin: 50px auto;
+	text-align: center;
+	width: 720px;
+	background: none;
+	}
+
+body.signup {
+	background-image: url(/images/topbluefade.gif);
+	background-repeat: repeat-x;
+	background-color: #fff;
+}
+
+body.signup div.top {
+	text-align: left;
+}
+
+body.signup div.main h1 {
+  font-size: 18px;
+	margin-bottom: 20px;
+}
+
+body.signup div.main {
+	width: 425px;
+	text-align: left;
+	float: left;
+}
+
+body.signup div.side {
+	float: right;
+	width: 260px;
+	text-align: left;
+	padding: 0;
+	margin: 0;
+}
+
+body.signup div.side h2 {
+  font-size: 12px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+body.signup div.side p, body.signup div.vitals p {
+  font-size: 11px;
+  line-height: 15px;
+  padding: 0;
+  margin: 0 0 15px 0;
+  border: 0;
+}
+
+body.signup div.side img {
+  margin: 0 0 20px 0;
+}
+
+body.signup .clearallrule {
+	margin: 0 0 15px 0;
+	padding: 15px 0 0 0;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	font-size: 2px;
+}
+
+body.signup div#FAQ, div#boxed {
+  padding: 20px 0 5px 20px;
+  margin: 0 0 15px 0;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+body.signup div#FAQ h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 20px 0;
+}
+
+body.signup div#FAQ h2 {
+  font-size: 12px;
+  margin: 0 0 1px 0;
+  padding: 0;
+  color: #393;
+}
+
+body.signup div#FAQ p {
+  margin: 0 0 15px 0;
+  font-size: 12px;
+  line-height: 16px;
+  width: 80%;
+}
+
+body.signup div.action {
+  padding: 7px;
+  border-top: 2px solid #393;
+  background: #f5f5f5;
+}
+
+div.invitation {
+  padding: 10px;
+  background-color: #ffc;
+  border: 1px solid #fc0;
+  margin: 0 0 20px 0;
+  font-size: 13px;
+}
+
+div.invitation a {
+  color: #000;
+  padding: 0 2px;
+}
+
+div.invitation h3 {
+  font-size: 14px;
+  border: none;
+  margin: 0 0 3px 0;
+  font-weight: bold;
+  color: #900;
+}
+
+
+/* ---------------------------------------
+HISTORY
+------------------------------------------*/
+
+.history table {
+	width: 99%;
+	margin-top: 15px;
+}
+
+.history table td {
+	font-size: 11px;
+	white-space: nowrap;
+	padding: 3px;
+  vertical-align: top;
+}
+
+.history table th {
+	text-align: left;
+	padding-top: 15px;
+}
+
+.history table th.first {
+	padding-top: 0;
+}
+
+.history table tr.shaded td {
+	background-color: #EDF3FE;
+}
+
+.history table td.content {
+	font-size: 12px;
+	white-space: normal;
+	font-weight: bold;
+}
+
+.history table td.page {
+	white-space: normal;
+}
+
+.history .rss, .reminders .ical {
+  border-top: 1px solid #999;
+  padding-top: 8px;
+  margin-top: 25px;
+  padding-left: 10px;
+}
+
+.history .rss p, .reminders .ical p {
+  font-size: 11px;
+  margin: 0 0 10px 0;
+}
+
+.reminders .ical .indented {
+  margin-left: 25px;
+}
+
+.history .rss img, .reminders .ical img {
+  float: left;
+  position: relative;
+  margin-top: 2px;
+}
+
+.history .rss p#rsssecurity strong {
+  background: #ffc;
+  margin-right: 2px;
+}
+
+.history h1 {
+  font-size: 14px;
+}
+
+
+/*-------------------------------------------------
+CONDITIONS
+-------------------------------------------------*/
+
+div.conditions {
+  font-size: 11px;
+  color: #600;
+  padding: 3px;
+}
+
+
+/*-------------------------------------------------
+STATS
+-------------------------------------------------*/
+
+.pages .section .stats p {
+	font-size: 11px;
+	color: #666;
+	margin: 0;
+}
+
+
+/*-------------------------------------------------
+ERROR EXPLANATION
+-------------------------------------------------*/
+
+div.errorExplanation {
+  padding: 5px;
+  border: 1px solid red;
+  background-color: #F9E4E4;
+  margin-bottom: 15px;
+}
+
+div.errorExplanation h2 {
+  padding: 0;
+  color: red;
+  margin: 0;
+  font-size: 14px;
+}
+
+div.errorExplanation p {
+  padding: 0;
+  font-weight: bold;
+  color: #000;
+  margin: 10px 0 0 0;
+  font-size: 12px;
+}
+
+div.errorExplanation ul {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  list-style: square;
+}
+
+div.fieldWithErrors input, div.fieldWithErrors select {
+  border: 2px solid red;
+}
+
+div.fieldWithErrors {
+  font-size: 11px;
+}
+
+
+/*-------------------------------------------------
+UPLOAD PROGRESS
+-------------------------------------------------*/
+
+div.progressBar {
+  margin: 5px;
+}
+
+div.progressBar div.border {
+  background-color: #fff;
+  border: 1px solid grey;
+  width: 100%;
+}
+
+div.progressBar div.background {
+  background-color: #333;
+  height: 18px;
+  width: 0%;
+}
+
+
+/*-------------------------------------------------
+EDIT NUBBIN
+-------------------------------------------------*/
+
+span.link_to_edit_container {
+  position: relative;
+  z-index: 2;
+}
+
+span.link_to_edit_nubbin {
+  position: absolute;
+  background: url(/images/edit_nubbin.gif) top left no-repeat;
+  /*width: 35px;*/
+  width: 40px;
+  top: -6px;
+  left: -71px;
+  padding: 0 0 0 7px;
+  /*padding: 3px 0 6px 7px;*/
+  z-index: 1;
+}
+
+#writeboards li span.link_to_edit_nubbin {
+  left: -51px; /* empirically derived... */
+  top: -3px; /* this too */
+}
+
+span.link_to_edit_nubbin img {
+  margin: 9px 0 6px 0;
+}
+
+h1#page_title_wrapper div.page_title span.link_to_edit_nubbin {
+  left: -40px;
+  top: 3px;
+  vertical-align: top;
+}
+
+h1#page_title_wrapper div.page_title span.link_to_edit_nubbin img {
+  padding: 0 0 8px 2px;
+}
+
+div.notes span.link_to_edit_nubbin {
+  left: -50px;
+}
+
+h3.listtitle span.link_to_edit_nubbin {
+  left: -50px;
+}
+
+div#all_reminders span.link_to_edit_nubbin {
+  left: -50px;
+}
+
+div.links span.link_to_edit_nubbin {
+  left: -40px;
+  padding-left: 15px;
+  width: 25px;
+}
+
+
+/*-------------------------------------------------
+ADS UPGRADE
+-------------------------------------------------*/
+
+div.adsUpgrade {
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin: 15px 0 0 15px;
+	font-size: 10px;
+	padding: 5px 0;
+}
+
+div#Sidebar div#Pages div.adsUpgrade h3 {
+	font-size: 9px;
+	color: #900;
+	margin: 0;
+	padding: 0;
+}
+div#Sidebar div#Pages div.adsUpgrade a {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	display: inline;
+}
+
+div#Sidebar div#Pages div.adsUpgrade a:hover {
+	background-color: #000;
+	color: #fff;
+}
+
+
+
+/*-------------------------------------------------
+SHARE CALENDAR DIALOG
+-------------------------------------------------*/
+
+body.share_calendar h1 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+body.share_calendar span.swatch {
+  padding: 0px 12px;
+  background: #009;
+}
+
+body.share_calendar div.submit a {
+  font-size: 14px;
+}
+
+body.share_calendar p.url {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+body.share_calendar p.reset_url {
+}
+
+body.share_calendar p.reset_url a {
+  color: #333;
+}
+
+/*-------------------------------------------------
+NEW ACCOUNT FIRST LOGIN
+-------------------------------------------------*/
+
+div.new_account_welcome {
+	margin: 30px auto 0 auto;
+	text-align: center;
+}
+
+div.new_account_welcome h1 {
+	color: #000;
+	font-size: 18px;
+	margin: 15px 0;
+	padding: 0;
+	line-height: 1.3em;
+}
+
+div.new_account_welcome h2 {
+	color: #000;
+	font-size: 14px;
+	margin: 0 0 5px 0;
+	padding: 0;
+}
+
+div.new_account_welcome h3 {
+	color: #222;
+	font-weight: normal;
+	font-size: 12px;
+	margin: 0 0 10px 0;
+	padding: 0;
+	line-height: 1.3em;
+}
+
+div.new_account_welcome span.highlight {
+	background-color: yellow;
+	padding: 3px;
+}
+
+/*-------------------------------------------------
+FREE ACCOUNT SIDEBAR AD
+-------------------------------------------------*/
+
+div.SidebarAd {
+	margin: 30px 0 0 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	background-color: #efefef;
+}
+
+div.SidebarAd h2 {
+	font-size: 12px;
+	margin: 0 0 2px 0;
+}
+
+div#Sidebar div#Pages div.SidebarAd a {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+div.SidebarAd p {
+	margin: 0 0 2px 0;
+	font-size: 11px;
+}
+
+
+/*-------------------------------------------------
+FORGOT PASSWORD (AKA AMENSIA)
+-------------------------------------------------*/
+
+body.amnesia .modal_container div.content {
+  margin: 0 50px 25px 50px;
+}
+
+body.amnesia h2 {
+  font-size: 16px;
+}
+
+body.amnesia input.whoami {
+  padding: 2px;
+  width: 250px;
+  font-size: 14px;
+}
+
+
+/* ---------------------------------------
+ACCOUNT
+------------------------------------------*/
+
+.account .vitals {
+  margin-top: 5px;
+}
+
+.account .section table {
+	width: 99%;
+}
+
+.account .plans table td {
+	padding: 5px 5px 10px 5px;
+	text-align: center;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.account .plans p {
+	margin: 5px 0 15px 0;
+	font-size: 12px;
+}
+
+.account .plans td.upgrade p {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.account .plans td.downgrade p {
+	font-size: 11px;
+}
+
+.account .plans p.updatecreditcard {
+	font-size: 9px;
+	font-weight: normal;
+	margin: 2px 0 0 0;
+}
+
+.account .section table td.current {
+}
+
+.account dt {
+	width: 100px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.account dd input {
+	width: 250px;
+	font-size: 12px;
+}
+
+.account dd input.password {
+	width: 100px;
+}
+
+.account .newpages p {
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.account .invoices ul {
+  font-size: 13px;
+}
+
+body.account div.page_header {
+  margin-bottom: 10px;
+}
+
+body.account div.section p {
+  margin: 0 0 10px 0;
+  font-size: 13px;
+}
+
+table.account_chart {
+	width: 100%;
+	margin-bottom: 25px;
+	color: #000;
+}
+
+table.account_chart tr.promotion td {
+	padding-bottom: 10px;
+	line-height: 1.4em;
+}
+
+table.account_chart td, table.account_chart th {
+	padding: 7px 6px;
+}
+
+table.account_chart td {
+	text-align: center;
+	font-size: 12px;
+	white-space: nowrap;
+}
+
+table.account_chart td, table.account_chart th {
+	border-bottom: 1px solid #000;
+}
+
+table.account_chart tr.your_plan td, table.account_chart tr.your_plan th {
+	background-color: #ffc; 
+}
+
+table.account_chart th {
+	font-size: 14px;
+}
+
+table.account_chart tr.header th {
+	text-align: center;
+	font-size: 12px;
+	white-space: nowrap;
+	background-color: #fff;
+}
+
+table.account_chart th.side {
+	text-align: right;
+	background-color: #ffc;
+	font-size: 16px;
+	color: white;
+	background-color: #222;
+	border-bottom: 1px solid #999;
+}
+
+table.account_chart td.action {
+	background-color: #222;
+	border-bottom: 1px solid #999;
+}
+
+table.account_chart td.action span {
+	font-size: 11px;
+	color: yellow;
+}
+
+table.account_chart tr.your_plan td.action span {
+	font-size: 11px;
+	color: #000;
+}
+
+table.account_chart tr.your_plan th.side {
+	color: #000;
+}
+
+table.account_chart td.action a {
+	color: white;
+}
+
+table.account_chart td.big {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+table.account_chart th.side span {
+	text-transform: uppercase;
+	font-size: 10px;
+	color: orange;
+	float: left;
+	padding-top: 3px;
+}
+
+table.account_chart td.details {
+	font-size: 11px;
+	color: #444;
+	background-color: #fefee5;
+  border-bottom: none;
+  white-space: normal;
+}
+
+table.account_chart td.action strong {
+	color: red;
+	text-transform: uppercase;
+}
+
+table.account_chart td.details strong {
+	color: #000;
+}
+
+table.account_chart tr.header th span {
+	font-size: 11px;
+	font-weight: normal;
+	color: #666;
+}
+
+/*-------------------------------------------------
+AFFILIATE PROGRAM
+-------------------------------------------------*/
+
+body.affiliate div#Main h2 {
+	padding: 0; margin: 0 0 2px 0;
+	color: #900;
+	font-size: 14px;
+	border-bottom: none;
+}
+
+body.affiliate div#Main p {
+	padding: 0; margin: 0 0 15px 0;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+body.affiliate ol.terms {
+  font-size: 12px;
+}
+
+body.affiliate h2 span, body.affiliate p span.highlight2 {
+	background-color: #ffc;
+	border: 1px solid #fc6;
+	padding: 3px;
+	font-family: courier, "Courier New", monospace;
+	letter-spacing: 1px;
+}
+
+body.affiliate div.Left p {
+	width: 80%;
+	font-size: 12px;
+	margin-top: 0;
+}
+
+body.affiliate div#Main h1 {
+	font-size: 18px;
+	line-height: 1.2em;
+	color: #000;
+}
+
+body.affiliate div.col {
+	padding-bottom: 20px;
+}
+
+body.affiliate div#Mainol {
+	margin: 0 0 20px 40px;
+	width: 75%;
+}
+
+body.affiliate div.affiliatechart {
+	float: right;
+	margin: 0 0 25px 25px;
+	padding: 10px;
+	width: 200px;
+	border: 2px solid #fc9;
+}
+
+body.affiliate div.affiliatechart table {
+	margin-bottom: 10px;
+}
+
+body.affiliate div.affiliatechart table, body.affiliate div.affiliatechart p {
+	width: 100%;
+	margin-top: 0;
+}
+
+body.affiliate div.affiliatechart table td {
+	font-size: 12px;
+	padding: 2px;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	white-space: nowrap;
+}
+
+body.affiliate div.affiliatechart table th {
+	font-size: 10px;
+	text-align: center;
+	padding: 2px;
+	background-color: #333;
+	color: #fff;
+}
+
+body.affiliate table.affiliatecount td {
+	padding: 5px;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+}
+
+body.affiliate table.affiliatecount td.total {
+	border: 10px solid #ccc;
+	background-color: #9f9;
+	font-size: 11px;
+	text-align: center;
+}
+
+body.affiliate table.affiliatecount td.total strong {
+	font-size: 11px;
+}
+
+body.affiliate table.affiliatecount td.total h1 {
+	font-size: 20px;
+	margin: 0;
+}
+
+body.affiliate table.affiliatecount td small {
+	color: #999;
+}
+
+body.affiliate table.affiliatecount td strong {
+	font-size: 18px;
+}
+
+body.affiliate table.affiliatecount td.earned {
+	font-size: 18px;
+	font-weight: bold;
+	color: #000;
+	background-color: #cfc;
+	border-bottom: 0;
+}
+
+body.affiliate table.affiliatecount td.totals {
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	width: 300px;
+}
+
+body.affiliate table.affiliatecount td.totals strong {
+	font-size: 12px;
+}
+
+body.affiliate table.affiliatecount th.earned {
+	background-color: #cfc;
+	color: #000;
+}
+
+body.affiliate table.affiliatecount th {
+	font-size: 11px;
+	text-align: left;
+	color: #fff;
+	padding: 5px;
+	background-color: #333;
+}
+
+body.affiliate div.agree_to_terms {
+  margin-bottom: 15px;
+}
+
+body.affiliate div.agree_to_terms input {
+  font-size: 16px;
+}
+
+body.affiliate textarea {
+	width: 400px;
+	height: 50px;
+	margin-bottom: 20px;
+}
+
+body.affiliate div#Main ol.easylist {
+  padding-left: 25px;
+  margin-right: 280px;
+}
+
+body.affiliate div#Main ol.easylist li {
+	font-size: 14px;
+	line-height: 17px;
+	margin-bottom: 10px;
+}
+
+body.affiliate textarea {
+	width: 468px;
+	height: 100px;
+}
+
+body.canceled div@Modal div.inner pre {
+	background-color: #fff;
+	font-size: 12px;
+	line-height: 1.4em;
+}
+
+
+.backoffice dl {
+  margin: 0 0 15px 0;
+  padding: 0;
+}
+
+.backoffice dt {
+  font-size: 11px;
+  color: #666;
+  text-align: left;
+  width: 100%;
+}
+
+.backoffice dd {
+  margin: 0;
+  padding: 0;
+}
+
+.backoffice input {
+  font-size: 16px;
+}
+
+.backoffice table {
+  margin-bottom: 15px;
+}
+
+.backoffice table td, table th {
+  padding: 5px;
+}
+
+.backoffice table th {
+  text-align: left;
+  border-bottom: 1px solid #efefef;
+}
+
+.backoffice table tr.shaded td {
+  background: #efefef;
+}
+
+.backoffice table td.type {
+  font-weight: bold;
+}
+
+.backoffice .green {
+  color: green;
+}
+
+.backoffice .red {
+  color: red;
+}
+
+.backoffice #links {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.backoffice .setting {
+  border-bottom: 1px solid #efefef;
+  margin-bottom: 10px;
+}
+
+
+/* Autosizing text areas past the threshold will be resized to 225px. 
+ * To override this rule, use a more specific selector and include 
+ * !important on the height value. */
+textarea.large {
+  height: 225px !important;
+}
+
+
+/*-------------------------------------------------
+EDIT AVATAR
+-------------------------------------------------*/
+
+div#photo_tab div.actions p {
+  margin: 0 0 15px 0;
+}
+
+div#photo_tab div.actions input {
+  font-size: 14px;
+}
+
+div#photo_tab div.actions {
+  width: 70%;
+  border: 1px solid #ddd;
+  margin-left: 75px;
+}
+
+div#photo_tab div.actions h2 {
+  margin-top: 0;
+}
+
+div#photo_tab div.actions div.change,
+div#photo_tab div.actions div.remove {
+  padding: 10px 10px 0 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+div#photo_tab div.actions div.remove a {
+  color: #666;
+}
+
+div#photo_tab div.actions div.cancel {
+  padding: 10px 10px 0 10px;
+}
+
+div#photo_tab div.actions div.cancel p {
+  font-size: 11px;
+}
+
+div#photo_tab div.actions .show_while_uploading,
+div#photo_tab div#avatar_form.busy .hide_while_uploading {
+  display: none;
+}
+
+div#photo_tab div#avatar_form.busy .show_while_uploading {
+  display: block;
+}
+
+div#photo_tab div#avatar_form.busy form {
+  padding-bottom: 32px;
+  background: url(/images/progress_bar.gif) no-repeat;
+}
+
+body.calendar div#Header div#Tabs {
+  width: auto;
+}
+
+body.calendar div#Footer {
+  width: auto;
+  margin-left: 15px;
+}
+
+body.calendar div#Container {
+  background: none;
+  width: auto;
+	margin: 12px auto 0 auto;
+	text-align: center;
+	min-width: 750px;
+}
+
+body.calendar div#Main {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	width: 70%;
+	float: left;
+}
+
+body.calendar div#Main div.inner {
+  padding-left: 15px;
+}
+
+body.calendar div#Main h1 {
+  text-align: center;
+  font-size: 18px;
+  margin: 3px 130px 15px 130px;
+  line-height: 140%;
+}
+
+body.calendar div#Main div#blank_slate {
+  text-align: center;
+}
+
+body.calendar div#Main div#blank_slate h1 {
+  margin: 0;
+}
+
+body.calendar div#Main h1 span {
+  margin-left: 1%;
+  font-weight: normal;
+  color: #ccc;
+}
+
+body.calendar div#Main h1 span span {
+  color: #666;
+}
+
+body.calendar div.next_prev_calendar {
+  float: right;
+  text-align: right;
+  width: 130px;
+  padding-right: 5px;
+  padding-top: 3px;
+  font-size: 10px;
+  line-height: 17px;
+}
+
+body.calendar div.next_prev_calendar a#today:link,
+body.calendar div.next_prev_calendar a#today:visited {
+  width: 32px;
+  padding-top: 1px;
+  text-align: center;
+  color: #444;
+  margin-right: 8px;
+  line-height: 14px;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+body.calendar div.next_prev_calendar a {
+  display: block;
+  float: right;
+  width: 30px;
+  outline: none;
+}
+
+body.calendar div.next_prev_calendar a,
+body.calendar div.next_prev_calendar a img,
+body.calendar div.next_prev_calendar a span {
+  border: none;
+  text-decoration: none;
+}
+
+body.calendar div.next_prev_calendar img {
+  vertical-align: top;
+  width: 29px;
+  height: 17px;
+}
+
+body.calendar div.next_prev_calendar a.busy,
+body.calendar div.next_prev_calendar a#today.busy {
+  height: 17px;
+  border: none;
+  background-color: white;
+  background-image: url(/images/dots-white.gif);
+  background-position: 4px 6px;
+  background-repeat: no-repeat;
+}
+
+body.calendar div.next_prev_calendar a#today.busy {
+  background-position: 4px 4px;
+}
+
+body.calendar div.next_prev_calendar a.busy span {
+  visibility: hidden;
+}
+
+body.calendar div#Sidebar {
+  background: none;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	float: left;
+	width: 30%;
+}
+
+body.calendar div#Main .inner {
+  background: #fff url(/images/right-bg.gif) right repeat-y;
+  position: relative;
+}
+
+body.calendar div#Sidebar .inner {
+	min-width: 200px;
+	padding: 0 0 0 9px;
+}
+
+body.calendar div#Main .bottom {
+  background: url(/images/bottom-bg.gif) top right no-repeat;
+  font-size: 8px;
+  padding-top: 8px;
+}
+
+body.calendar div#Main .bottom #Footer {
+  margin-left: 0;
+  padding: 10px 0 0 0;
+}
+
+/*-------------------------------------------------
+CALENDAR
+-------------------------------------------------*/
+
+body.calendar div#grid {
+  position: relative;
+  width: 100%;
+  margin-left: 1%;
+  overflow: hidden;
+  padding-bottom: 10px;
+}
+
+body.calendar div#grid div.header div.th {
+  font-size: 10px;
+  font-weight: normal;
+  padding: 0 0 3px 0;
+  color: #333;
+  text-align: center;
+}
+
+body.calendar div#grid div.week {
+  position: relative;
+  width: 100%;
+  clear: left;
+}
+
+body.calendar div#grid div.th, 
+body.calendar div#grid div.td  {
+  position: relative;
+  width: 14%;
+  height: 100%;
+  float: left;
+}
+
+body.calendar div#grid div.td  {
+  color: #333;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  
+  padding: 0;
+  text-align: right;
+  font-size: 11px;
+}
+
+body.calendar div#grid div.td .day {
+  padding: 0 0 40px 0;
+  cursor: pointer;
+}
+
+body.calendar div#grid div.td div.cell_title {
+  margin: 0;
+  padding: 3px 3px 3px 0;
+}
+
+body.calendar div#grid div.td .first_of_month div.cell_title,
+body.calendar div#grid div.td .first_of_grid div.cell_title {
+  font-weight: bold;
+  color: #888;
+}
+
+body.calendar div#grid div.td .other_month {
+  color: #666;
+}
+
+body.calendar div#grid.month_view div.td .other_month {
+  color: #ccc;
+}
+
+body.calendar div#grid div.td .last_week {
+  border-bottom: 1px solid #ccc
+}
+
+body.calendar div#grid div.td .first_of_month {
+  border-left: 1px solid #ccc;
+}
+
+body.calendar div#grid div.td .selected {
+  background-color: #e4ebf6;
+}
+
+body.calendar div#grid div.td .today {
+  background-color: #ffc;
+}
+
+body.calendar div#grid div.td .selected .cell_title {
+  font-weight: bold;
+  color: #000 !important;
+}
+
+body.calendar div#grid div.busy div.day {
+  background-image: url(/images/dots-white.gif);
+  background-position: 4px 4px;
+  background-repeat: no-repeat;
+  height: 8px;
+}
+
+body.calendar div#grid .dragging * {
+  z-index: 2000;
+}
+
+body.calendar div#grid .dropped {
+  z-index: 2000;
+  color: #ccc;
+}
+
+body.calendar div#grid div.td div.color {
+  background-image: url(/images/cc.gif);
+  background-position: top right;
+  background-repeat: repeat-y;
+}
+
+body.calendar div#grid div.td div.last {
+  background-position: -1px -1px;
+  background-repeat: no-repeat;
+}
+
+body.calendar div#grid .hover div.color {
+  background-color: #f0f0f0;
+}
+
+body.calendar div#grid .dragged_from div.color {
+  background-color: #e4ebf6;
+}
+
+/*-------------------------------------------------
+GRID EVENTS
+-------------------------------------------------*/
+
+body.calendar div#grid div.td ol {
+  position: relative;
+}
+
+body.calendar div#grid div.td ol,
+body.calendar div#grid div.td ol li {
+  margin: 0;
+  padding: 0;
+}
+
+body.calendar div#grid div.td ol li {
+  list-style-type: none;
+  font-size: 10px;
+  text-align: left;
+  text-indent: -8px;
+  padding: 0 3px 0 11px;
+  margin-bottom: 3px;
+  color: #009;
+}
+
+body.calendar div#grid div.td ol li span.title {
+  z-index: 1000;
+}
+
+body.calendar div#grid div.td ol li span.time {
+  color: #7e7e66;
+  font-size: 9px;
+  text-transform: lowercase;
+  white-space: nowrap;
+}
+
+body.calendar li.invisible {
+  visibility: hidden;
+  height: 15px;
+}
+
+/*-------------------------------------------------
+SPANNED EVENTS
+-------------------------------------------------*/
+
+body.calendar div#grid div.week div.spanned_events {
+  height: 0;
+  z-index: 2000;
+  cursor: pointer;
+}
+
+body.calendar div#grid div.week div.spanned_events div.all_day {
+  position: absolute;
+  overflow: hidden;
+  height: 15px;
+}
+
+body.calendar div#grid div.week div.spanned_events div.all_day,
+body.calendar div#grid div.week div.spanned_events div.all_day * {
+  z-index: 2000;
+}
+
+body.calendar div#grid div.week div.spanned_events div.dragging,
+body.calendar div#grid div.week div.spanned_events div.dragging * {
+  z-index: 3000;
+}
+
+body.calendar div.all_day_container {
+  width: 100%;
+}
+
+body.calendar div.all_day_container span.left,
+body.calendar div.all_day_container span.right {
+  display: none;
+  margin: 0;
+}
+
+body.calendar div.spanned_events div.left span.left, 
+body.calendar div.spanned_events div.right span.right {
+  display: block;
+  width: 7px;
+  height: 15px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+body.calendar div.all_day_container span.left {
+  float: left;
+  background-image: url(/images/corner-left-white.png);
+}
+
+body.calendar div.all_day_container span.right {
+  float: right;
+  background-image: url(/images/corner-right-white.png);
+}
+
+body.calendar div.all_day_container span.title {
+  display: block;
+  color: #fff;
+  font-size: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  line-height: 13px;
+  height: 13px;
+  padding: 1px 0 1px 0;
+  width: 100%;
+}
+
+
+/*-------------------------------------------------
+SIDEBAR EVENTS
+-------------------------------------------------*/
+
+body.calendar div#Sidebar div.events ol {
+	list-style: none;
+	margin: 0 0 0 2px;
+	padding: 0;
+}
+
+body.calendar div#Sidebar div.events ol li {
+  position: relative;
+  margin: 0 0 5px 0;
+  font-weight: bold;
+  padding: 0;
+  color: #009;
+  font-size: 14px;
+}
+
+body.calendar div#Sidebar div.events ol li a:link,
+body.calendar div#Sidebar div.events ol li a:visited {
+  color: #009;
+  text-decoration: none;
+  border-bottom: 1px solid #ccccc2;
+  padding: 0;
+}
+
+body.calendar div#Sidebar div.events ol li span.time {
+	color: #666;
+	font-weight: normal;
+	font-size: 12px;
+}
+
+body.calendar div#Sidebar div.events ol li.busy span.spinner {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+body.calendar div#Sidebar div.events ol li.busy span.content {
+  visibility: hidden;
+}
+
+/*-------------------------------------------------
+DAY SIDEBAR
+-------------------------------------------------*/
+
+body.calendar div.day_box {
+  border: 1px solid #bacae5;
+  margin: 0; 
+}
+
+body.calendar .today div.day_box {
+  border-color: #d9d9b8;
+}
+
+body.calendar div.day_box div.header {
+  background: #d5d9f2;
+  color: #000;
+  padding: 5px 10px;
+  font-size: 11px;
+}
+
+body.calendar .today div.day_box div.header {
+  background: #ff9;
+}
+
+body.calendar div.day_box div.header a:link,
+body.calendar div.day_box div.header a:visited {
+  float: right;
+  width: 40px;
+  text-align: right;
+  color: #f00;
+}
+
+body.calendar div.day_box div.header h1 {
+  margin: 0;
+  padding-right: 40px;
+  font-size: 16px;
+}
+
+body.calendar div.day_box div.header h1 span {
+  margin-right: -40px;
+  float: right;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: 18px;
+}
+
+body.calendar div.day_box div.header h1 span a {
+  color: #000;
+}
+
+body.calendar div.day_box div.header p {
+  font-size: 10px;
+  color: #777;
+  margin: 5px 0 2px 0;
+}
+
+body.calendar div.day_box div.events {
+  padding: 8px 10px;
+  border: 1px solid #f7f9fc;
+  border-bottom: none;
+  background: #e4ebf6;
+}
+
+body.calendar div.editing div.events {
+  background: #D9DDF3;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+body.calendar div.editing .today div.day_box div.events {
+  border: none;
+  border-top: 1px solid #D9D9B8;
+}
+
+body.calendar div.editing div.day_box div.events {
+  margin-left: 1px;
+  padding-bottom: 5px;
+}
+
+body.calendar div.editing div.more_events div.events {
+  border-top: 1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+body.calendar .today div.day_box div.events {
+  border-color: #fff;
+  background: #ffc;
+}
+
+
+/*-------------------------------------------------
+SPINNER BASE
+-------------------------------------------------*/
+
+body.calendar span.spinner {
+  display: none;
+}
+
+body.calendar .busy span.spinner {
+  display: block;
+  background-repeat: no-repeat;
+  background-image: url(/images/dots-white.gif);
+  width: 21px;
+  height: 5px;
+}
+
+/*-------------------------------------------------
+SIDEBAR FORM (event forms)
+-------------------------------------------------*/
+
+body.calendar .today div.sidebar_form,
+body.calendar div.sidebar_form {
+  border: 1px solid #fff;
+  border-top: 1px solid #ccc;
+  padding: 5px 10px 7px 10px;
+  background: #f0f0f0;
+}
+
+body.calendar div.sidebar_form h1 {
+  margin: 2px 0 3px 0;
+  color: #000;
+  font-size: 12px;
+}
+
+body.calendar div.sidebar_form h1 span {
+  margin-left: 1px;
+  font-size: 10px;
+  color: #666;
+  font-weight: normal;
+}
+
+body.calendar div.sidebar_form input#event_title {
+  width: 95%;
+  font-size: 14px;
+}
+
+body.calendar div.sidebar_form p {
+  margin: 0 0 5px 0;
+  font-size: 10px;
+}
+
+body.calendar div.sidebar_form p.tip {
+  font-size: 11px;
+  color: #444;
+}
+
+body.calendar div.sidebar_form p.tip a {
+  padding: 0 1px;
+  color: #555;
+}
+
+body.calendar div.sidebar_form p.tip a:hover {
+  text-decoration: none;
+  color: #fff;
+  background: #666;
+}
+
+body.calendar div.sidebar_form p.tip span {
+  color: #aaa;
+  font-size: 10px;
+}
+
+body.calendar div.sidebar_form p select {
+  font-size: 11px;
+}
+
+body.calendar div.sidebar_form p.calendar {
+  margin: 5px 0 5px 0px;
+}
+
+body.calendar span.swatch {
+  padding: 0px 6px;
+  font-size: 9px;
+  margin-right: 3px;
+  background: #009;
+}
+
+body.calendar div.sidebar_form p.calendar span.change {
+  margin-left: 2px;
+}
+
+body.calendar div.sidebar_form div.options {
+  width: 95%;
+  border-top: 1px dotted #bbb;
+  border-bottom: 1px dotted #bbb;
+  padding: 5px 0 0 10px;
+  margin: 5px 0 5px 0;
+}
+
+div#calendars div.sidebar_form div.options div#user_choices {
+  margin-left: 10px;
+}
+
+body.calendar div.sidebar_form div.options p.checkbox span.busy {
+  background: url(/images/dots-white.gif) no-repeat center center;
+}
+
+body.calendar div.sidebar_form div.options p.checkbox span.busy input {
+  visibility: hidden;
+}
+
+body.calendar div.sidebar_form p.submit {
+  margin: 4px 0 0 0px;
+  font-size: 10px;
+  color: #999;
+}
+
+body.calendar div.sidebar_form form.busy p.submit {
+  visibility: hidden;
+}
+
+body.calendar div.sidebar_form form.busy span.spinner {
+  display: block;
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+body.calendar div.sidebar_form form.busy span.trash,
+body.calendar div.sidebar_form form.busy span.cancel {
+  display: none;
+}
+
+body.calendar p.error_message strong {
+  font-family: verdana, sans-serif;
+  color: #f00;
+}
+
+body.calendar p.error_message, 
+body.calendar p.error_message a {
+  color: #444;
+}
+
+body.calendar div.sidebar_form div.repeating_event_delete_links {
+  padding: 0;
+  margin: 5px 0 5px 0;
+}
+
+body.calendar div.sidebar_form div.repeating_event_delete_links div.delete_options {
+  padding: 5px 10px 5px 10px;
+  background-color: #ffc;
+  border-top: 1px dotted #bbb;
+  border-bottom: 1px dotted #bbb;
+  margin-bottom: 5px;
+}
+
+body.calendar div.sidebar_form div.repeating_event_delete_links div.delete_options p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+body.calendar div.sidebar_form div.repeating_event_delete_links div.delete_options p a {
+  color: red;
+}
+
+body.calendar div.sidebar_form div.repeating_event_delete_links p.cancel {
+  width: 95%;
+  text-align: right;
+}
+
+body.calendar div.sidebar_form div.repeating_event_delete_links p.cancel a {
+  color: red;
+}
+
+
+
+/*-------------------------------------------------
+EDIT EVENT
+-------------------------------------------------*/
+
+body.calendar div.editing div.sidebar_form {
+  padding-top: 10px;
+}
+
+body.calendar div.sidebar_form p.submit span.trash {
+  float: right;
+  width: 25px;
+  padding-top: 5px;
+}
+
+
+/*-------------------------------------------------
+CALENDAR FORMS
+-------------------------------------------------*/
+
+body.calendar #calendars div.sidebar_form {
+  border: 1px solid #ccc;
+  padding: 0;
+}
+
+body.calendar #calendars div.sidebar_form .inner {
+  border: 1px solid #fff;
+  padding: 5px 10px 7px 10px;
+}
+
+body.calendar #calendars div.sidebar_form p.tip {
+  font-size: 10px;
+  color: #666;
+}
+
+body.calendar div#calendars.editing div.sidebar_form .inner {
+  padding-top: 10px;
+}
+
+body.calendar div#calendars.editing div.sidebar_form p.tip {
+  display: none;
+}
+
+body.calendar #calendars div.sidebar_form p.submit span.trash {
+  padding-top: 2px;
+}
+
+
+/*-------------------------------------------------
+DEFAULT SIDEBAR
+-------------------------------------------------*/
+
+
+body.calendar div.upcoming_events {
+  padding: 10px 5px;
+}
+
+body.calendar div.upcoming_events h2 {
+  color: #333;
+  margin: 0 0 5px 0;
+  font-size: 10px;
+  border-bottom: 1px dotted #ccc;
+}
+
+body.calendar div#Sidebar div.upcoming_events ol {
+  margin: 0 0 15px 10px;
+}
+
+
+
+/*-------------------------------------------------
+CALENDARS
+-------------------------------------------------*/
+
+body.calendar div#calendars {
+  margin: 0 7px 23px 0;
+  font-size: 11px;
+}
+
+body.calendar div#calendars form {
+  margin: 0;
+  padding: 0;
+}
+
+body.calendar div#calendars h2 {
+  margin: 2px 15px 5px 10px;
+  color: #000;
+  font-size: 12px;
+  border-bottom: 1px dotted #bbb;
+}
+
+body.calendar div#calendars {
+  margin: 15px 0 7px 0;
+}
+
+body.calendar div#calendars div.sidebar_form {
+  margin: 5px 0;
+}
+
+body.calendar div#calendars div#create_calendar {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+body.calendar div#calendars ul,
+body.calendar div#calendars li {
+  margin: 0; padding: 0;
+  list-style: none;
+}
+
+body.calendar div#calendars ul {
+  margin: 0 0 0 15px;
+}
+
+body.calendar div#calendars ul.with_checkboxes {
+  margin-left: 10px;
+}
+
+body.calendar div#calendars li {
+  margin: 0 0 6px 0;
+}
+
+body.calendar div#calendars li img.lock {
+}
+
+body.calendar div#calendars li.add_calendar {
+  margin-left: -3px;
+  margin-bottom: 10px;
+}
+
+body.calendar div#calendars .calendar a:link,
+body.calendar div#calendars .calendar a:visited {
+  color: #444;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+body.calendar div#calendars h2 span.add_calendar {
+  float: right;
+  width: 150px;
+  text-align: right;
+  font-weight: normal;
+  font-size: 11px;
+}
+
+body.calendar div#calendars h2 span.add_calendar a:link,
+body.calendar div#calendars h2 span.add_calendar a:visited {
+  color: #444;
+  text-decoration: none;
+}
+
+body.calendar div#calendars input#calendar_name {
+  width: 95%;
+  font-size: 14px;
+}
+
+body.calendar div#calendars div#add_calendar {
+}
+
+body.calendar div#calendars div#add_calendar.busy .spinner#add_calendar_spinner {
+  margin: 15px 0 15px 10px;
+}
+
+body.calendar div#calendars div.colors {
+  padding: 4px 8px 8px 0;
+  height: 30px;
+}
+
+body.calendar div#calendars div.colors div.color_option {
+  margin-right: 5px;
+  width: 20px;
+  float: left;
+}
+
+body.calendar div#calendars div.colors div.color_option input {
+  margin: 0 0 8px 1px;
+  display: inline;
+}
+
+body.calendar div#calendars li {
+  position: relative;
+  height: 14px;
+}
+
+body.calendar div#calendars li.busy a {
+  visibility: hidden;
+}
+
+body.calendar div#calendars li.busy span.spinner {
+  display: block;
+  position: absolute;
+  left: 27px;
+  top: 8px;
+}
+
+body.calendar div#calendars ul.with_checkboxes li.busy span.spinner {
+  left: 42px;
+}
+
+body.calendar div#calendars li.calendar input {
+  position: relative;
+  top: 1px;
+}
+
+body.calendar div#calendars p.edit_calendar {
+  color: #333;
+}
+
+body.calendar div#show_calendar.busy p.submit {
+  visibility: hidden;
+}
+
+body.calendar div#show_calendar.busy .spinner {
+  float: left;
+  margin: -10px 0 0 2px;
+}
+
+
+/*-------------------------------------------------
+ALL CALENDARS ICAL LINK
+-------------------------------------------------*/
+
+div.global_ical_link {
+  margin-left: 15px;
+}
+
+div.global_ical_link p {
+  font-size: 11px;
+  line-height: 19px;
+}
+
+div.global_ical_link a {
+  color: #666;
+}
+
+div.global_ical_link img  {
+  width: 12px;
+  height: 16px;
+  vertical-align: middle;
+  margin-right: 2px;
+}
+
+
+.calendar_date_select {
+  background-color: white;
+  color: #777;
+  border: #999 1px solid;
+  display: block;
+  width: 196px;
+}
+
+.calendar_date_select .weekdays th {
+  text-align: center;
+  font-weight: bold;
+  background-color: #ddd;
+  height: 20px;
+}
+
+.calendar_date_select .buttons {
+  display: none;
+}
+
+.calendar_date_select .footer {
+  background-color: #efefef;
+  color: #000;
+	font-weight: bold;
+  padding: 3px 0 3px 5px;
+  text-align: left;
+	font-size: 12px;
+}
+
+.calendar_date_select table {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-padding: 0;
+}
+
+.calendar_date_select .header {
+  background-color: #efefef;
+  border-bottom: 1px solid #aaa;
+  text-align: center;
+	font-weight: bold;
+	padding: 3px;
+	font-size: 11px;
+	line-height: 18px;
+	overflow: hidden;
+}
+
+.calendar_date_select .header .left {
+  float: left;
+}
+
+.calendar_date_select .header .right {
+  float: right;
+}
+
+.calendar_date_select .header .nav {
+  text-decoration: none;
+}
+
+.calendar_date_select .header .title {
+  color: black;
+}
+
+.calendar_date_select td,
+.calendar_date_select th {
+  margin: 0;
+  padding: 0;
+  line-height: 16px;
+  font-size: 11px;
+}
+
+.calendar_date_select td a {
+  display: block;
+	padding: 2px 1px;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 11px;
+  color: #777;
+}
+
+.calendar_date_select td.other a {
+  color: #ccc;
+}
+
+.calendar_date_select .days td {
+  border-bottom: 1px solid #ccc;
+}
+
+.calendar_date_select td a:hover {
+  background-color: #dcdcdc;
+}
+
+.calendar_date_select td.today a {
+  background-color: #ffc;
+	color: #000;
+}
+
+.calendar_date_select td.selected a {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/*-------------------------------------------------
+INDEX
+-------------------------------------------------*/
+
+
+body.calendar_subscriptions p.back_to_calendar {
+  font-size: 14px;
+}
+
+body.calendar_subscriptions p.back_to_calendar a {
+  text-decoration: none;
+}
+
+body.calendar_subscriptions p.explanation {
+  margin: 0;
+}
+
+body.calendar_subscriptions h2 {
+  margin: 0 0 5px 0;
+}
+
+body.calendar_subscriptions p.reset_notice {
+  color: #090;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0 0 -10px 0;
+}
+
+body.calendar_subscriptions table {
+  width: 100%;
+  margin: 25px 0 35px 0;
+  border-collapse: collapse;
+}
+
+body.calendar_subscriptions table td {
+  padding: 3px 10px 3px 3px;
+  border-top: 1px solid #ddd;
+  overflow: hidden;
+}
+
+body.calendar_subscriptions table td.name {
+  font-size: 14px;
+}
+
+body.calendar_subscriptions span.swatch {
+  padding: 0px 10px;
+  font-size: 11px;
+  margin-right: 3px;
+  background: #009;
+}
+
+body.calendar_subscriptions div.warning {
+  background: #ffd;
+  width: 80%;
+  margin: 15px auto;
+  padding: 5px;
+  border: 1px solid #fc6;
+}
+
+body.calendar_subscriptions div.warning p {
+  margin: 0;
+}
+
+
+
+/*-------------------------------------------------
+NEW
+-------------------------------------------------*/
+
+div#new_comment {
+  padding: 10px 0 20px 0;
+}
+
+div#new_comment img.avatar {
+  float: left;
+  width: 55px;
+}
+
+div.comment_form div.indented {
+  margin-left: 65px;
+}
+
+div#Main div#new_comment h3 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+div#Main div#new_comment p {
+  margin: 0 0 10px 0;
+}
+
+div.comment_form .textarea_container {
+  /* compensate for padding in the textarea */
+  margin-right: 15px;
+}
+
+div.comment_form textarea {
+  width: 100%;
+  height: 70px;
+  font-size: 13px;
+  padding: 5px;
+}
+
+div#Main div.comment_form div.buttons,
+div#Main div#new_comment div.buttons {
+  margin: 0;
+  padding: 10px 0 0;
+  font-size: 12px;
+}
+
+div.comment_form div.show_options a:link,
+div.comment_form div.show_options a:visited {
+  color: #444;
+}
+
+div.comment_form div.hide_options {
+  margin-top: 15px;
+  font-size: 11px;
+}
+
+div#Main div.comment_form .file_attachment_option {
+  font-size: 12px;
+  padding: 15px 0 5px;
+}
+
+div.comment_form .file_attachment_option input {
+  font-size: 12px;
+}
+
+div#Main div.comment_form .file_attachment_option h2 {
+  color: #000;
+  border: none;
+  font-size: 12px;
+  padding: 0;
+  margin: 0 0 3px 0;
+}
+
+div.comment_form .file_attachment_option .attach_files {
+  border-left: 8px solid #D9D9D9;
+  padding: 3px 0 5px 10px;
+}
+
+/*-------------------------------------------------
+_EDIT
+-------------------------------------------------*/
+
+div.comment_form {
+  padding: 8px 0 16px 0px;
+}
+
+div.edit_comment {
+  background: #F2F5FB;
+  border: 2px solid #c0d1ec;
+  padding: 0;
+}
+
+div#Main div.edit_comment h3 {
+  font-weight: bold;
+  font-size: 12px;
+  color: #000;
+  margin: 0 0 5px 0;
+}
+
+div#Main div.edit_comment div.inner {
+  border: 1px solid #fff;
+  padding: 6px 10px 10px 10px;
+}
+
+
+/*-------------------------------------------------
+_INDEX
+-------------------------------------------------*/
+
+body.message div.comments {
+  border-top: 1px solid #ddd;
+  margin-top: 25px;
+}
+
+body.message #Main div.comments_header {
+}
+
+body.message #Main div.comments_header h2 {
+  font-size: 12px;
+  background: #eee;
+  color: #333;
+  margin: 0 0 5px -4px;
+  padding: 4px 4px 4px 4px;
+  border: none;
+}
+
+
+/*-------------------------------------------------
+_SHOW
+-------------------------------------------------*/
+
+div#Main div.comment div.nubbin div.wrapper {
+  width: 48px;
+}
+
+div#Main div.comment {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  clear: left;
+  color: #333;
+  padding: 10px 0 0;
+}
+
+div#Main div.comment div.widget_content {
+  background: none !important;
+}
+
+div#Main div.comment div.float_liner {
+  padding: 0 0 5px;
+  /* for clearing without hiding the nubbin */
+  overflow: hidden;
+}
+
+div#Main div.comment p {
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0 0 14px 0;
+}
+
+div#Main div.comment h3 {
+  font-size: 11px;
+  margin: 0 0 5px 0;
+  font-weight: normal;
+}
+
+div#Main div.comment h3 strong {
+  font-size: 12px;
+  margin-right: 2px;
+}
+
+
+div.comment div.indented {
+  margin-left: 65px;
+}
+
+body.message div#Main img.avatar {
+  margin: 0 0 5px 0;
+  width: 55px;
+  float: left;
+}
+
+
+/*-------------------------------------------------
+NEWSROOM
+-------------------------------------------------*/
+
+body.newsroom_with_coming_up_calendar div.fix_width {
+  width: 985px;
+}
+
+body.newsroom div#Main div.blank_slate p {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+body.newsroom div.latest_activity_section {
+  padding-bottom: 10px;
+}
+
+body.newsroom div#Main .inner {
+  padding: 0;
+}
+
+body.newsroom div.section_content {
+  margin: 0 25px 0 20px;
+}
+
+body.newsroom_with_coming_up_calendar div.section_content {
+  margin-right: 220px;
+}
+
+/* don't overabstract the h1, otherwise the system announcement will be affected */
+body.newsroom div#Main h1.events,
+body.newsroom div#Main h1.messages,
+body.newsroom div#Main div.coming_up div.header h1 {
+  font-size: 14px;
+  background: #edf3fe;
+  margin: 0;
+  padding: 10px 25px 10px 20px;
+  line-height: 27px;
+}
+
+body.newsroom div#Main h1.events {
+  margin-bottom: 2px;
+}
+
+body.events div#Main h2 {
+  border: none;
+}
+
+body.events table {
+  font-size: 12px;
+	width: 100%;
+  border-collapse: collapse;
+}
+
+body.events table th {
+  padding: 0;
+}
+
+body.events table td {
+  vertical-align: top;
+  padding-top: 5px;
+}
+
+body.events div#Main table th h2 {
+	font-size: 11px;
+	border-bottom: 1px solid #ccc;
+	padding: 10px 0 2px 0;
+	color: #333;
+}
+
+body.events table td.avatar {
+	vertical-align: top;
+	width: 30px;
+  padding-top: 0;
+  padding-bottom: 5px;
+}
+
+body.events table td.avatar img {
+	border: 1px solid #ccc;
+}
+
+body.events table td strong.doer {
+}
+
+body.events table ul {
+  margin: 0 0 10px 0;
+  padding: 0;
+  list-style: none;
+}
+
+body.events table li {
+  margin: 5px 0 0 0; padding: 0;
+}
+
+body.events table li span.bullet {
+  color: #aaa;
+}
+
+
+/*-------------------------------------------------
+NEWSROOM CALENDAR LIST AKA "COMING UP"
+-------------------------------------------------*/
+
+body.newsroom div.coming_up {
+  margin: 0;
+  float: right;
+  width: 200px;
+}
+
+body.newsroom div.coming_up div.colored_box {
+  background: #f1f7e9;
+  border-color: #dbe9cd;
+  border-style: solid;
+  border-width: 0 0 0 1px;
+}
+
+body.newsroom div.coming_up div.shadow {
+  height: 11px;
+  background: url(/images/coming_up-shadow.png) no-repeat top left;
+}
+
+body.newsroom div#Main div.coming_up div.header h1 {
+  padding-left: 10px;
+}
+
+body.newsroom div.coming_up div.days {
+  padding: 10px 10px 10px 7px;
+}
+
+body.newsroom div.coming_up div.upgrade {
+  padding: 10px 10px 5px 7px;
+  background: #fff;
+}
+
+body.newsroom div.coming_up div.upgrade p {
+  font-size: 11px;
+  line-height: 140%;
+  margin: 0 0 11px 0;
+}
+
+body.newsroom div#Main div.coming_up div.day {
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-top: 1px solid #dbe9cd;
+  overflow: hidden;
+}
+
+body.newsroom div#Main div.coming_up div.first_day {
+  border-top: none;
+  padding-top: 0;
+}
+
+body.newsroom div.day_thumb,
+body.newsroom div.day_thumb div.inner {
+  background: #a7d79f;
+}
+
+body.newsroom div.day_thumb {
+  width: 30px;
+  height: 27px;
+  float: left;
+  margin-top: 3px;
+}
+
+body.newsroom div.day_thumb div.inner {
+  margin: -1px 1px;
+  height: 29px;
+}
+
+body.newsroom div.today div.day_thumb,
+body.newsroom div.today div.day_thumb div.inner {
+  background: #fbc300;
+}
+
+body.newsroom div.day_thumb div.day_of_week,
+body.newsroom div.day_thumb div.day_number {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
+body.newsroom div.day_thumb div.day_of_week {
+  text-transform: uppercase;
+  font-size: 11px;
+  line-height: 11px;
+}
+
+body.newsroom div.day_thumb div.day_number {
+  font-size: 15px;
+  line-height: 16px;
+}
+
+body.newsroom div#Main div.coming_up p.calendar {
+  font-size: 11px;
+  color: purple;
+  margin: 0 0 0 38px;
+}
+
+body.newsroom div#Main div.coming_up p.event {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 5px 38px;
+}
+
+
+/*-------------------------------------------------
+DEFAULT "COMING UP" COLOR SCHEME
+-------------------------------------------------*/
+
+body.newsroom div.coming_up div.header {
+  background: #edf3fe;
+}
+
+body.newsroom div.coming_up div.colored_box {
+  background: #fff;
+}
+
+body.newsroom div.coming_up div.colored_box {
+  border-color: #d6d6d6;
+}
+
+body.newsroom div#Main div.coming_up div.day {
+  border-color: #dfe6d0;
+}
+
+body.newsroom div.day_thumb,
+body.newsroom div.day_thumb div.inner {
+  background: #189e18;
+  background: #aaa;
+}
+
+
+
+/*-------------------------------------------------
+PAGE EVENTS
+-------------------------------------------------*/
+
+body.page_events div#Main {
+  background: #fdfdb6 url(/images/page_events-bg.gif) top left repeat-x;
+}
+
+body.page_events div#Container {
+	background: url(/images/page_events-page-bg.gif) right repeat-y;
+}
+
+body.page_events div#BottomShadow {
+	background: url(/images/page_events-bottom-bg.gif) bottom right no-repeat;
+}
+
+body.page_events div#Main h1 {
+  font-size: 22px;
+  margin: 20px 80px 10px 0;
+}
+
+body.page_events table {
+  margin-bottom: 30px;
+}
+
+body.page_events div.link_back div.paperclip {
+  background: url(/images/page_changes-paperclip.png) no-repeat;
+  position: absolute;
+  width: 32px;
+  height: 86px;
+  bottom: -72px;
+  right: 65px;
+}
+
+body.page_events div.link_back {
+  margin: -10px -31px 10px -20px;
+  background: #e5e5e5;
+  padding: 0 0 10px 10px;
+  position: relative;
+}
+
+body.page_events div#Main div.link_back p {
+  font-size: 14px;
+  margin: 0;
+}
+
+
+body.page_events div#Main table th h2 {
+  border-color: #e3e3a9;
+}
+
+
+body.page div.gallery div.form {
+  background: none;
+  border: none;
+  padding: 0;
+  position: relative;
+}
+
+body.page div.gallery div.form input.gallery_name {
+  font-weight: bold;
+  font-size: 16px;
+  width: 330px;
+}
+
+body.page div.gallery img.image {
+	padding: 1px;
+	border: 1px solid #dcdcdc;
+	margin-bottom: 2px;
+}
+
+body.page div.gallery {
+	font-size: 11px;
+}
+
+body.page div.gallery div.widget_parent {
+  position: relative;
+}
+
+body.page div.gallery div.link_to_add_child {
+  clear: left;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+
+body.page div.gallery div.gallery_images_wrapper {
+  overflow: hidden;
+}
+
+body.page div.gallery div.gallery_widget {
+  clear: none;
+  float: left;
+  width: 152px;
+  padding: 0 15px 15px 0;
+}
+
+body.page div.gallery div.add_image div.gallery_widget {
+  padding: 0;
+}
+
+body.page div.gallery div.link_to_add_child {
+  clear: none;
+  float: left;
+  width: 60px;
+  height: 45px;
+  margin: 52px 0 0 0;
+  border: 1px dashed #ccc;
+  position: relative;
+}
+
+body.page div.gallery div.link_to_add_child a {
+  display: block;
+  position: absolute;
+  width: 60px;
+  top: 8px;
+  left: 0px;
+  text-align: center;
+  line-height: 14px;
+}
+
+body.page div.gallery div.title h2 {
+  margin: 0 !important;
+  padding: 0 0 5px !important;
+}
+
+body.page div.gallery div.form form {
+  overflow: hidden;
+  padding: 0 0 5px;
+}
+
+body.page div.gallery div.widget_content span.inline_background {
+  float: left;
+  display: block;
+  padding: 5px 10px;
+}
+
+body.page div.image_wrapper div.add input.image_description {
+  width: 350px;
+}
+
+body.page div.gallery div.images div.edit {
+  padding: 0;
+  margin-top: -5px;
+  width: 152px;
+  position: relative;
+  background: #ccc;
+}
+
+body.page div.gallery div.images div.edit img {
+  background: #fff;
+  opacity: 0.5;
+  border: none;
+  padding: 2px;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 0;
+}
+
+body.page div.gallery div.images div.edit form {
+  position: absolute;
+  bottom: -25px;
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-top: 1px solid #fff;
+	padding: 5px;
+  width: 140px;
+  margin: 0 0 5px 0;
+}
+
+body.page div.gallery div.images div.edit form h3 {
+  font-size: 12px;
+}
+
+body.page div.gallery div.images div.edit form h3 span {
+  display: none;
+}
+
+body.page div.gallery div.images div.edit textarea.image_description {
+  height: 40px;
+  width: 130px;
+  margin-bottom: 5px;
+}
+
+body.page div.gallery div.busy div.image div.nubbin {
+  display: block;
+}
+
+body.page div.gallery div.busy div.image div.nubbin ul {
+  width: 130px;
+  background-position: right center;
+}
+
+body.page div.gallery div.image div.nubbin div.wrapper {
+  background: #fff;
+  right: auto;
+  top: 133px;
+  border-top: 1px solid #eee;
+  height: 16px;
+  width: 142px;
+  left: 1px;
+  padding-right: 3px;
+}
+
+body.page div.gallery div.add_image {
+  clear: left;
+}
+
+body.page div.gallery div.add_image div.widget {
+  float: none;
+  width: auto;
+  background: #fff;
+}
+
+div.widget div.image li {
+  float: right;
+}
+
+div.widget div.image li.drag {
+  float: left;
+}
+
+div.widget div.image div.image_description {
+  line-height: 14px;
+  width: 150px;
+}
+
+/* Hide drag shadows for images */
+
+div.widget div.image_wrapper div.shadow_top,
+div.widget div.image_wrapper div.shadow_bottom,
+div.widget div.image_wrapper div.shadow_content {
+  background: none !important;
+}
+
+div.widget div.dragging div.image div.image_description {
+  background: #fff;
+}
+
+
+/*-------------------------------------------------
+GUEST PAGE VIEW
+-------------------------------------------------*/
+
+body.guest_page div#Sidebar div.bookmark {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #fc6;
+  padding: 5px;
+  background: #fafafa;
+}
+
+body.guest_page div#Sidebar a.signup {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 1px 0;
+  padding: 5px 0 10px 0;
+	font-size: 11px;
+	color: #333;
+}
+
+body.guest_page div#Sidebar a.signup span.action {
+  color: #00e;
+  text-decoration: underline;
+  display: block;
+  line-height: 140%;
+}
+
+body.guest_page div#Sidebar a.signup:hover {
+  border-top: 1px solid #bbb;
+  background: url(/images/guest_signup_hover_background.gif) top repeat-x;
+}
+
+body.guest_page div#Sidebar a.signup:active {
+  background: #ddd;
+}
+
+body.guest_page div#Sidebar a.signup:hover span.action {
+  text-decoration: none;
+}
+
+
+/*-------------------------------------------------
+GUEST LOGIN
+-------------------------------------------------*/
+
+.guest_login div.content {
+  margin-left: 105px;
+  padding-bottom: 5px;
+}
+
+.guest_login h2 {
+  font-size: 20px;
+  line-height: 140%;
+}
+
+.guest_login p {
+  font-size: 14px;
+}
+
+.guest_login input {
+  font-size: 16px;
+}
+
+.guest_login input#email {
+  font-size: 14px;
+  padding: 2px;
+}
+
+
+button.image_button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  background-position: top left;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+button.image_button.pressed {
+  background-position: bottom left;
+}
+
+button.image_button span {
+  display: none;
+}
+
+.invitations #Main .inner {
+  padding-left: 30px;
+}
+
+.invitations #Main p {
+  font-size: 14px;
+  line-height: 130%;
+  width: 80%;
+}
+
+.invitations #Main p.howitworks {
+  font-size: 16px;
+  margin: 10px 0 30px 0;
+}
+
+.invitations div.step {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.invitations div.step div.number {
+  float: left;
+  width: 30px;
+  font-size: 24px;
+}
+
+.invitations div.step div.number span {
+  color: #fff;
+  background: #390;
+  padding: 5px;
+}
+
+.invitations div.step div.body {
+  margin-left: 40px;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.invitations div.step div.body textarea {
+  font-size: 14px;
+}
+
+.invitations div.step div.body span.small {
+  font-size: 12px;
+}
+
+.invitations div.submit div.body {
+  color: #666;
+  padding-bottom: 15px;
+}
+
+.invitations div.submit div.body input {
+  font-size: 16px;
+}
+
+/*-------------------------------------------------
+EXPIRED INVITATION (AKA CANCELLED INVITATION)
+-------------------------------------------------*/
+
+body.expired_invitation .modal_container div.content {
+  margin: 0 40px 25px 40px;
+}
+
+body.expired_invitation .modal_container div.content h1 {
+  white-space: nowrap;
+  overflow: visible;
+}
+
+
+/*-------------------------------------------------
+ENTRIES INDEX
+-------------------------------------------------*/
+
+body.journal div.page_header {
+	padding: 10px 20px;
+	border-bottom: 1px solid #d9dfe9;
+}
+
+body.journal div#status {
+  padding-bottom: 10px;
+}
+
+body.journal div#status h2,
+body.journal div#Main div.new_journal_entry h2 {
+  font-size: 14px;
+  margin: 0 0 3px 0;
+  border: none;
+}
+
+body.journal div#status h2 {
+  font-size: 16px;
+  color: red;
+  margin-bottom: 8px;
+}
+
+body.journal div#status h2 span {
+  font-weight: normal;
+  font-size: 12px;
+  color: grey;
+}
+
+body.journal div#status a.current_status {
+  display: block;
+  text-decoration: none;
+  border: 1px dashed #aaa;
+  background: #fff;
+  padding: 10px;
+}
+
+body.journal div#status a.current_status span.blank_slate {
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+  font-style: italic;
+  line-height: 140%;
+}
+
+body.journal div#status a.current_status,
+body.journal div#status textarea {
+	width: 500px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+body.journal div#status textarea {
+  font-family: helvetica, arial, sans-serif;
+	height: 80px;
+	margin-bottom: 5px;
+  padding: 3px;
+}
+
+body.journal div#status p.status_message {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #000;
+}
+
+body.journal div#status p.no_status_message {
+  margin: 0;
+  font-style: italic;
+}
+
+body.journal div#status p.submit {
+  margin-bottom: 0;
+}
+
+
+body.journal div.body {
+	padding: 0 0 10px 0;
+}
+
+body.journal div.body a.admin {
+  font-size: 11px;
+}
+
+body.journal div.grouping {
+	margin: 20px 0 0 0;
+}
+
+body.journal div.grouping span.date {
+	border-bottom: 1px solid #CCCCCC;
+	color: #666;
+	font-family: "Lucida Grande",arial,sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	margin-left: -20px;
+	text-transform: uppercase;
+	padding: 0pt 0pt 2px 20px;
+}
+
+body.journal div.grouping span.today {
+	background-color: #FFCC33;
+	border-bottom: none;
+	color: #000;
+	padding: 3px 3px 3px 20px;
+}
+
+body.journal div.body ul {
+  list-style: none;
+	font-size: 18px;
+  margin: 18px 0 18px 0;
+	padding-left: 20px;
+}
+
+body.journal div.body li {
+  list-style: disc;
+	line-height: 1.4em;
+	margin-bottom: 5px;
+}
+
+body.journal div.body li span.when {
+  font-size: 11px;
+  line-height: 1.0em;
+  color: grey;
+}
+
+
+/*-------------------------------------------------
+NEW
+-------------------------------------------------*/
+
+body.journal div.new_journal_entry {
+  margin: 10px 0 25px 0;
+}
+
+body.journal div.new_journal_entry h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+body.journal div.new_journal_entry input.new {
+	font-size: 18px;
+	padding: 3px;
+  width: 500px;
+}
+
+body.journal div.new_journal_entry label {
+  font-size: 11px;
+}
+
+/*-------------------------------------------------
+EDIT
+-------------------------------------------------*/
+
+body.journal div.body ul li.edit {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+body.journal li.edit textarea {
+  font-family: helvetica, arial, sans-serif;
+  font-size: 14px;
+	line-height: 1.3em;
+  height: 80px;
+  width: 350px;
+}
+
+body.journal div.body ul li.edit p {
+  font-size: 11px;
+  margin: 3px 0 0 0;
+  width: 350px;
+}
+
+body.journal div.body ul li.edit p label {
+  font-size: 11px;
+  display: block;
+  text-align: right;
+  float: right;
+  width: 150px;
+}
+
+
+/*-------------------------------------------------
+OTHERS
+-------------------------------------------------*/
+
+body.journal div.others {
+  background: #fff;
+	float: right;
+	border: 1px solid #ccc;
+	width: 300px;
+	margin-left: 20px;
+}
+
+body.journal div.others h2 a {
+  color: red;
+}
+
+body.journal div#Main {
+  font-family: helvetica, arial, sans-serif;
+}
+
+body.journal div#Main div.others div.inner {
+	padding: 20px;
+}
+
+body.journal div.others div.user {
+  margin-bottom: 15px;
+}
+
+body.journal #Main div.others h2 {
+	font-size: 12px;
+  border: none;
+  margin: 0 0 5px 0;
+}
+
+body.journal #Main div.others h2 span.updated {
+  font-size: 10px;
+  font-weight: normal;
+  color: grey;
+}
+
+body.journal #Main div.others h3 {
+	font-size: 16px;
+  margin: 0 0 5px 0;
+}
+
+body.journal #Main div.others h4 {
+  margin: 1px 0 0 0;
+	color: grey;
+	font-size: 9px;
+	font-weight: normal;
+}
+
+body.journal div.others ul {
+	font-size: 12px;
+  line-height: 1.4em;
+	margin: 3px 0 0 15px;
+  padding: 0 !important;
+}
+
+body.journal div.others ul li {
+  padding: 0 !important;
+  margin: 0 0 5px 0;
+}
+
+body.journal .busy p.submit {
+  background: url(/images/dots-white.gif) no-repeat 4px 7px;
+}
+
+body.journal .busy span {
+  visibility: hidden;
+}
+
+
+/*-------------------------------------------------
+FLASHES AND ANNOUNCEMENTS
+-------------------------------------------------*/
+
+div.announcement {
+  margin-top: 10px;
+  width: 600px;
+  text-align: left;
+  color: #000;
+  border: 2px solid #ffd67a;
+  font-size: 14px;
+}
+
+body.modal div.announcement {
+  width: auto;
+}
+
+div.announcement div.inner {
+  margin: 0;
+  padding: 5px 12px;
+  border: 1px solid #fff;
+}
+
+div#flash.notice {
+  background: #dfd;
+  border-color: #beb;
+  border-width: 5px;
+  color: #000;
+  line-height: 140%;
+}
+
+div#flash.progress {
+  border-color: #ddd;
+  color: #555;
+}
+
+div#flash.progress div.inner {
+  padding-left: 35px;
+  background: #eee url(/images/indicator.gif) 10px 50% no-repeat;
+}
+
+div#flash.alert {
+  background: #fed;
+  border-color: #c33;
+  color: #900;
+}
+
+div#Main div.system_announcement {
+  background: #ffc;
+  padding: 10px 15px 3px 15px;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #f90;
+}
+
+div#Main div.system_announcement h1 {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+
+div#Main div.system_announcement div.link_to_hide_announcement {
+  float: right;
+  text-align: right;
+  width: 125px;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+div#Main div.system_announcement div.link_to_hide_announcement a.busy {
+  background: url(/images/dots-white.gif) no-repeat center center !important;
+}
+
+div#Main div.system_announcement p {
+  margin: 0 0 15px 0;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+
+/*-------------------------------------------------
+PAGE HEADER
+-------------------------------------------------*/
+
+div.page_header {
+  position: relative;
+  background: #edf3fe;
+  padding: 7px 25px 9px 20px;
+}
+
+#Main div.page_header h1 {
+  font-size: 16px;
+}
+
+/*-------------------------------------------------
+MODAL
+-------------------------------------------------*/
+
+body.modal {
+}
+
+body.modal div.outer {
+  margin: 60px 0 15px 0;
+}
+
+body.modal div.below {
+  width: 480px;
+  margin: 5px auto 0 auto;
+  font-size: 10px;
+  text-align: right;
+}
+
+body.modal div.below a {
+  color: #777;
+}
+
+body.modal div.below a:hover {
+  color: #fff;
+  background: #666;
+}
+
+.modal_container {
+	border: 10px solid #ccc;
+	background: #fff;
+  text-align: left;
+  width: 480px;
+	margin: 0 auto;
+}
+
+.modal_container div.inner {
+  margin: 15px 20px 10px 20px;
+}
+
+.modal_container div.content {
+  /* creates space for the logo */
+  margin: 0 0 15px 120px;
+}
+
+body.modal h1 {
+	border-bottom: 0;
+	margin: 0 0 15px 0;
+	font-size: 18px;
+  color: #000;
+}
+
+
+/*-------------------------------------------------
+JAVASCRIPT DISABLED NOTIFICATION
+-------------------------------------------------*/
+
+div.javascript_disabled_notification {
+  width: 520px;
+  margin: 30px auto;
+  background: #fff;
+}
+
+div.javascript_disabled_notification div.inner {
+  padding: 20px;
+  text-align: left;
+}
+
+div.javascript_disabled_notification h1 {
+  font-size: 18px;
+  margin: 0 0 18px 0;
+}
+
+div.javascript_disabled_notification p {
+  margin: 0 0 14px 0;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+
+/*-------------------------------------------------
+FULL WIDTH (eg. for Journal)
+-------------------------------------------------*/
+
+body.full_width div#Container {
+  background: none;
+}
+
+body.full_width div#Main {
+  margin-right: 0;
+  padding-bottom: 15px;
+  overflow: hidden;
+}
+
+body.full_width div#Main {
+  background: #fff url(/images/right-bg.gif) right repeat-y;
+}
+
+body.full_width div#BottomShadow {
+  background: url(/images/bottom-bg.gif) top right no-repeat;
+  font-size: 8px;
+  padding-top: 8px;
+}
+
+body.full_width div.page_header {
+  margin-right: 8px;
+}
+
+
+body.page div.done {
+	font-size: 10px;
+	color: #999;
+	padding-top: 8px;
+}
+
+body.page div.done .delete_link {
+  margin-top: 3px;
+  margin-left: 5px;
+  float: left;
+}
+
+body.page #Main div.list h2 {
+  margin: 0 0 0 0 !important;
+  padding-bottom: 5px;
+}
+
+body.page div.list_widget {
+  background: #fff;
+  padding-bottom: 3px;
+}
+
+body.page div.list_widget div.item {
+  padding-left: 5px;
+}
+
+body.page div.list div.list_widget,
+body.page div.list div.add_item {
+  clear: left;
+}
+
+body.page div.list div.list_title,
+body.page div.list div.edit_list_name,
+body.page div.list div.add_item,
+body.page div.list_widget div.form form {
+  background: #fff;
+}
+
+body.page div.list div.link_to_add_child {
+  padding: 6px 0 0 27px;
+}
+
+body.page div.list div.item input.checkbox {
+  float: left;
+}
+
+body.page div.list div.item div.content {
+  margin-left: 22px;
+}
+
+body.page div.list_widget div.widget_content {
+  background: none;
+}
+
+body.page div.done div.item div.content {
+  margin-left: 37px;
+  padding-top: 3px;
+}
+
+body.page div.list div.busy div.content {
+  background: url(/images/dots-white.gif) no-repeat 4px 7px;
+}
+
+body.page div.done div.busy .delete_link {
+  display: none;
+}
+
+body.page div.done div.busy div.content {
+  margin-left: 22px;
+}
+
+body.page div.list div.busy div.widget_content div.content span {
+  visibility: hidden;
+}
+
+body.page div.busy div.list_widget div.form div.buttons {
+  background: inherit;
+  color: inherit;
+}
+
+body.page div.busy div.list_widget div.form div.buttons * {
+  visibility: visible;
+}
+
+body.page div.list div.form {
+  top: 0;
+  padding: 0 0 10px 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+body.page div.list div.items div.form,
+body.page div.list div.add_item div.form {
+  margin-left: 27px;
+}
+
+body.page div.list div.items div.edit {
+  padding-bottom: 15px;
+}
+
+body.page div.list div.edit_list_name {
+  margin-bottom: 5px;
+}
+
+body.page div.list div.edit_list_name span.inline_background {
+  padding: 0;
+  background: none;
+}
+
+body.page div.list div.edit_list_name input.list_name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  width: 250px;
+}
+
+body.page div.list div.add input,
+body.page div.list div.edit textarea {
+  margin-bottom: 5px;
+}
+
+body.page div.list div.add div.buttons input {
+  margin-bottom: 0;
+}
+
+body.page div.list div.edit textarea {
+  height: auto;
+}
+
+/* Public pages */
+
+body.public div.item input {
+  display: none !important;
+}
+
+body.public div.list_widget div.widget_content {
+  background: #fff url(/images/open-2.gif) no-repeat 10px 2px;
+}
+
+body.public div.done {
+  margin-top: 0;
+}
+
+body.public div.list_widget div.completed_item {
+  background: #fff url(/images/checked-small.gif) no-repeat 10px 5px;
+}
+
+body.public div.list_widget div.completed_item a.delete_link {
+  display: none;
+}
+
+body.public div.list_widget div.completed_item div.content {
+  margin-left: 22px;
+}
+
+
+/*-------------------------------------------------
+LATEST
+-------------------------------------------------*/
+
+body.newsroom div#Main div.messages_section div.blank_slate p {
+  font-size: 12px;
+}
+
+body.newsroom div.messages_section {
+  padding-bottom: 10px;
+}
+
+body.newsroom div.latest_messages_wrapper {
+  overflow: hidden;
+  padding-top: 3px;
+}
+
+body.newsroom div.latest_messages_wrapper div.row_wrapper {
+  overflow: hidden;
+  padding-bottom: 17px;
+}
+
+body.newsroom div#Main h1.messages {
+  margin-bottom: 9px;
+}
+
+body.newsroom h1.messages img {
+  vertical-align: top;
+  margin: 0 6px;
+  width: 163px;
+  height: 27px;
+}
+
+body.newsroom h1.messages a.all_messages {
+  font-weight: normal;
+  font-size: 12px;
+}
+
+body.newsroom div.link_to_all_messages {
+  clear: left;
+  margin: 0 0 10px 0;
+  font-size: 12px;
+}
+
+body.newsroom div.link_to_all_messages a.number {
+  font-size: 14px;
+}
+
+body.newsroom div.latest_messages_wrapper div.message {
+  float: left;
+  width: 250px;
+  width: 50%;
+  overflow: hidden;
+}
+
+body.newsroom div.message div.thumbnail {
+  float: left;
+  width: 71px;
+  position: relative;
+}
+
+body.newsroom div.message div.thumbnail a.greek {
+  display: block;
+  position: absolute;
+  width: 35px;
+  left: 8px;
+  top: 12px;
+  height: 45px;
+  overflow: hidden;
+}
+
+body.newsroom div.message div.thumbnail img.avatar {
+  position: absolute;
+  top: 10px;
+  right: 12px; 
+  width: 11px;
+  height: 11px;
+}
+
+body.newsroom div.message div.thumbnail img.new_badge {
+  position: absolute;
+  top: 1px;
+  left: 0px;
+  z-index: 500;
+}
+
+body.newsroom div.message div.thumbnail span.replies_badge {
+  display: block;
+  width: 70px;
+  position: absolute;
+  bottom: 16px;
+  left: 15px;
+  font-size: 10px;
+}
+
+body.newsroom div.message div.metadata {
+  margin-left: 75px;
+  padding-top: 3px;
+  padding-right: 10px;
+  font-size: 11px;
+  color: #333;
+}
+
+body.newsroom div.message div.metadata div.title {
+  margin-bottom: 2px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+body.newsroom div.message div.new_comment {
+  margin-top: 3px;
+}
+
+body.newsroom div.message div.new_comment a {
+  color: #000;
+  background: #ffa;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+body.newsroom div.message a.replies_link {
+  color: #333;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+
+
+/*-------------------------------------------------
+INDEX
+-------------------------------------------------*/
+
+body.messages div#Main div.page_header {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+body.messages div#Main div.page_header h1 {
+  font-size: 16px;
+  line-height: 27px;
+  margin: 0;
+  padding: 0;
+}
+
+body.messages div#Main div.page_header h1 img {
+  margin: 0 6px;
+}
+
+body.messages div#Main div.page_header p.link_back {
+  font-size: 11px;
+  padding: 5px 0 5px 0;
+  margin: 0 0 0 -5px;
+}
+
+body.messages div#Main div.page_header p.link_back a {
+  text-decoration: none;
+}
+
+body.messages div.page_header h1 img {
+  vertical-align: middle;
+}
+
+
+div.sticky_messages a {
+  background: #ffb;
+}
+
+div.messages div.message {
+  padding: 2px 0 4px 0;
+  line-height: 140%;
+  font-size: 12px;
+}
+
+div.messages div.message a {
+  font-size: 14px;
+}
+
+div.message span.new_flag {
+  background: #ffa;
+  font-size: 9px;
+}
+
+div.message img.paperclip {
+  vertical-align: middle;
+}
+
+body.messages div.message div.new_comment {
+  margin: 5px 0 0 15px;
+  font-size: 12px;
+}
+
+body.messages div.message div.new_comment a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #000;
+  background: #ffa;
+}
+
+
+body.messages div#Main div.inner {
+  padding-bottom: 23px;
+}
+
+p.pagination {
+  font-size: 12px;
+  margin: 0 30px 0 0;
+  text-align: right;
+}
+
+div.top_pagination p.pagination {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+}
+
+div.bottom_pagination p.pagination {
+  margin-top: 20px;
+  padding-top: 5px;
+  border-top: 1px solid #efefef;
+}
+
+p.pagination span.pipe {
+  color: #ccc;
+}
+
+
+
+/*-------------------------------------------------
+NEW
+-------------------------------------------------*/
+
+body.new_message div.form {
+  margin: 5px 0 0 5px;
+}
+
+body.new_message #Main h2 {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 13px;
+  color: #000;
+  font-weight: bold;
+  margin: 0;
+}
+
+body.new_message #Main h2.text_input {
+  font-size: 12px;
+  color: #666;
+  font-weight: normal;
+}
+
+body.new_message div.input {
+  margin: 0 0 10px 0;
+}
+
+body.new_message div.attachments {
+  margin-top: 3px;
+}
+
+body.new_message input.note_title,
+body.new_message textarea {
+	width: 550px;
+}
+
+body.new_message input.note_title {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 3px;
+}
+
+body.new_message textarea {
+  margin: 3px 0 10px 0;
+  font-size: 14px;
+  padding: 3px;
+	height: 120px;
+}
+
+body.new_message #Main div.notification_header h2 {
+  margin: 20px 0 3px 0;
+}
+
+body.new_message #Main div.notification_header p {
+  margin-top: 0;
+  color: #666;
+  line-height: 140%;
+}
+
+
+body.new_message table.user_checkboxes {
+  border-collapse: collapse;
+  margin-bottom: 15px;
+}
+
+body.new_message table.user_checkboxes td {
+  font-size: 12px;
+}
+
+body.new_message div.sticky {
+  margin-top: 3px;
+}
+
+body.new_message div.submit {
+  border-top: 1px solid #eee;
+  background: url(/images/utility_bar-bg.gif) top repeat-x;
+  padding: 12px 10px 25px 25px;
+  margin: 25px -25px 0 -20px;
+  color: #666;
+}
+
+body.new_message div.submit input {
+  font-size: 14px;
+}
+
+
+/*-------------------------------------------------
+SHOW
+-------------------------------------------------*/
+
+body.message #Main div.inner {
+  padding-right: 60px;
+}
+
+body.message #Main div.page_header {
+  margin-bottom: 5px;
+  padding: 0;
+  background: #edf3fe;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+body.message #Main div.page_header div.link_back p {
+  margin: 0;
+  padding: 10px 0 10px 15px;
+  font-size: 12px;
+}
+
+body.message #Main div.page_header div.link_back a {
+  text-decoration: none;
+}
+
+body.message #Main div.page_header span.edit_links {
+  float: right;
+  width: 350px;
+  text-align: right;
+  font-size: 11px;
+  color: #ccc;
+  margin-top: 10px;
+  font-weight: normal;
+  margin-right: 20px;
+}
+
+body.message #Main div.message_header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 14px;
+  padding-bottom: 5px;
+  overflow: hidden;
+}
+
+body.message #Main div.message_header h2 span.sticky {
+  background: #ffb;
+}
+
+body.message div#Main div.message_header img.avatar {
+  margin-right: 5px;
+  margin-bottom: 5px;
+  float: right;
+}
+
+body.message #Main div.message_header p {
+  font-size: 12px;
+  line-height: 140%;
+  margin: 0;
+}
+
+body.message #Main div.message_header h2,
+body.message #Main div.message_header h2 span {
+  /* span for Textile interference */
+  font-size: 18px;
+  margin: 0 0 5px 0;
+  border: none;
+}
+
+body.message #Main div.message_header p span.label {
+  float: left;
+  width: 30px;
+  margin-right: 8px;
+  color: #999;
+}
+
+body.message div.page_header p {
+  margin: 5px 0 0 0;
+  font-size: 12px;
+  line-height: 140%;
+}
+
+body.message #Main div.message_body p {
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0 0 14px 0;
+}
+
+body.message div.message_attachments {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+body.message div.message_attachments div.attachment {
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 32px;
+  margin: 0 0 6px 0;
+}
+
+body.message div.message_attachments a.icon img {
+  float: left;
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+body.message div#Main div#subscription_status {
+  margin: 0 -60px 0 -20px;
+  padding: 10px 0 10px 25px;
+}
+
+body.message div#Main div#subscription_status a {
+  color: #555;
+}
+
+body.message div#Main div#subscription_status p {
+  line-height: 140%;
+  margin: 0;
+  color: #777;
+}
+
+body.message div.utility_bar a:link,
+body.message div.utility_bar a:visited {
+  text-decoration: underline;
+}
+
+
+
+body.page #Main div.note h2.note_title {
+}
+
+body.page #Main div.note span.date {
+  font-size: 12px;
+  color: #999;
+  white-space: nowrap;
+  font-weight: normal;
+}
+
+div.note_body {
+  margin-right: 30px;
+}
+
+div.note_body table {
+  background-color: #efefef;
+  font-size: 12px;
+  margin: 0 0 15px 0;
+}
+
+div.note_body td {
+  padding: 3px;
+  background-color: #fff;
+  border: 0;
+}
+
+#Main div.note_body p,
+#Main div.note_body blockquote,
+#Main div.note_body li,
+#Main div.note_body ul,
+#Main div.note_body ol {
+  font-size: 13px;
+  line-height: 140%;
+}
+
+#Main div.note_body ul,
+#Main div.note_body ol {
+  margin: 0 0 10px 0;
+}
+
+#Main div.note_body blockquote {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+#Main div.note_body pre {
+  overflow: auto;
+}
+
+body.page #Main div.note_body h1,
+body.page #Main div.note_body h2,
+body.page #Main div.note_body h3 {
+  margin: 15px 0 5px 0;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+body.page #Main div.note_body h2 {
+  font-size: 14px;
+}
+
+body.page #Main div.note_body h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #666;
+}
+
+body.page div.note_wrapper div.form input.note_title {
+  width: 500px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+body.page div.note_wrapper div.form textarea {
+  width: 500px;
+  height: 100px;
+  font-size: 13px;
+}
+
+
+
+
+div.widget div.nubbin {
+  /* display: none; */
+  position: relative;
+  top: -4px;
+  left: 0;
+  width: 0;
+  height: 0;
+}
+
+div.widget /* div.hover */ div.nubbin {
+  display: block;
+}
+
+div.widget div.widget div.nubbin {
+  /* display: none; */
+}
+
+div.widget div.widget /* div.hover */ div.nubbin {
+  display: block;
+}
+
+div.widget div.nubbin div.wrapper {
+  position: absolute;
+  height: 19px;
+  right: 0;
+  width: 56px;
+  background: url(/images/nubbin.gif) no-repeat top left;
+  margin: 0;
+  padding: 7px 0 0 7px;
+  font-size: 10px;
+  line-height: 10px;
+}
+
+div.widget div.nubbin ul {
+  margin: 0;
+  padding: 0;
+  width: 61px;
+  height: 16px;
+  overflow: hidden;
+}
+
+div.widget div.nubbin li {
+  float: left;
+  list-style-type: none;
+  margin: 0 3px 0 0;
+}
+
+div.widget div.nubbin li a {
+  font-size: 11px;
+  padding: 0;
+  background: none;
+  color: #f00;
+  font-family: "Lucida Grande", Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+div.widget div.nubbin li a span {
+  padding-bottom: 1px;
+  border-bottom: 1px solid red;
+}
+
+
+div.widget * {
+  z-index: 1;
+}
+
+div.widget_content * {
+  z-index: 2;
+}
+
+div.widget_content div.nubbin,
+div.widget_content div.nubbin * {
+  z-index: 0;
+}
+
+div.widget div.nubbin img.drag_handle {
+  cursor: move;
+}
+
+body.iphone div.widget div.nubbin img.drag_handle {
+  display: none;
+}
+
+body.iphone div.widget div.nubbin div.wrapper {
+  width: 45px;
+}
+
+body.nubbinless div.nubbin {
+  display: none !important;
+}
+
+/*-------------------------------------------------
+SPINNERS
+-------------------------------------------------*/
+
+div.busy div.widget_content div.nubbin {
+  display: block;
+}
+
+div.busy div.widget_content div.widget_content div.nubbin {
+  display: none;
+}
+
+div.page_widget div.busy div.widget_content div.nubbin {
+  display: none;
+}
+
+div.busy div.widget_content div.nubbin ul {
+  background: url(/images/dots-white.gif) no-repeat bottom right;
+  width: 30px;
+  height: 8px;
+}
+
+div.busy div.widget_content div.nubbin li {
+  display: none;
+}
+
+div.busy div.form div.buttons {
+  background: url(/images/dots-white.gif) no-repeat center left;
+  color: #efefef;
+}
+
+div.busy div.form div.buttons * {
+  visibility: hidden;
+}
+
+div.busy div.add form.upload div.buttons {
+  background: url(/images/progress_bar.gif) no-repeat center left;
+}
+
+
+
+/*-------------------------------------------------
+OPEN ID BAR
+-------------------------------------------------*/
+
+div#open_bar {
+  background: #000;
+  position: relative;
+  text-align: left;
+  font-size: 10px;
+  z-index: 1;
+}
+
+div#open_bar div.message {
+  padding: 5px 30px;
+  color: #999;
+  margin: 0;
+}
+
+div#open_bar ul {
+  margin: 0;
+  padding: 0;
+}
+
+div#open_bar li {
+  list-style-type: none;
+  line-height: normal;
+  padding: 0;
+}
+
+div#open_bar ul.menus {
+  padding: 0 25px;
+}
+
+div#open_bar li.menu {
+  float: left;
+  position: relative;
+  margin-right: 4px;
+}
+
+div#open_bar li.menu a {
+  position: relative;
+  display: block;
+  padding: 4px 5px;
+  font-size: 10px;
+  color: #999;
+  text-decoration: none;
+}
+
+div#open_bar li.menu a:hover {
+  background: #000;
+}
+
+div#open_bar li.menu a.on {
+  color: #ddd;
+}
+
+div#open_bar li.menu a.on:hover {
+  color: #ddd;
+}
+
+div#open_bar li.menu a.account:hover {
+  color: #fff;
+}
+
+div#open_bar li.menu a.current_account:hover {
+  color: #999;
+}
+
+div#open_bar li.menu div.items {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  width: 200px;
+  background: url(/images/open_bar_bg.png) repeat;
+}
+
+div#open_bar li.hover div.items {
+  display: block;
+}
+
+div#open_bar li.menu ul.items {
+  padding: 0 3px 3px 0;
+}
+
+div#open_bar li.item {
+  background: #000;
+  border-top: 1px solid #222;
+}
+
+div#open_bar li.item a {
+  padding-left: 10px;
+}
+
+div#open_bar ul.items li.last {
+  padding-bottom: 5px;
+}
+
+/* IE */
+
+div#open_bar li.menu div.items {
+  _background: none;
+}
+
+div#open_bar li.menu ul.items {
+  _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/open_bar_bg.png',sizingMethod='scale');
+}
+
+div#open_bar ul.menus,
+div#open_bar li.menu div.items,
+div#open_bar li.menu ul.items,
+div#open_bar li.item,
+div#open_bar li.item a {
+  zoom: 100%;
+}
+
+body.with_open_bar div#open_bar {
+  _position: absolute;
+  _top: 0;
+  _left: 0;
+}
+
+body.with_open_bar div#Header {
+  _margin-bottom: 20px;
+  _top: 20px;
+}
+
+
+
+#page_title_wrapper {
+}
+
+#page_title_wrapper div.page_title h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+#page_title_wrapper div.page_title div.nubbin {
+  z-index: 2;
+  top: 4px;
+}
+
+#page_title_wrapper div.page_title div.nubbin a {
+  margin-left: 6px;
+}
+
+body.page #page_title_wrapper div.page_title div.form {
+  background: none;
+  border: none;
+  padding: 0;
+  position: relative;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+body.page #page_title_wrapper div.page_title div.form span.inline_background {
+  background: none;
+  padding: 0;
+}
+
+body.page #page_title_wrapper div.page_title input.page_title {
+  vertical-align: middle;
+  width: 380px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+
+
+
+/*-------------------------------------------------
+NEW
+-------------------------------------------------*/
+
+body.new_page div.page_header {
+  background: #ffa;
+  padding: 10px 25px 7px 25px;
+  margin: -10px -25px 15px -20px;
+  font-weight: bold;
+}
+
+body.new_page div#Main p.sharing_tip {
+  margin: 20px 0 7px 0;
+  padding: 5px 0;
+  font-size: 12px;
+  color: #666;
+}
+
+body.new_page div#Main div.spacing {
+  margin: 0 0 25px 10px;
+}
+
+body.new_page div#Main p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 5px 0 5px 0;
+}
+
+body.new_page div#Main p.radios {
+  margin-bottom: 0;
+  line-height: 160%;
+}
+
+body.new_page div#Main h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+body.new_page input#page_title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+body.new_page div#Main p.submit {
+  color: #666;
+  font-size: 12px;
+}
+
+body.new_page div#Main p.submit input {
+  font-size: 16px;
+}
+
+body.new_page p.submit a {
+  color: red;
+}
+
+body.new_page label,
+body.new_page label input {
+  cursor: pointer;
+}
+
+body.new_page div#Main table.user_checkboxes {
+  margin-left: 20px;
+}
+
+body.new_page div#Main table.user_checkboxes p {
+  margin: 0px;
+}
+
+body.new_page div#Main table.user_checkboxes p strong {
+  font-weight: normal;
+}
+
+
+/*-------------------------------------------------
+INDEXES
+-------------------------------------------------*/
+
+body.pages #Main h2 {
+  margin: 0 0 10px 0;
+}
+
+body.pages div.page {
+	margin: 0 0 8px 0; padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+body.pages div.page img {
+	vertical-align: middle;
+}
+
+body.pages div.page span.friends_name {
+  font-weight: normal;
+  font-size: 12px;
+  color: #666;
+}
+
+body.pages div.page span.new_flag {
+  background: #ffa;
+  color: #000;
+  font-size: 10px;
+  padding: 2px;
+}
+
+body.pages div.blank_slate p {
+  font-size: 16px;
+}
+
+/*-------------------------------------------------
+SHOW
+-------------------------------------------------*/
+
+body.page div.page_header {
+  padding-right: 0;
+  /*background: #edf3fe url(/images/page_changes-shadow.gif) right bottom no-repeat;*/
+}
+
+body.dragging {
+  cursor: move;
+}
+
+body.page div#BottomShadow {
+  padding-left: 0;
+}
+
+body.page div.content p, body.page div.list, body.page div.list h2 {
+	font-size: 14px;
+}
+
+body.page div#Main div.inner {
+  background: #fff;
+  padding-top: 2px;
+}
+
+body.page div#widgets div.footer_widget {
+  height: 17px;
+}
+
+body.page #Main h2 {
+  font-size: 16px;
+  border: none;
+  color: #000;
+	margin: 0 0 3px 0;
+	padding: 0;
+}
+
+body.page #Main p {
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+
+small {
+	margin: 0;
+	padding: 0;
+}
+
+a.black:link, a.black:visited {
+	color: #000;
+}
+
+#debug {
+  border: 1px solid #888;
+  height: 350px;
+  overflow: auto;
+}
+
+#debug .entry {
+  margin-top: 1px;
+  background: #eee;
+  padding: 2px 2px 2px 10px;
+  font-size: 11px; 
+  clear: left;
+}
+
+#debug .entry span {
+  float: left;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #666;
+}
+
+#debug .entry tt {
+  display: block;
+  margin-left: 50px;
+}
+
+div.buttons a {
+  color: #f00;
+}
+
+div#Sidebar div#Pages a#make_new_button {
+  margin: 0 0 1px 15px;
+  padding: 0;
+}
+
+div#Sidebar div#Pages a#make_new_button img {
+  margin: 5px 0;
+}
+
+div#Sidebar div#Pages a#make_new_button:hover {
+  background: none;
+}
+
+div#Sidebar div#Pages a#make_new_button.busy {
+  background: url("/images/dots-white.gif") no-repeat center center;
+}
+
+div#Sidebar div#Pages a#make_new_button.busy img {
+  visibility: hidden;
+}
+
+a.busy, a.busy:hover {
+  padding: 0;
+  background: url(/images/dots-white.gif) no-repeat center 4px;
+  text-decoration: none;
+}
+
+a.busy span, a.busy:hover span {
+  visibility: hidden;
+  margin-right: 8px;
+}
+
+div#Sidebar div#Pages div.pagesnav a.hover,
+div#Sidebar div#Pages div.pagesnav a.hover span,
+div#Sidebar div#Pages div.favorites a.hover {
+  background: #ff3;
+  color: #000;
+  text-decoration: none;
+}
+
+div#Sidebar div#Pages div.pagesnav a.busy,
+div#Sidebar div#Pages div.pagesnav a.busy:hover,
+div#Sidebar div#Pages div.favorites a.busy,
+div#Sidebar div#Pages div.favorites a.busy:hover {
+  background: #ff3 url(/images/dots-white.gif) no-repeat 15px center;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar {
+  margin-right: 2px;
+  position: relative;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar div.inner {
+  background: url(/images/add_to_sidebar-top.png) top left no-repeat;
+  padding: 0 0 6px 0;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar img.arrow {
+  position: absolute; top: 17px; left: -23px;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar div.text {
+  padding: 10px 0 8px 20px;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar a:link,
+div#Sidebar div#Pages div.add_to_sidebar a:visited,
+div#Sidebar div#Pages div.add_to_sidebar a:active {
+  padding: 0;
+  display: inline;
+  background: none;
+  font-size: 11px;
+  text-decoration: none;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar div.button {
+  padding-left: 16px;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar div.button button {
+  background-image: url(/images/b-add_to_sidebar.png);
+  height: 35px;
+  width: 188px;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar div.button.busy {
+  background: url(/images/dots-white.gif) no-repeat center center;
+}
+
+div#Sidebar div#Pages div.add_to_sidebar div.button.busy button {
+  visibility: hidden;
+}
+
+body div.drag_tip {
+  position: absolute;
+  z-index: 1500;
+  width: 150px;
+
+  background: #ffc;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  padding: 5px;
+  margin-left: -80px;
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*-------------------------------------------------
+WIDGETS
+-------------------------------------------------*/
+
+#widgets {
+  margin: 0 -25px 0 -20px;
+}
+
+.widget_content {
+  background: #fff;
+}
+
+div.widget div.drag_handle {
+  display: none;
+}
+
+#widgets div.page_widget {
+  clear: left;
+  padding: 13px 24px 0 24px;
+}
+
+#widgets div.widget {
+  border: 1px solid transparent;
+}
+
+#widgets div.page_widget div.form {
+  position: relative;
+}
+
+div.page_widget div.widget_parent {
+  margin: 0 -25px 0 -25px;
+  padding: 0 25px 0 25px;
+  min-height: 1px;
+}
+
+#widgets div.dragging div.nubbin a {
+  visibility: hidden;
+}
+
+#widgets div.dragging div.shadow_outer {
+  position: relative;
+  margin: 0 -25px;
+}
+
+#widgets div.dragging div.shadow_top {
+  position: absolute;
+  background: transparent url(/images/drag_shadow.png) repeat-x top left;
+  height: 12px;
+  width: 100%;
+  top: -12px;
+}
+
+#widgets div.dragging div.shadow_bottom {
+  position: absolute;
+  background: transparent url(/images/drag_shadow.png) repeat-x bottom left;
+  height: 12px;
+  width: 100%;
+  bottom: -12px;
+}
+
+#widgets div.dragging div.shadow_content {
+  overflow: hidden;
+  padding: 0 25px;
+  background: #fff;
+}
+
+body.dragging div.widget div.nubbin div.wrapper {
+  background: none;
+}
+
+body.dragging #Container {
+  overflow: hidden;
+}
+
+body.dragging {
+  background: #e5e5e6;
+}
+
+/*-------------------------------------------------
+FILES/WRITEBOARDS/LINKS/EMAILS
+-------------------------------------------------*/
+
+body.page div.widget_content div.icon_for_widget {
+	float: left;
+  width: 32px;
+  margin-right: 8px;
+  margin-bottom: 5px;
+}
+
+body.page div.email_wrapper div.widget_content div.show,
+body.page div.writeboard_link_wrapper div.widget_content div.show,
+body.page div.page_link_wrapper div.widget_content div.page_link {
+  overflow: hidden;
+}
+
+body.page div.widget_content div.email div.icon_for_widget {
+  width: 40px;
+  margin-right: 5px;
+}
+
+body.page #Main div.email h2 {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+body.page #widgets div.page_link_wrapper {
+  margin: 0;
+}
+
+
+body.page #Main div.page_link_wrapper div.show h2 {
+  font-weight: normal;
+  font-size: 14px;
+}
+
+body.page #Main div.page_link_wrapper div.show h2 img {
+  vertical-align: top;
+  padding: 4px 2px 0 2px;
+}
+
+body.page div.page_link_wrapper div.add select {
+  width: 300px;
+  font-size: 14px;
+}
+
+body.page div.page_link div.nubbin div.wrapper,
+body.page div.writeboard_link div.nubbin div.wrapper,
+body.page div.email div.nubbin div.wrapper {
+  width: 33px;
+}
+
+
+/*-------------------------------------------------
+ATTACHMENTS
+-------------------------------------------------*/
+
+body.page #Main div.attachment_wrapper {
+}
+
+body.page #Main div.attachment_wrapper div.widget_content div.show {
+  overflow: hidden;
+}
+
+body.page #Main div.attachment_wrapper div.show h2,
+body.page #Main div.writeboard_link_wrapper div.show h2 {
+  font-weight: normal;
+  font-size: 13px;
+  padding-top: 2px;
+}
+
+body.page #Main div.attachment_wrapper div.show p,
+body.page #Main div.writeboard_link_wrapper div.show p {
+	color: #999;
+	font-size: 10px;
+  margin: 0;
+}
+
+body.page #Main div.attachment_wrapper div.add table.form th {
+  padding-top: 2px;
+}
+
+body.page #Main div.attachment_wrapper div.edit {
+  width: 360px;
+}
+
+body.page #Main div.attachment_wrapper div.edit input.file_name {
+  width: 300px;
+}
+
+body.page #Main div.attachment_wrapper div.edit table.form th {
+  padding-top: 0;
+}
+
+body.page #Main div.attachment_wrapper div.edit table.form td {
+  padding-bottom: 5px;
+}
+
+
+/*-------------------------------------------------
+PAGE ELEMENT FORMS
+-------------------------------------------------*/
+
+body.page div.form {
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+	padding: 10px;
+	font-size: 11px;
+}
+
+body.page div.form span.inline_background {
+  background: #f0f0f0;
+  padding: 15px 10px;
+}
+
+body.page div.form span.inline_background div.buttons {
+  display: inline;
+  margin-left: 4px;
+}
+
+
+body.page div.form table.form {
+  border-collapse: collapse;
+}
+
+body.page div.form table.form th,
+body.page div.form table.form td {
+  vertical-align: top;
+  padding: 0;
+}
+
+body.page div.form table.form th {
+  white-space: nowrap;
+  padding: 4px 10px 0 0;
+  text-align: right;
+  color: #666;
+}
+
+body.page div.form table.form td {
+  padding-bottom: 10px;
+}
+
+body.page div.form table.form tr.submit td {
+  padding-bottom: 5px;
+}
+
+body.page #Main div.form h2 {
+	margin: 0 0 10px 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+body.page div.form h3 {
+	margin: 0 0 2px 0;
+	padding: 0;
+	font-size: 14px;
+}
+
+body.page div.form h3.acting_as_header {
+  margin: 6px 0 4px 0;
+}
+
+body.page div.form h3 span {
+	color: #999;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+body.page div.form textarea {
+	width: 450px;
+	height: 120px;
+}
+
+body.page div.form input {
+	width: 450px;
+}
+
+body.page div.form div.buttons input {
+  font-size: 13px;
+  width: auto;
+}
+
+body.page div.form input.button,
+body.page div.form input.auto {
+	width: auto;
+	margin-bottom: 0;
+	margin-right: 4px;
+}
+
+body.page div.form input.bold {
+	font-weight: bold;
+}
+
+body.page div.form input,
+body.page div.form textarea {
+	font-size: 14px;
+	padding: 3px;
+}
+
+body.page div.form div.buttons {
+  line-height: 18px;
+}
+
+
+
+/*-------------------------------------------------
+WIDGET AND UTILITY BARS
+-------------------------------------------------*/
+
+div#page_top {
+  position: relative;
+  margin: -2px -25px 0 -20px;
+}
+
+div.page_tags {
+  background: #fff;
+  padding: 7px 25px 9px 20px;
+}
+
+body.page div.page_header div.blank_slate {
+  font-size: 12px;
+  margin: 0 0 5px -4px;
+}
+
+body.page div.page_header div.blank_slate span {
+  background: #ff3;
+  padding: 0 4px;
+}
+
+div.widget_bar {
+	font-size: 13px;
+  color: #333;
+}
+
+div.widget_bar span.sharing_link {
+  font-size: 12px;
+  float: right;
+  width: 200px;
+  text-align: right;
+  margin-right: 15px;
+}
+
+div.widget_bar span.sharing_link a {
+  font-weight: normal;
+  padding: 0;
+}
+
+div.widget_bar span.sharing_link a:hover {
+  background: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+div.widget_bar span.sharing_link span {
+  color: #999;
+}
+
+body.empty div.widget_bar {
+  margin-left: 5px;
+}
+
+div.widget_bar a {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.widget_bar span.pipe_separated_links {
+  font-size: 11px;
+  color: #ccc;
+  margin: 0 0 0 2px;
+}
+
+div.utility_bar {
+  clear: left; 
+	font-size: 11px;
+	padding: 10px 0 10px 20px;
+  border-top: 1px solid #eee;
+  background: url(/images/utility_bar-bg.gif) top repeat-x;
+  color: #999;
+}
+
+div.utility_bar p {
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+body.page div#Main div.utility_bar p {
+  font-size: 11px;
+  margin: 0;
+}
+
+body.page div#Main div.utility_bar p.pipe_separated_links {
+  color: #ccc;
+}
+
+body.page div#Main div.utility_bar p.email_to_page {
+  margin: 8px 0 0 0;
+}
+
+body.page div#Main div.utility_bar p.email_to_page span.renew {
+  font-size: 10px;
+  color: #ccc;
+}
+
+div.widget_bar a:link, 
+div.widget_bar a:visited {
+	color: #333;
+	padding: 1px;
+}
+
+div.utility_bar a:link, 
+div.utility_bar a:visited {
+	color: #555;
+	padding: 0;
+  border: none;
+  text-decoration: none;
+}
+
+div.utility_bar a span {
+  padding: 1px;
+}
+
+div.widget_bar a:hover span, 
+div.utility_bar a:hover span,
+div.utility_bar p.history a:hover,
+div.utility_bar span.email_help_link a:hover {
+	color: #fff;
+	background-color: #000;
+  text-decoration: none;
+}
+
+div.utility_bar p.history {
+  margin-bottom: 0;
+}
+
+div.widget_bar a.busy,
+div.widget_bar a.busy:hover,
+div.utility_bar a.busy,
+div.utility_bar a.busy:hover {
+  text-decoration: none;
+}
+
+div#slate_wrapper {
+  text-align: left;
+  margin: 0 -25px;
+  padding: 5px 25px 10px;
+}
+
+div.widget_bar div.cancel_link {
+  display: none;
+}
+
+div#traveling_widget_bar {
+  margin-left: -50px;
+}
+
+div#traveling_widget_bar div.page_header {
+  padding-left: 70px;
+}
+
+div#traveling_widget_bar div.inner_slate {
+  margin-left: 50px;
+}
+
+div#traveling_widget_bar div.widget_bar {
+  position: relative;
+}
+
+div#traveling_widget_bar div.cancel_link {
+  display: block;
+  line-height: 16px;
+  position: absolute;
+  left: -55px;
+}
+
+div#traveling_widget_bar div.cancel_link a {
+  color: #f00;
+}
+
+div#traveling_widget_bar div.inner_slate div.gallery_widget {
+  padding: 13px 24px 0 24px;
+}
+
+div#traveling_widget_bar div.inner_slate div.widget {
+  padding-bottom: 10px;
+}
+
+div.widget_bar .tags_visible .tags_visible { display: auto }
+div.widget_bar .tags_visible .tags_hidden  { display: none }
+div.widget_bar .tags_hidden .tags_visible  { display: none }
+div.widget_bar .tags_hidden .tags_hidden   { display: auto }
+
+span#email_a_copy_link span.message {
+  color: #333;
+}
+
+div#insertion_point {
+  cursor: pointer;
+  display: block;
+  position: relative;
+}
+
+div#insertion_point div.add_flag {
+  position: absolute;
+  width: 225px;
+  height: 20px;
+  background: url(/images/add_flag.gif) no-repeat center left;
+  top: -8px;
+  left: -86px;
+  z-index: 100;
+}
+
+div.widget_bar_links a.admin {
+  color: #f00 !important;
+}
+
+
+/*-------------------------------------------------
+PAGE CHANGED STICKY
+-------------------------------------------------*/
+
+div.page_changed_sticky {
+  position: absolute;
+  background: url(/images/page_changes-sticky.gif) bottom left no-repeat;
+  width: 189px;
+  top: 7px;
+  right: 16px;
+  z-index: 100;
+}
+
+body.editing_title div.page_changed_sticky {
+  display: none;
+}
+
+body.page #Container div.page_changed_sticky div.inner {
+  background: none;
+  padding: 11px 43px 6px 16px; 
+  position: relative;
+}
+
+body.page #Container div.page_changed_sticky div.paperclip {
+  background: url(/images/page_changes-paperclip.png) no-repeat;
+  position: absolute;
+  width: 32px;
+  height: 86px;
+  right: 17px;
+  top: -21px;
+}
+
+body.page #Container div.page_changed_sticky div.inner p {
+  font-size: 11px;
+  margin: 0 0 11px 0;
+}
+
+body.page #Container div.page_changed_sticky div.inner p span.or_close {
+  font-size: 10px;
+}
+
+div.page_changed_flag {
+  position: absolute;
+  width: 80px;
+  text-align: right;
+  top: -10px;
+  right: 55px;
+}
+
+div#Main div.page_changed_flag div.inner {
+  font-size: 10px;
+  padding: 2px 4px;
+  text-align: center;
+}
+
+div#Main div.page_changed_flag div.inner a {
+  color: #999;
+  text-decoration: none;
+}
+
+div#Main div.page_changed_flag div.inner a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+
+/*-------------------------------------------------
+PUBLIC PAGES
+-------------------------------------------------*/
+
+body.page div#BottomShadow {
+	background: url(/images/page-page_bottom-bg.gif) bottom right no-repeat;
+}
+
+body.public div#BottomShadow {
+	background: url(/images/page_bottom-bg.gif) bottom right no-repeat;
+}
+
+body.public div#Main {
+  padding-top: 10px;
+}
+
+body.public div.nubbin,
+body.public div#insertion_point,
+body.public div.link_to_add_child,
+body.public div.page_link_wrapper,
+body.public div.attachment_wrapper,
+body.public div.writeboard_link_wrapper {
+  display: none !important;
+}
+
+
+/*-------------------------------------------------
+SHOW SHARES
+-------------------------------------------------*/
+
+div.stop_sharing {
+  margin: 0 0 5px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px dotted #ddd;
+}
+
+body.page div#BottomShadow div.stop_sharing p {
+  color: #555;
+  font-size: 11px;
+  line-height: 140%;
+  margin: 0 20px 0 0;
+}
+
+
+/*-------------------------------------------------
+BLANK SLATE
+-------------------------------------------------*/
+
+body.page div.blank_slate_arrow {
+  position: absolute;
+  left: -20px;
+  bottom: -78px;
+  width: 40px;
+  height: 94px;
+  display: none;
+  z-index: 1;
+}
+
+body.empty div.blank_slate_arrow {
+  display: block;
+}
+
+body.editing_title div.blank_slate_arrow {
+  display: none;
+}
+
+body.page div#Main p.blank_slate {
+  margin: none;
+  padding: 15px 0 0 5px;
+  line-height: 160%;
+  display: none;
+  font-style: italic;
+}
+
+body.page div#Main p.blank_slate a {
+  color: #000;
+}
+
+body.empty div#Main p.blank_slate {
+  display: block;
+}
+
+body.editing_title p.blank_slate {
+  display: none;
+}
+
+/*-------------------------------------------------
+TAG LIST ON MY PAGES
+-------------------------------------------------*/
+
+div#tag_list {
+  float: right;
+  padding-left: 20px;
+  background-color: #fff;
+}
+
+div#tag_list h1 {
+  font-size: 11px;
+  font-weight: bold;
+  margin: 0 0 5px 9px; 
+  padding: 0;
+}
+
+div#tag_list div.tag {
+	color: #666;
+	font-weight: normal;
+  overflow: hidden;
+  line-height: 16px;
+  margin: 0 0 3px 0;
+}
+
+div#tag_list div.tag a {
+	font-size: 10px;
+	color: #666;
+  padding: 3px;
+  margin-left: 7px;
+}
+
+div#tag_list div.tag a.current {
+  background: #666 url(/images/current-tag.gif) 0 50% no-repeat;
+  padding-left: 10px;
+  margin-left: 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+div#tag_list div.tag a:hover {
+	background-color: #666;
+	color: #fff;
+  text-decoration: none;
+}
+
+div#tag_list div.tag a.busy,
+div#tag_list div.tag a.busy:hover {
+  padding: 2px 0 !important;
+  margin: 0 !important;
+  background: #fff url(/images/dots-white.gif) no-repeat 7px center;
+  width: auto;
+}
+
+div#tag_list span.page_count {
+  color: #888;
+  font-size: 9px;
+  margin: 0 0 0 3px;
+}
+
+/*-------------------------------------------------
+SEARCH
+-------------------------------------------------*/
+
+div.search {
+  padding: 0 0 5px 12px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 5px;
+  white-space: nowrap;
+}
+
+div.search input#term {
+  width: 150px;
+}
+
+
+/*-------------------------------------------------
+CONFIRM DELETE
+-------------------------------------------------*/
+
+body.confirm_delete .modal_container div.content {
+  margin: 0 50px 25px 50px;
+}
+
+body.confirm_delete p {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+body.confirm_delete h1 {
+  font-size: 20px;
+  margin: 10px 0 15px 0;
+}
+
+body.confirm_delete p.yes_link a,
+body.confirm_delete p.no_link a {
+  color: red;
+}
+
+body.confirm_delete p.yes_link {
+  font-size: 18px;
+}
+
+body.confirm_delete p.no_link {
+  font-size: 16px;
+}
+
+
+/*-------------------------------------------------
+PAGE NOTIFICATION
+-------------------------------------------------*/
+
+body.page div.notification_section {
+  margin: 0 0 10px 0;
+  color: #000;
+}
+
+body.page div.notification_section label,
+body.page div.notification_section label input {
+  cursor: pointer;
+}
+
+div.notify_of_page {
+  margin: 0 150px 15px 0;
+  background: #fffab1;
+  padding: 1px;
+  border: 1px solid #d7d699;
+}
+
+div#BottomShadow div.notify_of_page div.inner {
+  width: auto;
+  border: 2px solid #fff;
+  padding: 15px;
+  margin: 0;
+}
+
+div.notify_of_page h2 {
+  font-size: 14px;
+  margin: 0 0 4px 0;
+}
+
+div.notify_of_page p {
+  margin: 0;
+  font-size: 12px;
+}
+
+div.notify_of_page table.user_checkboxes {
+  margin: 12px 0 16px 15px;
+  border-collapse: collapse;
+}
+
+div.notify_of_page table.user_checkboxes td {
+  padding: 0 15px 0 0;
+}
+
+div.notify_of_page table.user_checkboxes td p {
+  font-size: 12px;
+  line-height: 160%;
+}
+
+div.notify_of_page div.email_preview {
+  background: #ffffd9;
+  margin: 6px 0 16px 0;
+  width: 450px;
+  padding: 10px 15px;
+  font-family: courier, monospace;
+}
+
+div.notify_of_page p.personal_note {
+  margin-top: 4px;
+}
+
+div.notify_of_page textarea {
+  width: 450px;
+  padding: 10px 15px;
+  font-size: 12px;
+  background: #ffffd9;
+  font-family: courier, monospace;
+}
+
+div.notify_of_page p.add_to_sidebars {
+  margin: 15px 0 20px 0;
+}
+
+div.notify_of_page p.submit {
+  margin-top: 16px;
+  color: #996;
+  font-size: 11px;
+}
+
+div.notify_of_page p.submit input {
+  font-size: 16px;
+}
+
+div.notify_of_page p.submit a {
+  color: red;
+  text-decoration: underline;
+}
+
+
+ul.attachments {
+	padding: 0;
+	margin: 0 0 9px 12px;
+}
+
+div.recordings table ul.attachments {
+  margin: 3px 0;
+}
+
+div.recordings table ul.attachments li img {
+  padding-right: 0;
+}
+
+ul.attachments img {
+  vertical-align: middle;
+}
+
+ul.attachments li {
+	list-style: none;
+	margin: 0 0 0 0;
+	padding: 0;
+  vertical-align: middle;
+}
+
+.edit ul.attachments li {
+  font-size: 12px;
+  margin: 0 0 3px 2px;
+  padding: 0;
+}
+
+.edit ul.attachments {
+  margin: 2px 0 8px 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.edit ul.attachments img {
+  vertical-align: middle;
+}
+
+.edit ul.attachments a.remove img {
+  vertical-align: top;
+  padding-top: 2px;
+}
+
+.offscreen {
+  position: absolute;
+  left: -1000px;
+}
+
+.offscreen input {
+  display: block;
+}
+
+/*-------------------------------------------------
+INDEX
+-------------------------------------------------*/
+
+.reminders div.reminder_form#reminder_cap h2,
+.reminders div.reminder_form#reminder_cap p {
+  color: #000;
+  margin: 0 0 5px 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.reminders div#blank_slate {
+  margin-top: 20px;
+}
+
+.reminders #Main .folders {
+  padding-left: 10px;
+}
+
+.reminders div.folders div.folder {
+  padding: 5px 0 15px 0;
+}
+
+.reminders #Main .folder h2 {
+  font-size: 10px;
+  border-bottom: 1px dotted #ccc;
+  font-weight: bold;
+}
+
+body.reminders div#blank_slate,
+body.reminders div#reminder_cap,
+body.reminders div.blank_slate div#ical_instructions {
+  display: none;
+}
+
+body.reminders div.reminder_cap div#reminder_cap,
+body.reminders div.blank_slate div#blank_slate {
+  display: block;
+}
+
+/*-------------------------------------------------
+NEW
+-------------------------------------------------*/
+
+div.reminder_form {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+div.reminder_form div.form {
+  border: 1px solid #ddd;
+  background: #edf3fe;
+  padding: 10px;
+}
+
+.reminders #Main div.reminder_form h2 {
+  border: none;
+  color: #000;
+  line-height: 10px;
+	margin: 0 0 5px 0;
+  font-size: 13px;
+	padding-bottom: 2px;
+}
+
+div.reminder_form input.reminder_content {
+  font-size: 16px;
+  padding: 2px;
+  width: 500px;
+}
+
+div.reminder_form table th {
+  padding: 5px 5px 0 5px;
+  text-align: right;
+}
+
+div.reminder_form table div.calendar_date_select th {
+  color: #777777;
+  padding: 0;
+}
+
+div.reminder_form table td {
+  padding: 0;
+  vertical-align: top;
+}
+
+div.reminder_form table td.set_recipients {
+  padding-left: 5px;
+}
+
+div.reminder_form div.pulldown_extra {
+  background: url(/images/pulldown_extra-arrow.gif) top right no-repeat;
+  padding-top: 9px;
+  margin-right: 5px;
+}
+
+div.reminder_form td.set_time div.pulldown_extra {
+  margin-right: 10px;
+}
+
+div.reminder_form td.set_time div.pulldown_extra div.line {
+  margin: 3px 0;
+}
+
+div.reminder_form td.set_time div.pulldown_extra div.line input {
+  margin-right: 3px;
+}
+
+div.reminder_form div.pulldown_extra .inner {
+  padding: 5px !important;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-right: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+  border-top: none;
+}
+
+div.reminder_form td.set_time div.pulldown_extra div.repeat {
+  margin: 12px 0 3px 0;
+}
+
+div.reminder_form div.repeat span {
+  display: block;
+}
+
+
+/*-------------------------------------------------
+_EDIT
+-------------------------------------------------*/
+
+div.edit_reminder {
+  padding: 10px 20px 10px 10px;
+}
+
+div.edit_reminder div.buttons {
+  width: 510px;
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px dotted #ccc;
+}
+
+div.edit_reminder div.buttons input {
+  margin-left: 10px;
+}
+
+
+/*-------------------------------------------------
+_SHOW
+-------------------------------------------------*/
+
+div#Main div.reminder div.nubbin div.wrapper {
+  width: 45px;
+}
+
+.reminders div.folders div.reminder { 
+  font-weight: bold;
+  padding: 0 0 5px 0;
+}
+
+.reminders div.folders div.reminder span.inabout {
+  color: #393;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.reminders div.folders div.reminder span.creator {
+  color: #777;
+  font-weight: normal;
+  font-size: 10px;
+}
+
+.reminders div.sent_today div.reminder {
+  font-size: 11px;
+  font-weight: normal;
+  color: #999;
+}
+
+.reminders div.sent_today div.reminder img {
+  vertical-align: middle;
+}
+
+.reminders div.sent_today div.reminder span.sent_today {
+  font-size: 12px;
+  color: #666;
+  text-decoration: line-through;
+  margin-right: 5px;
+}
+
+.reminders span.actions a {
+  color: #666;
+  vertical-align: top;
+  text-decoration: none;
+}
+
+.reminders span.actions a span {
+  text-decoration: underline;
+}
+
+.reminders div.today div.reminder {
+  font-size: 16px;
+  color: #000;
+}
+
+.reminders div.tomorrow div.reminder {
+  font-size: 14px;
+  color: #333;
+}
+
+.reminders div.day1 div.reminder,
+.reminders div.day2 div.reminder,
+.reminders div.day3 div.reminder,
+.reminders div.day4 div.reminder,
+.reminders div.day5 div.reminder {
+  font-weight: normal;
+  font-size: 13px;
+  color: #333;
+}
+
+.reminders div.day6 div.reminder,
+.reminders div.day7 div.reminder,
+.reminders div.day8 div.reminder,
+.reminders div.day9 div.reminder,
+.reminders div.day10 div.reminder,
+.reminders div.day11 div.reminder,
+.reminders div.day12 div.reminder,
+.reminders div.day13 div.reminder,
+.reminders div.day14 div.reminder,
+.reminders div.day15 div.reminder,
+.reminders div.day16 div.reminder,
+.reminders div.day17 div.reminder,
+.reminders div.day18 div.reminder,
+.reminders div.day19 div.reminder,
+.reminders div.day20 div.reminder,
+.reminders div.day21 div.reminder,
+.reminders div.day22 div.reminder,
+.reminders div.day23 div.reminder,
+.reminders div.day24 div.reminder,
+.reminders div.day25 div.reminder,
+.reminders div.day26 div.reminder,
+.reminders div.day27 div.reminder,
+.reminders div.day28 div.reminder,
+.reminders div.day29 div.reminder,
+.reminders div.day30 div.reminder,
+.reminders div.day31 div.reminder {
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+}
+
+.reminders div.month1 div.reminder,
+.reminders div.month2 div.reminder,
+.reminders div.month3 div.reminder,
+.reminders div.month4 div.reminder,
+.reminders div.month5 div.reminder,
+.reminders div.month6 div.reminder,
+.reminders div.month7 div.reminder,
+.reminders div.month8 div.reminder,
+.reminders div.month9 div.reminder,
+.reminders div.month10 div.reminder,
+.reminders div.month11 div.reminder,
+.reminders div.month12 div.reminder,
+.reminders div.future div.reminder {
+  font-size: 11px;
+  font-weight: normal;
+  color: #999;
+}
+
+
+/*-------------------------------------------------
+REMINDER CALENDAR PICKER
+-------------------------------------------------*/
+
+.reminders .calendar_date_select {
+  border: none;
+}
+
+.reminders .calendar_date_select .days td {
+  background: #f0f0f0;
+  border-color: #fff;
+  background: #edf3fe;
+  background: #ffc;
+}
+
+.calendar_date_select td a {
+  color: #333;
+}
+
+.calendar_date_select .days td.other {
+  background-color: #fff;
+}
+
+.calendar_date_select td.other a {
+  color: #aaa;
+}
+
+.reminders .calendar_date_select .header {
+  background-color: #fff;
+  border-bottom: none;
+}
+
+.reminders .calendar_date_select .footer {
+  background-color: #fff;
+  padding-left: 0;
+}
+
+.reminders .calendar_date_select .weekdays th {
+  background-color: #fff;
+  font-weight: normal;
+  color: #999;
+}
+
+.reminders .calendar_date_select td.today a {
+  background-color: #ffe18f;
+}
+
+.reminders .calendar_date_select td a:hover,
+.reminders .calendar_date_select td.today a:hover {
+  background-color: #dcdcdc;
+}
+
+.reminders .calendar_date_select td.selected a,
+.reminders .calendar_date_select td.selected a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+body.search div.page_header {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+body.search #Main div.page_header h1 {
+  font-size: 22px;
+}
+
+body.search #Main div.results {
+  margin: 0 0 40px 0;
+}
+
+body.search #Main div.result {
+  margin: 0 0 15px 0;
+}
+
+body.search #Main div.result h2 {
+  margin: 0 0 3px 0;
+  font-size: 16px;
+  border: none;
+}
+
+body.search #Main div.result p {
+  font-size: 13px;
+  margin: 0;
+}
+
+body.search #Main div.result p.attribution {
+  color: #948b6e;
+  font-size: 11px;
+}
+
+.match {
+  background: #ff0;
+}
+
+body.search a#highlighter {
+  display: none !important;
+}
+
+body.page div#highlighter,
+body.message div#highlighter {
+  margin: 8px 0 3px 0;
+}
+
+body.search div#highlighter {
+  display: none;
+}
+
+body.page div#Sidebar div#highlighter a,
+body.message div#Sidebar div#highlighter a {
+  display: inline;
+  margin: 0;
+  padding: 3px;
+  font-size: 11px;
+}
+
+body.page div#Sidebar div#highlighter a:hover,
+body.message div#Sidebar div#highlighter a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+body.page div.inner_slate div.separator_wrapper {
+  margin: 0 -25px 0 -20px;
+}
+
+body.page #widgets div.separator_wrapper {
+  margin: 0;
+  padding: 15px 0 0 0;
+}
+
+body.page #widgets div.separator_wrapper div.shadow_outer {
+  margin: 0;
+}
+
+body.page #widgets div.separator_wrapper div.shadow_content {
+  padding: 0;
+}
+
+body.page #Main div.widget div.separator h2 {
+  padding: 0;
+  text-align: left;
+  background: #fff url(/images/separator-bg.gif) left center repeat-x;
+}
+
+body.page #Main div.separator div.form h2 {
+  background-image: none;
+}
+
+body.page div.widget div.separator h2 span {
+  margin-left: 19px;
+  padding: 3px 6px;
+  background: #fff;
+}
+
+body.page div.widget div.separator div.nubbin {
+  top: -2px;
+  left: 21px;
+}
+
+body.page div.separator_wrapper div.form {
+  background: #fff url(/images/separator-bg.gif) left center repeat-x;
+  border: none;
+  padding: 0 0 0 19px;
+}
+
+body.page div.separator_wrapper div.form input.separator_name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 16px;
+  width: 250px;
+}
+
+
+
+
+
+/* ---------------------------------------
+SETTINGS
+------------------------------------------*/
+
+.settings div.page_header {
+  padding-bottom: 0;
+  background-image: url(/images/page_header_gradient.gif);
+  background-position: bottom;
+  background-repeat: repeat-x;
+}
+
+.settings div.page_header h1 {
+  padding-bottom: 12px;
+}
+
+body.settings #Main h2 {
+  background: none;
+  color: #000;
+  border: none;
+  padding-left: 0;
+  font-size: 13px;
+}
+
+body.settings p {
+  font-size: 12px;
+  line-height: 1.4em;
+  margin: 0 0 8px 0;
+}
+
+.settings .section {
+  margin: 0;
+}
+
+.settings .section .content {
+  overflow: hidden;
+}
+
+#ssl_section.ssl_enabled  label.ssl_disabled strong { font-weight: normal; }
+#ssl_section.ssl_disabled label.ssl_enabled  strong { font-weight: normal; }
+
+
+/* ---------------------------------------
+COLOR SCHEME
+------------------------------------------*/
+
+.settings .colorscheme table {
+}
+
+.settings .colorscheme table td {
+	padding: 5px 5px 0 0;
+	text-align: left;
+	vertical-align: top;
+	font-size: 14px;
+}
+
+.settings .colorscheme table td div.swatch {
+  width: 60px;
+  border: 1px solid #ccc;
+  padding: 1px;
+}
+
+.settings .colorscheme table td div.swatch div {
+  text-align: center;
+  padding: 5px;
+}
+
+.settings .colorscheme table td {
+	padding-bottom: 5px;
+}
+
+
+table.users span.remote_check_box {
+  width: 25px;
+  height: 16px;
+  text-align: center;
+}
+
+table.users span.remote_check_box input {
+  font-size: 14px;
+}
+
+table.users label span.busy {
+  background: url(/images/dots-white.gif) no-repeat center center;
+}
+
+table.users label span.busy input {
+  visibility: hidden;
+}
+
+
+/*-------------------------------------------------
+EDIT TABS
+-------------------------------------------------*/
+
+#edit_tabs ul,
+#edit_tabs ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#edit_tabs ul {
+  margin-top: 5px;
+  margin-left: -9px;
+  text-align: left;
+  padding: 4px 0 6px 0;
+}
+
+#edit_tabs li {
+  display: inline;
+  margin: 0;
+  padding: 4px 0 6px 0;
+}
+
+#edit_tabs a:link,
+#edit_tabs a:visited {
+	font-size: 12px;
+	font-weight: normal;
+	padding: 4px 9px 6px 9px;
+	margin: 0;
+}
+
+#edit_tabs a:hover {
+  text-decoration: none;
+  background: #666;
+  color: #fff;
+}
+
+#edit_tabs a:link.current_edit_tab,
+#edit_tabs a:visited.current_edit_tab {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.edit_tab {
+  padding: 5px 0 15px 0;
+}
+
+
+/*-------------------------------------------------
+EDIT SHARING
+-------------------------------------------------*/
+
+.sharing #Modal {
+  margin-top: 10px;
+}
+
+.sharing textarea {
+  font-size: 14px;
+  padding: 5px;
+}
+
+.sharing h2 {
+  font-size: 20px;
+}
+
+.sharing h3 {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+}
+
+.sharing p {
+  font-size: 14px;
+  line-height: 140%;
+  margin: 0 0 10px 0;
+}
+
+.sharing .public_controls {
+  background: #fff;
+  overflow: hidden;
+}
+
+.sharing div.indent {
+  margin: 0 0 20px 15px;
+}
+
+.sharing p.checkbox {
+  float: left;
+  width: 25px;
+  margin-bottom: 5px;
+}
+
+.sharing span.remote_check_box {
+  display: block;
+  width: 25px;
+  height: 16px;
+  float: left;
+  text-align: center;
+}
+
+.sharing span.remote_check_box input {
+  font-size: 14px;
+}
+
+.sharing p.checkbox span.busy {
+  background: url(/images/dots-white.gif) no-repeat center center;
+}
+
+.sharing p.checkbox span.busy input {
+  visibility: hidden;
+}
+
+.sharing p.checkbox_label {
+  margin-left: 29px;
+  margin-bottom: 5px;
+}
+
+.sharing p.public_url {
+  clear: left;
+  margin-bottom: 0;
+}
+
+.sharing p.public_url a {
+	font-weight: bold;
+}
+
+.sharing div.pick_people h3 {
+  font-size: 11px;
+	color: #000;
+}
+
+.sharing div.way_to_share {
+  border-bottom: 1px solid #ccc;
+  margin: 0 -20px 10px -20px;
+  padding: 10px 20px 0px 23px;
+  overflow: hidden;
+}
+
+.sharing .public_section {
+}
+
+.sharing .user_choices {
+  border-top: 1px solid #ccc;
+  background: #ffd;
+}
+
+.sharing .user_choices p {
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.sharing .user_choices p.radio {
+  margin-bottom: 5px;
+}
+
+.sharing .user_choices h3 {
+  margin-top: 5px;
+}
+
+.sharing .user_choices h3 span.select_links {
+  font-size: 12px;
+  color: #999;
+  font-weight: normal;
+}
+
+.sharing div.user_checkboxes_container {
+  padding: 0 0 15px 25px;
+}
+
+table.user_checkboxes {
+  border-collapse: collapse;
+  border: none;
+  margin-top: 3px;
+}
+
+table.user_checkboxes td {
+  vertical-align: top;
+  padding: 0 15px 0 0;
+  font-size: 14px;
+  line-height: 140%;
+  white-space: nowrap;
+}
+
+.sharing div.user_choices p.radios {
+  margin-bottom: 0;
+}
+
+table.user_checkboxes td p {
+  margin: 0 !important;
+}
+
+.sharing table.user_checkboxes td p strong {
+  font-weight: normal;
+}
+
+.sharing label,
+.sharing label input {
+  cursor: pointer;
+}
+
+.sharing #Modal div.submit {
+  border-top: none;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+
+.sharing #Modal div.submit input {
+  font-size: 16px;
+}
+
+
+
+#page_top div.tags {
+  margin: 0;
+}
+
+#page_top div.tag_links {
+  margin: -2px 0 0 2px;
+  padding-bottom: 6px;
+  color: #ccc;
+  font-size: 11px;
+}
+
+#page_top div.tag_links span.tag {
+  margin-right: 2px;
+}
+
+#page_top div.tag_links a {
+  text-decoration: none;
+  color: #999;
+}
+
+#page_top div.tag_links a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+#page_top div.tag_links a.busy:hover {
+  text-decoration: none;
+}
+
+#page_top div.tag_forms div.form {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 5px 0 5px 5px;
+}
+
+#page_top div.tag_forms div.form h3 {
+  margin-bottom: 5px;
+}
+
+#page_top div.tag_forms div.form p.field_with_instruction {
+  margin-bottom: 5px;
+}
+
+#page_top div.tag_forms div.form p.instruction {
+  font-size: 12px;
+  width: 450px;
+  color: #666;
+}
+
+#page_top div.tags div.form {
+  margin-top: 10px;
+}
+
+#page_top div.tags_list div.tag {
+  padding: 5px 5px 15px 10px;
+  border: none;
+  margin-top: 3px;
+}
+
+body.page #Main div.tag h2 {
+  font-size: 12px;
+}
+
+div.tag h2 a {
+  color: #f00;
+  font-weight: normal;
+  font-size: 11px;
+  margin-left: 3px;
+}
+
+div.tag ul {
+  margin: 0 0 0 15px;
+  padding: 0;
+}
+
+div.tag li {
+  margin: 3px 0 0 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+
+
+
+/*-------------------------------------------------
+INDEX
+-------------------------------------------------*/
+
+body.users p.admins {
+  color: #666;
+  margin: 20px 0 5px 0;
+}
+
+table.users {
+  border-collapse: collapse;
+  border-bottom: 1px dotted #ccc;
+}
+
+table.users td {
+  font-size: 13px;
+  padding: 3px 0;
+  border-top: 1px dotted #ccc;
+  white-space: nowrap;
+}
+
+table.users td a.image {
+  padding: 0;
+}
+
+table.users td img {
+  padding-top: 3px;
+  vertical-align: top;
+}
+
+body.users p.add_users {
+  font-size: 14px;
+}
+
+table.users td.name {
+  width: 1%;
+  font-weight: bold;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+table.users td.controls {
+  font-size: 12px;
+  width: 99%;
+}
+
+table.users tr.invitations_header td {
+  border-top: none;
+  padding-top: 12px;
+}
+
+/*-------------------------------------------------
+PENDING USER INVITATIONS 
+-------------------------------------------------*/
+
+div.pending_invitations {
+  border: 1px solid #fc0;
+  padding: 15px 15px 20px 15px;
+  margin: 0 0 20px 0;
+  background: #ffd;
+}
+
+div.pending_invitations p {
+  color: #000;
+}
+
+div.pending_invitations table.users {
+  margin: 10px 0 0 0;
+  border: none;
+}
+
+div.pending_invitations table.users td {
+  border-top: 1px dotted #fc0;
+}
+
+div.pending_invitations table.users td.name {
+  padding-left: 15px;
+}
+
+
+/*-------------------------------------------------
+NEW
+-------------------------------------------------*/
+
+body.new_user .modal_container div.content {
+  margin-left: 0;
+}
+
+body.new_user .errors {
+  background: #fee;
+  border: 2px solid red;
+  padding: 5px 10px;
+  margin-bottom: 15px;
+}
+
+body.new_user .errors h2 {
+  font-size: 14px;
+  margin: 5px 0 15px 0;
+}
+
+body.new_user p {
+  font-size: 13px;
+  line-height: 130%;
+}
+
+body.new_user .name_entry input,
+body.new_user .username_entry input,
+body.new_user .open_id_entry input {
+	width: 80%;
+  background: #f5f5f5;
+	color: #000;
+}
+
+body.new_user .username_entry small,
+body.new_user .open_id_entry small {
+  font-size: 10px;
+  color: #333;
+}
+
+body.new_user form .submit {
+	margin-top: 20px;
+	border-top: 3px solid #ccc;
+	padding: 10px 0 0 0;
+}
+
+body.new_user form p.accept_terms input,
+body.new_user form div.submit input {
+  width: auto;
+}
+
+body.new_user form p.accept_terms {
+  font-size: 12px;
+}
+
+body.new_user form p {
+  font-size: 13px;
+  line-height: 1.4em;
+  margin: 0 0 5px 0;
+}
+
+body.new_user input {
+  font-size: 14px;
+  background: 
+}
+
+body.new_user div.submit {
+  margin-top: 20px;
+}
+
+/*-------------------------------------------------
+EDIT
+-------------------------------------------------*/
+
+.edit_user #Main h2 {
+  background: none;
+  color: #000;
+  border: none;
+  padding-left: 0;
+  font-size: 13px;
+}
+
+.edit_user div.action {
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.edit_user div.indented {
+  margin-left: 75px;
+}
+
+.edit_user small {
+  font-size: 11px;
+}
+
+.edit_user table {
+  margin-bottom: 10px;
+}
+
+.edit_user table th {
+  text-align: right;
+  font-weight: normal;
+  padding: 0;
+}
+
+.edit_user table th,
+.edit_user table td {
+  font-size: 14px;
+}
+
+.edit_user table td input,
+.edit_user p input {
+  font-size: 14px;
+}
+
+.edit_user p {
+  color: #666;
+  font-size: 12px;
+  line-height: 1.4em;
+  margin: 0 0 8px 0;
+}
+
+.edit_user p label {
+  color: #000;
+}
+
+.edit_user div.group {
+  margin: 0 0 16px 0;
+}
+
+.edit_user div.avatar {
+  width: 58px;
+  text-align: center;
+  font-size: 11px;
+  float: left;
+}
+
+.edit_user div.avatar img.avatar {
+  padding: 1px;
+  border: 1px solid #ccc;
+  margin: 0 0 1px 0;
+}
+
+.reminder_settings {
+  padding: 15px 0 0 0;
+  margin: 0 0 15px 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+div#Main .reminder_settings h2 {
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 3px 0;
+}
+
+div#Main .reminder_settings p.explanation {
+  margin-bottom: 10px;
+}
+
+.reminder_settings table {
+  border-collapse: collapse;
+}
+
+.reminder_settings table th {
+  vertical-align: top;
+  font-size: 14px;
+  padding-right: 3px;
+}
+
+.reminder_settings table th input {
+  font-size: 16px;
+}
+
+.reminder_settings table td select {
+	width: 150px
+}
+
+div#Main .reminder_settings table td p {
+  font-size: 13px;
+  margin: 0 0 3px 0;
+}
+
+.reminder_settings table td span.phone_numbers {
+  font-size: 12px;
+}
+
+div#token {
+  background: #eee;
+  padding: 10px 15px 20px 15px;
+  margin-top: 35px;
+}
+
+div#Main div#token h2,
+div#Main div#token p {
+  font-size: 11px;
+  line-height: 1.4em;
+  margin: 0;
+  color: #444;
+}
+
+div#Main div#token p.explanation {
+  margin: 3px 0 10px 0;
+}
+
+div#Main div#token p#api_key {
+  font-size: 12px;
+}
+
+
+
+body.welcome div#Main div.page_header h1 {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+body.welcome div.page_header h1 span {
+  font-weight: normal;
+  font-size: 12px;
+  vertical-align: middle;
+  margin-left: 6px;
+}
+
+body.welcome div.page_header div.close {
+  float: right;
+  text-align: right;
+  width: 270px;
+  margin-top: 10px;
+}
+
+body.welcome div.page_header div.close a {
+  background: url(/images/welcome-close_button.png) right center no-repeat;
+  padding: 15px 33px 15px 0;
+}
+
+body.welcome p.intro {
+  font-size: 14px;
+  margin: 7px 0 16px 10px;
+}
+
+body.welcome table.features {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+body.welcome div#Main table.features h2 {
+  font-size: 16px;
+  margin: 0 0 4px 0;
+  border: none;
+}
+
+body.welcome div#Main table.features h3 {
+  color: #e80;
+  font-size: 11px;
+  margin: 0 0 3px 0;
+}
+
+body.welcome div#Main table.features p {
+  margin: 3px 0 0 0;
+}
+
+body.welcome div#Main table.features a {
+  background: url(/images/welcome-play_button.gif) left center no-repeat;
+  padding-left: 11px;
+}
+
+body.welcome table.features td {
+  padding: 15px 25px 15px 20px;
+  width: 33%;
+  vertical-align: top;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+body.welcome table.features tr.first td {
+}
+
+body.welcome table.features tr.last td {
+  padding-bottom: 22px;
+}
+
+body.welcome table.features td.last {
+  background: none;
+  border-right: none;
+}
+
+body.welcome div.page_header h1 span a {
+  padding: 2px;
+}
+
+body.welcome div.you_can_also {
+  margin-right: 50px;
+}
+
+body.welcome div.you_can_also a {
+}
+
+body.welcome table.below_features p {
+  margin: 0 0 12px 0;
+}
+
+body.welcome div#Main table.below_features h2 {
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  margin: 0 0 2px 0;
+}
+
+body.welcome table.below_features {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 16px 0 10px 0;
+}
+
+body.welcome table.below_features td {
+  width: 50%;
+  vertical-align: top;
+  padding-top: 0;
+  padding-left: 30px;
+  padding-bottom: 0;
+}
+
+body.welcome table.below_features td.support {
+  /*border-left: 1px dotted #d9e1f7;*/
+  padding-right: 30px;
+}
+
+body.welcome table.below_features td.support p {
+  color: #555;
+  font-size: 11px;
+  line-height: 150%;
+}
+
+body.welcome table.below_features td.support a {
+  color: #555;
+}
+
+
+
+/*-------------------------------------------------
+WRITEBOARDS TAB
+-------------------------------------------------*/
+
+.writeboards div.dialog {
+	border: 1px solid #ddd;
+  background: #edf3fe;
+	padding: 0 10px 10px 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	color: #999;
+	line-height: 36px;
+}
+
+.writeboards div#blank_slate {
+  margin-top: 20px;
+}
+
+.writeboards div.dialog p {
+  line-height: 28px;
+	margin: 0;
+	font-size: 12px;
+}
+
+.writeboards div.dialog p.explanation {
+  color: #333;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
+
+.writeboards div.dialog p.submit {
+	color: #999;
+	font-size: 11px;
+}
+
+.writeboards div.dialog p.submit a:link,
+.writeboards div.dialog p.submit a:visited {
+  color: #666;
+  margin-left: 5px;
+}
+
+.writeboards div.dialog p.submit a.cancel:link,
+.writeboards div.dialog p.submit a.cancel:visited {
+  color: red;
+  margin-left: 0px;
+}
+
+.writeboards #Main div.dialog h2 {
+  border: none;
+  color: #000;
+  line-height: 10px;
+	margin: 10px 0 5px 0;
+  font-size: 13px;
+	padding-bottom: 2px;
+}
+
+.writeboards div.dialog input#writeboard_title {
+	font-size: 16px;
+	padding: 2px;
+	margin-bottom: 5px;
+	width: 400px;
+}
+
+.writeboards table.form th,
+.writeboards table.form td {
+  color: #333;
+}
+

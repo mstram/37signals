@@ -1,0 +1,11 @@
+/*
+  screen.css - screen styles for screen
+  Copyright (c) 2007 The Pragmatic Programmers
+*/
+
+@import "/stylesheets/shared.css";
+@import "/stylesheets/high.css";
+
+.hidden-screen {
+  display: none;
+}

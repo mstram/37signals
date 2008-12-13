@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  file_name: MyString
+  description: MyString
+  belonging_id: 1
+
+two:
+  file_name: MyString
+  description: MyString
+  belonging_id: 1

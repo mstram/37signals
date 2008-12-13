@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response success="true">
+<page title="Webdev" id="1196744" email_address="rovelo68@mstram.backpackit.com">
+  <belongings>
+<belonging id="3382125"><position>1</position><widget type="List" id="1188931"/></belonging>  </belongings>
+  <lists>
+<list name="List" id="1188931"><items><item completed="false" id="11391508" list_id="1188931">(JS / Ajax) Prototype http://www.prototypejs.org/</item><item completed="false" id="11391531" list_id="1188931">(JS / Ajax) Scriptaculous http://script.aculo.us/</item><item completed="false" id="11391551" list_id="1188931">(JS / Ajax)  LowPro  http://www.danwebb.net/lowpro</item><item completed="false" id="11391506" list_id="1188931">Rails</item></items></list>  </lists>
+</page>
+</response>

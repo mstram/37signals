@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @widget.name %>
+</p>
+
+<p>
+  <b>Belonging:</b>
+  <%=h @widget.belonging_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_widget_path(@widget) %> |
+<%= link_to 'Back', widgets_path %>

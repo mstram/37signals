@@ -1,0 +1,32 @@
+<h1>Editing bpack</h1>
+
+<%= error_messages_for :bpack %>
+
+<% form_for(@bpack) do |f| %>
+  <p>
+    <b>Fullname</b><br />
+    <%= f.text_field :fullname %>
+  </p>
+
+  <p>
+    <b>Email</b><br />
+    <%= f.text_field :email %>
+  </p>
+
+  <p>
+    <b>Username</b><br />
+    <%= f.text_field :username %>
+  </p>
+
+  <p>
+    <b>Password</b><br />
+    <%= f.text_field :password %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @bpack %> |
+<%= link_to 'Back', bpacks_path %>

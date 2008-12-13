@@ -1,0 +1,533 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xml:lang="en" version="-//W3C//DTD XHTML 1.1//EN" xmlns="http://www.w3.org/1999/xhtml"><head>
+
+  
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>The Pragmatic Bookshelf | Our Titles</title>  
+<meta name="copyright" content="Copyright (c) 1999-2008 The Pragmatic Programmers, LLC. All rights reserved.">
+<meta name="description" content="Software development and Project management resources for 
+        programmers and managers. Home of Andy Hunt and Dave Thomas's 
+        best-selling book 'The Pragmatic Programmer' and The Pragmatic 
+        Bookshelf. Buy books online and PDF ebooks too.">
+<meta name="keywords" content="software,book,process,ruby,consultant,bookstore,buy books,custom 
+        programming,rails,software development,methodology,software training,
+        agile,online bookstore,textbooks,object oriented,pragmatic,dave thomas,
+        andy hunt,agile methods,the pragmatic programmer">
+<link rel="shortcut icon" href="http://pragprog.com/favicon.ico">
+<link href="pragMatic_screencasts_files/low.css" media="screen" rel="Stylesheet" type="text/css">
+<link href="pragMatic_screencasts_files/print.css" media="print" rel="Stylesheet" type="text/css">
+<link href="pragMatic_screencasts_files/screen.css" media="screen" rel="Stylesheet" type="text/css">
+<!--[if IE]><link href="http://www.pragprog.com/stylesheets/ie.css?1228507158" media="screen" rel="Stylesheet" type="text/css" /><![endif]-->
+<!--[if IE 6]><link href="http://www.pragprog.com/stylesheets/ie6.css?1228507158" media="screen" rel="Stylesheet" type="text/css" /><![endif]-->
+
+<script src="pragMatic_screencasts_files/prototype.js" type="text/javascript"></script>
+<script src="pragMatic_screencasts_files/rounded.js" type="text/javascript"></script>
+<script src="pragMatic_screencasts_files/effects.js" type="text/javascript"></script>
+<script src="pragMatic_screencasts_files/application.js" type="text/javascript"></script>
+<script src="pragMatic_screencasts_files/titleview.js" type="text/javascript"></script>
+<link href="http://pragprog.com/feed/global" rel="alternate" title="RSS" type="application/rss+xml">
+    
+<script src="pragMatic_screencasts_files/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-280358-4";
+urchinTracker();
+</script>
+  <style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+
+.firebugHighlight {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: #3875d7;
+}
+
+.firebugLayoutBoxParent {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: transparent;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.firebugRulerH {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    background: url(chrome://firebug/skin/rulerH.png) repeat-x;
+    border-top: 1px solid #BBBBBB;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px solid #000000;
+}
+
+.firebugRulerV {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 14px;
+    height: 100%;
+    background: url(chrome://firebug/skin/rulerV.png) repeat-y;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #000000;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.firebugLayoutBoxOffset {
+    z-index: 2147483647;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.firebugLayoutBoxMargin {
+    background-color: #EDFF64;
+}
+
+.firebugLayoutBoxBorder {
+    background-color: #666666;
+}
+
+.firebugLayoutBoxPadding {
+    background-color: SlateBlue;
+}
+
+.firebugLayoutBoxContent {
+    background-color: SkyBlue;
+}
+
+/*.firebugHighlightGroup .firebugLayoutBox {
+    background-color: transparent;
+}
+
+.firebugHighlightBox {
+    background-color: Blue !important;
+}*/
+
+.firebugLayoutLine {
+    z-index: 2147483647;
+    background-color: #000000;
+    opacity: 0.4;
+}
+
+.firebugLayoutLineLeft,
+.firebugLayoutLineRight {
+    position: fixed;
+    width: 1px;
+    height: 100%;
+}
+
+.firebugLayoutLineTop,
+.firebugLayoutLineBottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px;
+    border-top: 1px solid #999999;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px;
+    border-left: 1px solid #999999;
+}
+</style><style type="text/css" charset="utf-8">/* See license.txt for terms of usage */
+
+.firebugHighlight {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: #3875d7;
+}
+
+.firebugLayoutBoxParent {
+    z-index: 2147483647;
+    position: absolute;
+    background-color: transparent;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.firebugRulerH {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    width: 100%;
+    height: 14px;
+    background: url(chrome://firebug/skin/rulerH.png) repeat-x;
+    border-top: 1px solid #BBBBBB;
+    border-right: 1px dashed #BBBBBB;
+    border-bottom: 1px solid #000000;
+}
+
+.firebugRulerV {
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 14px;
+    height: 100%;
+    background: url(chrome://firebug/skin/rulerV.png) repeat-y;
+    border-left: 1px solid #BBBBBB;
+    border-right: 1px solid #000000;
+    border-bottom: 1px dashed #BBBBBB;
+}
+
+.overflowRulerX > .firebugRulerV {
+    left: 0;
+}
+
+.overflowRulerY > .firebugRulerH {
+    top: 0;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
+.firebugLayoutBoxOffset {
+    z-index: 2147483647;
+    position: absolute;
+    opacity: 0.8;
+}
+
+.firebugLayoutBoxMargin {
+    background-color: #EDFF64;
+}
+
+.firebugLayoutBoxBorder {
+    background-color: #666666;
+}
+
+.firebugLayoutBoxPadding {
+    background-color: SlateBlue;
+}
+
+.firebugLayoutBoxContent {
+    background-color: SkyBlue;
+}
+
+/*.firebugHighlightGroup .firebugLayoutBox {
+    background-color: transparent;
+}
+
+.firebugHighlightBox {
+    background-color: Blue !important;
+}*/
+
+.firebugLayoutLine {
+    z-index: 2147483647;
+    background-color: #000000;
+    opacity: 0.4;
+}
+
+.firebugLayoutLineLeft,
+.firebugLayoutLineRight {
+    position: fixed;
+    width: 1px;
+    height: 100%;
+}
+
+.firebugLayoutLineTop,
+.firebugLayoutLineBottom {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+}
+
+.firebugLayoutLineTop {
+    margin-top: -1px;
+    border-top: 1px solid #999999;
+}
+
+.firebugLayoutLineRight {
+    border-right: 1px solid #999999;
+}
+
+.firebugLayoutLineBottom {
+    border-bottom: 1px solid #999999;
+}
+
+.firebugLayoutLineLeft {
+    margin-left: -1px;
+    border-left: 1px solid #999999;
+}
+</style></head><body id="slate-single-column-layout" class="title-index-page">
+    <div id="page-wrapper">
+      <div id="page">
+        <div id="header-wrapper">
+  <div id="header">
+    <div id="logo">
+      <a href="http://pragprog.com/" title="Home"><img alt="The Pragmatic Programmers" src="pragMatic_screencasts_files/logo.gif" title=""></a>
+    </div>
+    <div id="navigation">
+      <p>
+        <a href="http://pragprog.com/titles">Books</a><span class="separator"> | </span><strong><a href="http://pragprog.com/screencasts" class="here">Video</a></strong><span class="separator"> | </span><a href="http://pragprog.com/podcasts">Audio</a><span class="separator"> | </span><a href="http://forums.pragprog.com/">Discuss</a><span class="separator"> | </span><a href="http://pragprog.com/resources">Resources</a><span class="separator"> | </span><a href="http://pragprog.com/support">Help!</a><span class="separator"> | </span><span id="login"><a href="http://pragprog.com/login" class="login-button"><img alt="Login" src="pragMatic_screencasts_files/login-button.gif" title="" width="72" height="27"></a></span>
+      </p>
+    </div>
+  </div>
+</div>
+
+        <hr class="hidden">
+        <div id="main">
+          <div id="content-wrapper">
+            <div id="content">
+                              <div id="head-wrapper">
+                                    <div id="head" class="wishlist-feature">
+                                        <h1>The Pragmatic Bookshelf</h1>
+  <h2>By programmers for programmers</h2>
+  <ul class="tabs">
+    <li class=""><a href="http://pragprog.com/categories/all"><span>All Titles</span></a></li>
+    <li class=""><a href="http://pragprog.com/categories"><span>By Category</span></a></li>
+    <li class=""><a href="http://pragprog.com/categories/new"><span>New Releases</span></a></li>
+    <li class=""><a href="http://pragprog.com/categories/upcoming"><span>Upcoming Titles</span></a></li>
+    <li class="here"><a href="http://pragprog.com/screencasts"><span>Screencasts</span></a></li>
+  </ul>
+
+                  </div>
+                </div>
+               
+                                                                                                                      
+
+
+
+
+
+
+
+
+<div class="panel">
+<div style="padding: 0pt; position: relative; min-height: 416px;" id="title-view"><div class="inner-1"><div class="inner-2"><div class="inner-3"><div class="inner-4"><div class="inner-5"><div class="inner-6"><div class="inner-7"><div class="inner-8"><div class="inner-9"><div style="padding: 25px; min-height: 416px;" class="inner-10">
+
+<p class="order">
+  Sort by: <strong>Title</strong> | 
+           <a href="http://pragprog.com/categories/screencasts?sort=pubdate">Release Date</a>
+</p>
+
+<div class="books">
+  <div class="book">
+    <div class="thumbnail">
+      <a href="http://pragprog.com/screencasts/v-riexp/building-a-dynamic-website-with-expressionengine"><img alt="Building a Dynamic Website with ExpressionEngine" src="pragMatic_screencasts_files/v-riexp.jpg" title="" width="120" height="144"></a>
+    </div>
+    <div style="top: 24px; display: none;" class="details">
+      <h4>Building a Dynamic Website with ExpressionEngine</h4>
+      <p>Looking
+to create, deploy, and manage a dynamic website without all the fuss of
+programming? ExpressionEngine gets you up and running in no time. It’s
+a
+flexible content management system that’s becoming very popular with
+top web
+designers.</p>
+
+
+	<p>Throughout these screencasts, veteran web
+developer and ExpressionEngine guru Ryan Irelan incrementally builds a
+full-featured newspaper website with ExpressionEngine. You’ll learn how
+to get started with ExpressionEngine, light up your existing static
+content, and add must-have publishing features.</p>
+      <p>
+        <em>Jul 2008</em>
+      </p>
+    </div>
+  </div>
+  <div class="book">
+    <div class="thumbnail">
+      <a href="http://pragprog.com/screencasts/v-bdcora/creating-a-compelling-user-interface-with-core-animation"><img alt="Creating a Compelling User Interface with Core Animation" src="pragMatic_screencasts_files/v-bdcora.jpg" title="" width="120" height="144"></a>
+    </div>
+    <div style="" class="details">
+      <h4>Creating a Compelling User Interface with Core Animation</h4>
+      <p>What
+better way to learn how to create an animated and cinematic user
+interface than seeing it in action! In these screencasts, experienced
+Objective-C developer Bill Dudney incrementally builds a Cover Flow
+application using Core Animation. You’ll learn how to get started with
+Xcode and use the Core Animation <span class="caps">API</span> to add stunning animations to your Cocoa applications.</p>
+      <p>
+        <em>Sep 2008</em>
+      </p>
+    </div>
+  </div>
+  <div class="book selected">
+    <div class="thumbnail">
+      <a href="http://pragprog.com/screencasts/v-kserl/erlang-in-practice"><img alt="Erlang in Practice" src="pragMatic_screencasts_files/v-kserl.jpg" title="" width="120" height="144"></a>
+    </div>
+    <div style="top: 24px; display: block;" class="details">
+      <h4>Erlang in Practice</h4>
+      <p>Learn
+how to write Erlang programs by sitting next to an experienced Erlang
+programmer as he builds a full-featured application from the ground up!</p>
+
+
+	<p>In
+these screencasts, Kevin Smith incrementally builds a distributed chat
+system using Erlang. You’ll learn first-hand how each aspect of the
+Erlang language fits together into a real-world application, starting
+with Erlang primitives and ending with an <span class="caps">OTP</span> application.</p>
+      <p>
+        <em>Oct 2008</em>
+      </p>
+    </div>
+  </div>
+  <div class="book">
+    <div class="thumbnail">
+      <a href="http://pragprog.com/screencasts/v-rbar/everyday-active-record"><img alt="Everyday Active Record" src="pragMatic_screencasts_files/v-rbar.jpg" title="" width="120" height="144"></a>
+    </div>
+    <div style="top: 24px; display: none;" class="details">
+      <h4>Everyday Active Record</h4>
+      <p>Active
+Record models are the foundation of every good Rails application.
+Learn how to get the most out of the Active Record features that you
+use on a day-to-day basis from a popular Rails developer and
+screencaster. In these screencasts, Ryan Bates incrementally builds the
+models for a Rails application and refactors them over time to address
+new features. <strong>All the code is based on Rails 2.1 features.</strong></p>
+      <p>
+        <em>Sep 2008</em>
+      </p>
+    </div>
+  </div>
+  <div class="book">
+    <div class="thumbnail">
+      <a href="http://pragprog.com/screencasts/v-mmfacer/rails-development-for-the-facebook-platform"><img alt="Rails Development for the Facebook Platform" src="pragMatic_screencasts_files/v-mmfacer.jpg" title="" width="120" height="144"></a>
+    </div>
+    <div style="top: 24px; display: none;" class="details">
+      <h4>Rails Development for the Facebook Platform</h4>
+      <p>Since the Facebook Development Platform was released in May 2007, more than
+12,000 Facebook applications have been launched. The platform provides a very
+powerful means of distributing your application to potentially millions of
+users, but it can also be a bit intimidating.</p>
+
+
+	<p>These screencasts give you a front-row seat to learn from an experienced
+Facebook developer. You’ll learn how to quickly build a real Facebook
+application from scratch, and add social features, using the popular Ruby on
+Rails framework.  Follow along with these screencasts, and your application could be the next hit on Facebook!</p>
+      <p>
+        <em>Sep 2008</em>
+      </p>
+    </div>
+  </div>
+  <div class="book">
+    <div class="thumbnail">
+      <a href="http://pragprog.com/screencasts/v-dtrubyom/the-ruby-object-model-and-metaprogramming"><img alt="The Ruby Object Model and Metaprogramming" src="pragMatic_screencasts_files/v-dtrubyom.jpg" title="" width="120" height="144"></a>
+    </div>
+    <div style="" class="details">
+      <h4>The Ruby Object Model and Metaprogramming</h4>
+      <p>Metaprogramming
+lets you program more expressively. This makes your code easier to
+write and easier to maintain and extend. Learn both the <em>hows</em> and <em>whys</em> of metaprogramming Ruby from Dave Thomas, one of the most experienced Ruby programmers in the western world.</p>
+      <p>
+        <em>Dec 2008</em>
+      </p>
+    </div>
+  </div>
+  <div class="book">
+    <div class="thumbnail">
+      <a href="http://pragprog.com/screencasts/v-bdiphone/writing-your-first-iphone-application"><img alt="Writing Your First iPhone Application" src="pragMatic_screencasts_files/v-bdiphone.jpg" title="" width="120" height="144"></a>
+    </div>
+    <div style="" class="details">
+      <h4>Writing Your First iPhone Application</h4>
+      <p>Now that the iPhone 2.1 <span class="caps">SDK</span>
+has officially been released and the Apple App Store is open for
+business, it’s time to write killer mobile applications! To do that,
+you’ll need to use several powerful (and possibly unfamiliar) tools:
+Xcode, Interface Builder, Objective-C, and then the iPhone <span class="caps">SDK</span> itself.  It can all be a little overwhelming at first.  So how do you get started on the right foot?</p>
+
+
+	<p>Well, the good news is you don’t have to go it alone.  <strong>Let Bill Dudney, an experienced iPhone developer, show you how to write your first iPhone application in these screencasts</strong>.
+Building iPhone applications is a visual process, and screencasts are a
+great way to shoulder-surf with an expert. You’ll learn his workflow,
+his development techniques, and the tricks of the trade.</p>
+      <p>
+        <em>Jul 2008</em>
+      </p>
+    </div>
+  </div>
+</div>
+
+<span class="clear">&nbsp;</span>
+
+</div></div></div></div></div></div></div></div></div></div></div>
+
+<script type="text/javascript">
+  // <![CDATA[
+  new TitleView('title-view');
+  // ]]>
+</script>
+</div>
+
+            </div>
+          </div>
+                      <hr class="hidden">
+            <div id="extras-wrapper">
+              <div id="extras">
+                  <form action="/search" id="search" method="post">  
+  <h3>Search</h3>      
+  <div>
+    <input class="textbox narrow" id="q" name="q" type="text">
+    <button class="go" type="submit"><span>Go</span></button>    
+  </div>
+</form>
+  
+
+              </div>
+            </div>
+                                <hr class="hidden">
+            <div id="sidebar-wrapper">
+              <div id="sidebar">
+                
+              </div>
+            </div>
+                  </div>
+        <hr class="hidden">
+        <div id="footer-wrapper">
+          <div id="footer">
+            <div id="site-links">
+  <p>
+    <a href="http://pragprog.com/">Home</a>
+    <span class="separator"> | </span>
+    <a href="http://pragprog.com/about">About Us</a>
+    <span class="separator"> | </span>
+    <a href="http://pragprog.com/community">Connect!</a>
+    <span class="separator"> | </span>
+    <a href="http://pragprog.com/write-for-us">Write For Us</a>
+    <span class="separator"> | </span>
+    <a href="http://pragprog.com/privacy">Privacy Policy</a>        
+    <span class="separator"> | </span>
+    <a href="http://pragprog.com/terms-of-use">Terms of Use</a>
+    <span class="separator"> | </span>
+    <a href="http://pragprog.com/resources/credits">Credits</a>
+    <span class="separator"> | </span>
+    <a href="http://pragprog.com/contact">Contact Us</a>
+  </p>
+</div>
+<div id="copyright">
+  <p>
+    The <em>Pragmatic Bookshelf™</em> is an imprint of
+	<a href="http://pragprog.com/">The Pragmatic Programmers, LLC</a>.
+    <br>
+    Copyright © 1999–2008 The Pragmatic Programmers, LLC. 
+    All Rights Reserved.
+  </p>
+</div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body></html>

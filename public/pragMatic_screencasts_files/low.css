@@ -1,0 +1,59 @@
+/*
+  low.css - styles for ancient browsers (applied to all browsers)
+  Copyright (c) 2007 The Pragmatic Programmers 
+*/
+a {
+  color: #0050b4;
+}
+a:visited {
+  color: #9456d1;
+}
+a:hover, a:visited:hover {
+  color: #d65554;
+  text-decoration: none;
+}
+a img { border: 0; }
+body {
+  font-family: "Trebuchet MS", Arial, Helvitica, sans-serif;
+  font-size: 80%;
+  color: black;
+  background: white;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Bookman Old Style", "Book Antiqua", Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+}
+h1 {
+  font-size: 260%;
+}
+h2 {
+  font-size: 160%;
+  margin-top: -1em;
+}
+h3 {
+  font-size: 140%;
+}
+h4 {
+  font-size: 140%;
+}
+p {
+  line-height: 1.3em;
+}
+li {
+  line-height: 1.3em;
+  margin-bottom: .4em;
+}
+form {
+  padding: 0;
+  margin: 0;
+}
+.hidden {
+  display: none;
+}
+
+#logo img {
+  border: 0;
+}
+#footer {
+  color: #666;
+}

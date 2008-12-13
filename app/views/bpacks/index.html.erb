@@ -1,0 +1,26 @@
+<h1>Listing bpacks</h1>
+
+<table>
+  <tr>
+    <th>Fullname</th>
+    <th>Email</th>
+    <th>Username</th>
+    <th>Password</th>
+  </tr>
+
+<% for bpack in @bpacks %>
+  <tr>
+    <td><%=h bpack.fullname %></td>
+    <td><%=h bpack.email %></td>
+    <td><%=h bpack.username %></td>
+    <td><%=h bpack.password %></td>
+    <td><%= link_to 'Show', bpack %></td>
+    <td><%= link_to 'Edit', edit_bpack_path(bpack) %></td>
+    <td><%= link_to 'Destroy', bpack, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New bpack', new_bpack_path %>

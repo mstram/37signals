@@ -1,0 +1,153 @@
+body {
+	font-family: helvetica, arial;
+}
+
+/*-------------------------------------------------
+HIDE
+-------------------------------------------------*/
+
+div#Header, div#Sidebar, div.page_header, div#flash, div.tag_links, div.nubbin, p.blank_slate, div.blank_slate_arrow, div#Footer, div.utility_bar, div.page_link_wrapper, div.list_widget img, div.gallery div.link_to_add_child, div.list div.link_to_add_child, div.writeboard_link, div.done, div#system_notice, div#open_bar {
+	display: none;
+}
+
+a.image img, a img {
+	border: 0;
+	border: none;
+}
+
+div.page_changed_sticky {
+  display: none;
+}
+
+
+/*-------------------------------------------------
+TEXT
+-------------------------------------------------*/
+
+p {
+	font-size: 10pt;
+	line-height: 1.3em;
+	margin: 0 0 15px 0;
+}
+
+h1 {
+	font-size: 16pt;
+	margin: 0 0 20px 0;
+}
+
+h2 {
+	font-size: 12pt;
+	margin: 0 0 3px 0;
+}
+
+/*-------------------------------------------------
+WIDGETS
+-------------------------------------------------*/
+
+div.widget {
+	margin-bottom: 25px;
+	clear: left;
+}
+
+div.list_widget {
+	margin-bottom: 5px;
+}
+
+body.page #Main div.widget div.separator h2 {
+	border-bottom: 1px solid #ccc;
+	margin: 20px 0;
+}
+
+div.attachment img {
+	text-decoration: none;
+	float: left;
+	padding-right: 7px;
+}
+
+div.attachment h2 a {
+	text-decoration: none;
+	font-size: 11pt;
+	color: #000;
+	margin: 0;
+}
+
+div.attachment p, div.image_description {
+	font-size: 8pt;
+	margin: 0;
+}
+
+div.list div.item div.content {
+	font-size: 10pt;
+	margin-left: 23px;
+}
+
+div.list div.item input.checkbox {
+	float: left;
+}
+
+div.widget div.gallery_widget {
+	float: left;
+	padding-right: 10px;
+	clear: none;
+}
+
+div.gallery img.image {
+	padding-bottom: 5px;
+}
+
+#Main div.note span.date {
+	font-size: 9pt;
+	font-weight: normal;
+}
+
+
+/*-------------------------------------------------
+CALENDAR
+-------------------------------------------------*/
+
+body.calendar div#Container,
+body.calendar div#Main {
+  width: 100%;
+  float: none;
+}
+
+body.calendar div.next_prev_calendar {
+  display: none;
+}
+
+body.calendar div#grid {
+}
+
+body.calendar div#grid div.week {
+  border-bottom: 1px solid #ddd;
+}
+
+body.calendar div#grid div.th {
+  border-top: none;
+}
+
+body.calendar div#grid div.td {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+body.calendar div#grid div.td .first_week,
+body.calendar div#grid div.td .first_of_month {
+  border-top: 1px solid #aaa;
+}
+
+body.calendar div#grid div.td .first_of_month {
+  border-left: 1px solid #aaa;
+}
+
+body.calendar div#grid div.td .selected .cell_title {
+  font-weight: normal;
+}
+
+body.calendar div#grid div.td .cell_title span.today_label {
+  display: none;
+} 
+
+body.calendar div#grid div.week div.spanned_events div.all_day {
+  border-top: 1px solid black;
+}

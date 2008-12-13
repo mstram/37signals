@@ -1,0 +1,18 @@
+<p>
+  <b>File name:</b>
+  <%=h @gallery.file_name %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @gallery.description %>
+</p>
+
+<p>
+  <b>Belonging:</b>
+  <%=h @gallery.belonging_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_gallery_path(@gallery) %> |
+<%= link_to 'Back', galleries_path %>

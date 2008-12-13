@@ -1,0 +1,23 @@
+pagetitleWeb general : Html, cssseparatorsseparatorid22087contentDivider : (this is a divider)id22088contentDivider2id22089content(divider) //////////////////////////////listslistitemsitemcompletedfalseid10880672list_id1124070contentAnother to-do itemcompletedfalseid10880673list_id1124070contentClick "Reorder" below to move them aroundcompletedfalseid10880674list_id1124070contentHover over an item then click "Edit"completedfalseid10880675list_id1124070contentAdd as many as you want (click "Add item" below)completedtrueid10880676list_id1124070contentCheck 'em off to mark them as donecompletedtrueid10880671list_id1124070contentThe first to-do list itemnameListid1124070itemsitemcompletedfalseid11558685list_id1214268content<a href="http://www.456bereastreet.com/lab/cssframes/"> css frames</a>completedfalseid11796320list_id1214268content<a href="http://www.htmldog.com/">HtmlDog - Tutorials</a>completedfalseid11796330list_id1214268content<a href="http://chrispederick.com/work/web-developer/">Web Developer - FireFox extension</a>completedfalseid11796358list_id1214268content<a href="http://www.alistapart.com/">A List Apart Magazine (ISSN: 1534-0295) explores the design, development, and meaning of web content, with a special focus on web standards and best practices</a>completedfalseid11796366list_id1214268content<a href="http://validator.w3.org/"> W3C  Markup Validation Service  </a>completedfalseid11796428list_id1214268content<a href="http://www.w3schools.com/html/"> w3Schools</a>completedfalseid12061407list_id1214268contenthttp://www.alistapart.com/articles/slidingdoors/completedfalseid12061411list_id1214268contenthttp://www.alistapart.com/articles/taminglists/nameCssid1214268galleriesgallerynameGalleryid249504imagesimagegallery_id249504file_namefarnsstairs.jpgid1720007descriptionEach image is thumbnailed automatically. Click the thumbnail to see the full version.gallery_id249504file_namefarnsslab.jpgid1720008descriptionImage hosting is only available on pay plans. Click the Account link at the top of the page to upgrade.gallery_id249504file_namefarnswin.jpgid1720009descriptionEach image can have a caption or you can leave it blank.notesnotetitleNote : (this is a note)id1643479contentEach note has a subject (above) and a body (this text).
+
+Notes can contain text (normal, *bold*, _italic_ even %{color:green}colored text%), "web links":http://www.basecamphq.com, etc. For technically inclined folks, notes can include HTML and CSS.
+
+You can even easily include bulleted lists:
+
+* who doesn't like lists?
+* like this
+* pretty one
+
+Or even numbered lists
+
+# like this
+# one with 3
+# items
+
+You can even include images in notes that are hosted elsewhere on the web:
+
+!http://www.backpackit.com/images/roofs.jpg!created_at2005-04-27 15:08:19titleNote #2 : Here's another noteid1643480contentEach note you add is added below the previous note in a log-like format. You can edit a note by hovering over the note title and then clicking the red "Edit" link. You can delete a note by hovering over the title and clicking the little trash can icon.created_at2005-04-27 15:09:45titleid2241841contentThis page as provided _as an example_ of the sorts of things you can put on your Backpack pages. Feel free to edit it, add to it, or completely delete it (click "Delete this page" at the bottom of the page). This text is in the "Body" section. Click the "Body" button to edit it.created_at2007-07-25 03:16:07titleIframe testid2292982content<iframe
+src ="http://mstram.backpackit.com/page/1197630"
+width="100%" height="500">
+</iframe>
+created_at2007-08-11 12:24:34id1151355attachmentsattachmentfile_namethanks.txtid1720006belongingsbelongingid3458872widgettypeListid1214268position1id3387449widgettypeNoteid2292982position2id3386328widgettypeWriteboardLinkid77731position3id2235908widgettypeListid1124070position4id3386319widgettypeSeparatorid22089position5id1547243widgettypeNoteid1643479position6id3386314widgettypeSeparatorid22087position7id1547244widgettypeNoteid1643480position8id2845479widgettypeGalleryid249504position9id3386316widgettypeSeparatorid22088position10id1547245widgettypeNoteid2241841position11id2590153widgettypeAssetid1720006position12email_addresssilas59hulda@mstram.backpackit.com

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response success="true">
+
+  <page title="Web general : Html, css" id="1151355" email_address="silas59hulda@mstram.backpackit.com">
+
+ <belongings>
+
+  <belonging id="3458872"><position>1</position> <widget type="List" id="1214268"/> </belonging>
+  <belonging id="3387449"><position>2</position> <widget type="Note" id="2292982"/>  </belonging>
+  <belonging id="3386328"><position>3</position> <widget type="WriteboardLink" id="77731"/>  </belonging>
+  <belonging id="2235908"><position>4</position> <widget type="List" id="1124070"/>  </belonging>
+  <belonging id="3386319"><position>5</position> <widget type="Separator" id="22089"/> </belonging>
+  <belonging id="1547243"><position>6</position> <widget type="Note" id="1643479"/>  </belonging>
+  <belonging id="3386314"><position>7</position> <widget type="Separator" id="22087"/>  </belonging>
+  <belonging id="1547244"><position>8</position> <widget type="Note" id="1643480"/>  </belonging>
+  <belonging id="2845479"><position>9</position> <widget type="Gallery" id="249504"/>  </belonging>
+  <belonging id="3386316"><position>10</position><widget type="Separator" id="22088"/>  </belonging>
+  <belonging id="1547245"><position>11</position><widget type="Note" id="2241841"/>  </belonging>
+  <belonging id="2590153"><position>12 </position><widget type="Asset" id="1720006"/>  </belonging>
+
+ </belongings>
+
+ <lists>
+<list name="List" id="1124070">
+ <items>
+ <item completed="false" id="10880672" list_id="1124070">Another to-do item</item>
+ <item completed="false" id="10880673" list_id="1124070">Click "Reorder" below to move them around</item>
+ <item completed="false" id="10880674" list_id="1124070">Hover over an item then click "Edit"</item>
+ <item completed="false" id="10880675" list_id="1124070">Add as many as you want (click "Add item" below)</item>
+ <item completed="true" id="10880676" list_id="1124070">Check 'em off to mark them as done</item>
+ <item completed="true" id="10880671" list_id="1124070">The first to-do list item</item>
+</items>
+
+</list>
+ <list name="Css" id="1214268">
+ <items>
+ <item completed="false" id="11558685" list_id="1214268">&lt;a href="http://www.456bereastreet.com/lab/cssframes/"&gt; css frames&lt;/a&gt;</item>
+ <item completed="false" id="11796320" list_id="1214268">&lt;a href="http://www.htmldog.com/"&gt;HtmlDog - Tutorials&lt;/a&gt;</item>
+ <item completed="false" id="11796330" list_id="1214268">&lt;a href="http://chrispederick.com/work/web-developer/"&gt;Web Developer - FireFox extension&lt;/a&gt;</item>
+ <item completed="false" id="11796358" list_id="1214268">&lt;a href="http://www.alistapart.com/"&gt;A List Apart Magazine (ISSN: 1534-0295) explores the design, development, and meaning of web content, with a special focus on web standards and best practices&lt;/a&gt;</item>
+ <item completed="false" id="11796366" list_id="1214268">&lt;a href="http://validator.w3.org/"&gt; W3C  Markup Validation Service  &lt;/a&gt;</item>
+ <item completed="false" id="11796428" list_id="1214268">&lt;a href="http://www.w3schools.com/html/"&gt; w3Schools&lt;/a&gt;</item>
+ <item completed="false" id="12061407" list_id="1214268">http://www.alistapart.com/articles/slidingdoors/</item>
+ <item completed="false" id="12061411" list_id="1214268">http://www.alistapart.com/articles/taminglists/</item>
+</items>
+</list>
+</lists>
+
+ <notes>
+
+<note title="Note : (this is a note)" id="1643479" created_at="2005-04-27 15:08:19">Each note has a subject (above) and a body (this text).
+
+Notes can contain text (normal, *bold*, _italic_ even %{color:green}colored text%), "web links":http://www.basecamphq.com, etc. For technically inclined folks, notes can include HTML and CSS.
+
+You can even easily include bulleted lists:
+
+* who doesn't like lists?
+* like this
+* pretty one
+
+Or even numbered lists
+
+# like this
+# one with 3
+# items
+
+You can even include images in notes that are hosted elsewhere on the web:
+
+!http://www.backpackit.com/images/roofs.jpg!
+</note>
+
+<note title="Note #2 : Here's another note" id="1643480" created_at="2005-04-27 15:09:45">Each note you add is added below the previous note in a log-like format. You can edit a note by hovering over the note title and then clicking the red "Edit" link. You can delete a note by hovering over the title and clicking the little trash can icon.
+</note>
+<note title="" id="2241841" created_at="2007-07-25 03:16:07">This page as provided _as an example_ of the sorts of things you can put on your Backpack pages. Feel free to edit it, add to it, or completely delete it (click "Delete this page" at the bottom of the page). This text is in the "Body" section. Click the "Body" button to edit it.
+</note>
+<note title="Iframe test" id="2292982" created_at="2007-08-11 12:24:34">&lt;iframe
+src ="http://mstram.backpackit.com/page/1197630"
+width="100%" height="500"&gt;
+&lt;/iframe&gt;
+
+</note>
+</notes>
+
+    <galleries>
+
+<gallery name="Gallery" id="249504">
+<images>
+<image gallery_id="249504" file_name="farnsstairs.jpg" id="1720007" description="Each image is thumbnailed automatically. Click the thumbnail to see the full version."/>
+<image gallery_id="249504" file_name="farnsslab.jpg" id="1720008" description="Image hosting is only available on pay plans. Click the Account link at the top of the page to upgrade."/>
+<image gallery_id="249504" file_name="farnswin.jpg" id="1720009" description="Each image can have a caption or you can leave it blank."/>
+</images>
+</gallery>
+</galleries>
+
+    <attachments>
+
+<attachment file_name="thanks.txt" id="1720006"/>
+</attachments>
+
+    <separators>
+
+<separator id="22087">Divider : (this is a divider)</separator>
+<separator id="22088">Divider2
+</separator>
+<separator id="22089">(divider) //////////////////////////////
+</separator>
+</separators>
+
+  </page>
+
+</response>

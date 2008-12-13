@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @item.name %>
+</p>
+
+<p>
+  <b>Page:</b>
+  <%=h @item.page_id %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @item.type %>
+</p>
+
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>

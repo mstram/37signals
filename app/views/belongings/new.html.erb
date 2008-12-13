@@ -1,0 +1,31 @@
+<h1>New belonging</h1>
+
+<%= error_messages_for :belonging %>
+
+<% form_for(@belonging) do |f| %>
+  <p>
+    <b>Name</b><br />
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <b>Page</b><br />
+    <%= f.text_field :page_id %>
+  </p>
+
+  <p>
+    <b>Position</b><br />
+    <%= f.text_field :position %>
+  </p>
+
+  <p>
+    <b>Widget type</b><br />
+    <%= f.text_field :widget_type %>
+  </p>
+
+  <p>
+    <%= f.submit "Create" %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', belongings_path %>

@@ -1,0 +1,24 @@
+# Logfile created on Wed Nov 26 07:15:06 -0500 2008  [4;36;1mSQL (0.000000)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mBpack Load (0.032000)[0m   [0mSELECT * FROM `bpacks` LIMIT 1[0m
+  [4;36;1mBpack Columns (0.015000)[0m   [0;1mSHOW FIELDS FROM `bpacks`[0m
+  [4;35;1mPage Load (0.032000)[0m   [0mSELECT * FROM `pages` WHERE (pages.bpack_id = 1) [0m
+  [4;36;1mPage Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mBelonging Load (0.046000)[0m   [0mSELECT * FROM `belongings` WHERE (belongings.page_id = 1) [0m
+  [4;36;1mBelonging Columns (0.000000)[0m   [0;1mSHOW FIELDS FROM `belongings`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mWidget Load (0.031000)[0m   [0;1mSELECT * FROM `widgets` [0m
+  [4;35;1mSQL (0.015000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mWidget Load (0.016000)[0m   [0mSELECT * FROM `widgets` WHERE (widgets.belonging_id = 1) LIMIT 1[0m
+  [4;36;1mNote Columns (0.016000)[0m   [0;1mSHOW FIELDS FROM `widgets`[0m
+  [4;35;1mSQL (0.000000)[0m   [0mSHOW TABLES[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mNote Create (0.000000)[0m   [0mINSERT INTO `widgets` (`name`, `belonging_id`, `updated_at`, `created_at`) VALUES(NULL, NULL, '2008-11-26 07:43:25', '2008-11-26 07:43:25')[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mWidget Load (0.000000)[0m   [0mSELECT * FROM `widgets` WHERE (widgets.belonging_id = 1) LIMIT 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mBEGIN[0m
+  [4;35;1mNote Update (0.000000)[0m   [0mUPDATE `widgets` SET `created_at` = '2008-11-26 07:43:25', `updated_at` = '2008-11-26 07:43:36', `belonging_id` = 1, `name` = NULL WHERE `id` = 1[0m
+  [4;36;1mSQL (0.000000)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.000000)[0m   [0mBEGIN[0m
+  [4;36;1mBelonging Update (0.000000)[0m   [0;1mUPDATE `belongings` SET `created_at` = '2008-11-26 06:49:08', `page_id` = 1, `widget_type` = NULL, `position` = NULL, `updated_at` = '2008-11-26 07:43:40', `name` = NULL WHERE `id` = 1[0m
+  [4;35;1mSQL (0.000000)[0m   [0mCOMMIT[0m

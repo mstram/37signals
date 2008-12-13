@@ -1,0 +1,23 @@
+<p>
+  <b>Name:</b>
+  <%=h @belonging.name %>
+</p>
+
+<p>
+  <b>Page:</b>
+  <%=h @belonging.page_id %>
+</p>
+
+<p>
+  <b>Position:</b>
+  <%=h @belonging.position %>
+</p>
+
+<p>
+  <b>Widget type:</b>
+  <%=h @belonging.widget_type %>
+</p>
+
+
+<%= link_to 'Edit', edit_belonging_path(@belonging) %> |
+<%= link_to 'Back', belongings_path %>

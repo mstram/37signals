@@ -1,0 +1,47 @@
+/*
+  low.css - styles for printing
+  Copyright (c) 2007 The Pragmatic Programmers
+*/
+
+@import "/stylesheets/shared.css";
+
+.hidden-print, #navigation, #sidebar {
+  display: none;
+}
+
+
+    table.wish-list {
+      page-break-inside: avoid;
+      font-family: "Trebuchet MS", Arial, Helvitica, sans-serif;
+    }
+    
+  /* Wish list */
+  table.wish-list tr {
+      vertical-align: top;
+      padding-top: 10px;
+      padding-bottom: 10px;
+
+  }
+
+  table.wish-list td.underline {
+      border-bottom: solid 1px #ccc;
+ }
+
+  table.wish-list .option {
+     font-size: 70%;
+     padding-right: 0.25in;
+  }
+
+  table.wish-list span.title {
+      font-size: 85%;
+      font-weight: bold;
+      color: #444;
+      display: block;
+  }
+
+  table.wish-list span.code {
+      font-size: 72%;
+      color: #888;
+  }
+
+

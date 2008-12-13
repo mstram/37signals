@@ -1,0 +1,14 @@
+Is it possible to update "gem" locally?
+
+I have installed "gems" locally using :
+
+gem install $1 -V -i $GEM_PATH
+
+.. which did work for the 'rubygems-update' gem.
+
+I was looking for a local option when running 'update_rubygems',
+but didn't find one.
+
+Otherwise I guess I'll wait a few days, until the host updates.
+
+Btw, 
