@@ -1,0 +1,4 @@
+curl -H 'X-POST_DATA_FORMAT: xml' -d '<request>
+  <token>2cd7fead9448ecc584981090345a360d160b914f</token>
+</request>' \
+http://mstram.backpackit.com/ws/page/1151355

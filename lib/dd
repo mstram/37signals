@@ -1,0 +1,5 @@
+
+t1.php(SimpleBackpack: (constructor)
+
+ calling 'list_pages'
+Fatal error: Call to undefined function curl_init() in C:\Ruby\37signals\lib\api.php on line 45

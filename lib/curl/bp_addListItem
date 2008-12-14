@@ -1,0 +1,5 @@
+curl -H 'X-POST_DATA_FORMAT: xml' -d '<request>
+  <token>2cd7fead9448ecc584981090345a360d160b914f</token>
+  <item><content>The Davinci Code</content></item>
+</request>' \
+http://mstram.backpackit.com/ws/page/1196736/lists/1191608/items/add

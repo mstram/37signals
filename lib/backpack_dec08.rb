@@ -1,9 +1,8 @@
-#  Requires that XmlSimple is already loaded, like it is from within script/console in the latest beta Rails
+# Requires that XmlSimple is already loaded.
 # Author: David Heinemeier Hansson, 37signals
 
 require 'yaml'
 require 'net/https'
-require 'pp'
 
 class Backpack
   attr_accessor :username, :token, :current_page_id
@@ -22,7 +21,6 @@ class Backpack
   def page_id=(id)
     self.current_page_id = id
   end
-  alias :pi= :page_id=
 
   def request(path, parameters = {}, second_try = false)
     parameters = { "token" => @token }.merge(parameters)
@@ -30,32 +28,9 @@ class Backpack
     response = @connection.post("/ws/#{path}", parameters.to_yaml, "X-POST_DATA_FORMAT" => "yaml")
 
     if response.code == "200"
-      # mike
-      raw = response.body
-      #20.times do print "\n ...................." end
-      #puts "raw XML = "
-      #puts raw
-      #20.times do print "\n ...................." end
-      #
       result = XmlSimple.xml_in(response.body)
-      #10.times do print "\n -------------------" end
-      #
-      # result is a - hash -
-      #
-      # print "result = #{result}\n result.class = #{result.class}\n"
       result.delete "success"
-
-      #
-      # mike
-      #
-      resa = []
-      resh = {}
-      #result.empty? ? true : result
-#      result.empty? ? true : (  resa[0]=result ;resa[1]=raw )
-
-      result.empty? ? true : (resh[:result]=result ;resh[:raw]=raw)
-      resh
-
+      result.empty? ? true : result
     elsif response.code == "302" && !second_try
       connect(true)
       request(path, parameters, true)
@@ -63,7 +38,6 @@ class Backpack
       raise "Error occured (#{response.code}): #{response.body}"
     end
   end
-  alias :r :request
 
 
   # Items ----
@@ -71,47 +45,26 @@ class Backpack
   def list_items(page_id = current_page_id)
     request "page/#{page_id}/items/list"
   end
-  alias :li :list_items
 
   def create_item(content, page_id = current_page_id)
     request "page/#{page_id}/items/add", "item" => { "content" => content }
   end
-  alias :ci :create_item
 
   def update_item(item_id, content, page_id = current_page_id)
     request "page/#{page_id}/items/update/#{item_id}", "item" => { "content" => content }
   end
-  alias :ui :update_item
 
   def destroy_item(item_id, page_id = current_page_id)
     request "page/#{page_id}/items/destroy/#{item_id}"
   end
-  alias :di :destroy_item
 
   def toggle_item(item_id, page_id = current_page_id)
     request "page/#{page_id}/items/toggle/#{item_id}"
   end
-  alias :ti :toggle_item
 
-# http://developer.37signals.com/backpack/list-items.shtml
-#  POST /ws/page/#{page_id}/lists/#{list_id}/items/move/#{id}
-
-#Move an item lower or higher in a list or to the top or bottom. The direction
-#parameters are move_lower, move_higher, move_to_bottom, and move_to_top. #
-#
-
-#<request>
-#  <token>202cb962ac59075b964b07152d234b70</token>
-#  <direction>move_higher</direction>
-#</request>
-
-#
-# moves an item within a list
-#
   def move_item(item_id, direction, page_id = current_page_id)
     request "page/#{page_id}/items/move/#{item_id}", "direction" => "move_#{direction}"
   end
-  alias :mi :move_item
 
 
   # Notes ----
@@ -119,22 +72,33 @@ class Backpack
   def list_notes(page_id = current_page_id)
     request "page/#{page_id}/notes/list"
   end
-  alias :li :list_notes
 
   def create_note(title, body, page_id = current_page_id)
     request "page/#{page_id}/notes/create", "note" => { "title" => title, "body" => body }
   end
-  alias :cn :create_note
 
   def update_note(note_id, title, body, page_id = current_page_id)
     request "page/#{page_id}/notes/update/#{note_id}", "note" => { "title" => title, "body" => body }
   end
-  alias :un :update_note
 
   def destroy_note(note_id, page_id = current_page_id)
     request "page/#{page_id}/notes/destroy/#{note_id}"
   end
-  alias :dn :destroy_note
+
+
+  # Separators (dividers) ----
+
+  def create_separator(name, page_id = current_page_id)
+    request "page/#{page_id}/separators/create", "separator" => { "name" => name }
+  end
+
+  def update_separator(separator_id, name, page_id = current_page_id)
+    request "page/#{page_id}/separators/update/#{separator_id}", "separator" => { "name" => name }
+  end
+
+  def destroy_separator(separator_id, page_id = current_page_id)
+    request "page/#{page_id}/separators/destroy/#{separator_id}"
+  end
 
 
   # Emails ----
@@ -142,17 +106,14 @@ class Backpack
   def list_emails(page_id = current_page_id)
     request "page/#{page_id}/emails/list"
   end
-  alias :le :list_emails
 
   def show_email(email_id, page_id = current_page_id)
     request "page/#{page_id}/emails/show/#{email_id}"
   end
-  alias :se :show_email
 
   def destroy_email(email_id, page_id = current_page_id)
     request "page/#{page_id}/emails/destroy/#{email_id}"
   end
-  alias :de :destroy_email
 
 
   # Tags ----
@@ -160,12 +121,10 @@ class Backpack
   def list_pages_with_tag(tag_id)
     request "tags/select/#{tag_id}"
   end
-  alias :lpt :list_pages_with_tag
 
   def tag_page(tags, page_id = current_page_id)
     request "page/#{page_id}/tags/tag", "tags" => tags
   end
-  alias :tp :tag_page
 
 
   # Pages ----
@@ -173,42 +132,39 @@ class Backpack
   def list_pages
     request "pages/all"
   end
-  alias :lp :list_pages
 
   def create_page(title, body)
     request "pages/new", "page" => { "title" => title, "description" => body }
   end
-  alias :cp :create_page
 
   def show_page(page_id = current_page_id)
     request "page/#{page_id}"
   end
-  alias :sp :show_page
+
+  def reorder_page(belonging_ids, page_id = current_page_id)
+    belonging_ids *= ' ' unless belonging_ids.is_a?(String)
+    request "page/#{page_id}/destroy", 'belongings' => belonging_ids
+  end
 
   def destroy_page(page_id = current_page_id)
     request "page/#{page_id}/destroy"
   end
-  alias :dp :destroy_page
 
   def update_title(title, page_id = current_page_id)
     request "page/#{page_id}/update_title", "page" => { "title" => title }
   end
-  alias :ut :update_title
 
   def update_body(body, page_id = current_page_id)
     request "page/#{page_id}/update_body", "page" => { "description" => body }
   end
-  alias :ub :update_body
 
   def link_page(linked_page_id, page_id = current_page_id)
     request "page/#{page_id}/link", "linked_page_id" => linked_page_id
   end
-  alias :lip :link_page
 
   def unlink_page(linked_page_id, page_id = current_page_id)
     request "page/#{page_id}/unlink", "linked_page_id" => linked_page_id
   end
-  alias :ulip :unlink_page
 
   def share_page(email_addresses, public_page = nil, page_id = current_page_id)
     parameters = { "email_addresses" => email_addresses }
@@ -222,21 +178,16 @@ class Backpack
   def list_reminders
     request "reminders"
   end
-  alias :lr :list_reminders
 
   def create_reminder(content, remind_at = "")
     request "reminders/create", "reminder" => { "content" => content, "remind_at" => remind_at }
   end
-  alias :cr :create_reminder
 
   def update_reminder(reminder_id, content, remind_at)
     request "reminders/update/#{reminder_id}", "reminder" => { "content" => content, "remind_at" => remind_at }
   end
-  alias :ur :update_reminder
 
   def destroy_reminder(reminder_id)
     request "reminders/destroy/#{reminder_id}"
   end
-  alias :dr :destroy_reminder
 end
-
